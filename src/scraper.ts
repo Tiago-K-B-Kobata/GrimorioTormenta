@@ -9,8 +9,8 @@ async function scrape(url){
     const html = Response.data
     const $ = cheerio.load(html)
     const $h = $('h3').text()
-    console.log($h)
-    //writeFile('talentos.json',JSON.stringify($p))
+    //console.log($h)
+    writeFile('talentos.json',JSON.stringify($h))
     }
     )
 }
