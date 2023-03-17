@@ -11,7 +11,7 @@ async function scrape(url){
     const $h = $('h3').eq(i).text()
 //    const $p = $('p').text()
     console.log($h)
-    appendFile('talentos.json',JSON.stringify($h, null, 2))
+//    appendFile('talentos.json',JSON.stringify($h, null, 2))
     }
 }    
 
