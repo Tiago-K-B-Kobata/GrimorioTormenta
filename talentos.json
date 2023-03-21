@@ -311,8 +311,8 @@
     "nome": "Dança do Calamar",
     "descrição": "A arte marcial mais famosa entre as sereias exige o uso de um túnica calamarina. Para utilizá-la, a guerreira movimenta os braços e o corpo em giros, criando uma dança em que as fitas se movem com harmonia, imitando os tentáculos de uma lula, procurando apunhalar, rasgar ou enredar seus oponentes.\nPré-requisito: deslocamento de natação 9m ou mais; Foco em Arma (túnica calamarina), Foco em Perícia (Atuação [dança]), Iniciativa Aprimorada; bônus base de ataque +6.\n",
     "requisito": "Pré-requisito: deslocamento de natação 9m ou mais; Foco em Arma (túnica calamarina), Foco em Perícia (Atuação [dança]), Iniciativa Aprimorada; bônus base de ataque +6.\n",
-    "beneficio": "",
-    "especial": ""
+    "beneficio": "Benefícios:  você recebe +2 nas jogadas de dano com a túnica calamarina. Com uma ação de movimento, pode fazer uma jogada de ataque corpo-a-corpo oposta a um teste de Iniciativa do oponente; se você for bem-sucedido, o oponente fica enredado até o fim do combate.\n",
+    "especial": "Especial: se você tiver acesso ao Manual do Combate, os pré-requisitos são alteradospara deslocamento de natação 9m ou mais; Foco em Perícia (Atuação [dança]); golpes Estocada Penetrante e Ripostar; postura Pirueta de Nimb; bônus base de ataque +6.\n"
   },
   {
     "nome": "Derrubar Aprimorado",
@@ -514,7 +514,7 @@
     "nome": "Fiandeiro",
     "descrição": "Você foi treinado pelo grupo que patrulha o Novelo, a rede de túneis dos halflings em Ramknal.\n",
     "requisito": "Pré-requisitos: raça halfling; Acrobacia Audaz, Ataque em Movimento, Reflexos de Combate\n",
-    "beneficio": "",
+    "beneficio": "Benefícios: sempre que o talento Ataque em Movimento, você pode fazer um teste oposto de Acrobacia como açã livre contra a mesma criatura que atacou com o talento. Se for bem-sucedido, o oponente sofre -1 na CA e em testes de Reflexos, e perde 3m de deslocamento até o final do combate. Esse efeito é cumulativo.\n",
     "especial": "Especial: se você tiver acesso ao Manual do Combate, os pré-requisitos são alterados para raça halfling; treinado em Acrobacia; Ataque em Movimento, Reflexos de Combate; postura Aposta de Hyninn.\n"
   },
   {
@@ -794,7 +794,7 @@
     "nome": "Pisão",
     "descrição": "Quando está em fúria, você pode pisar no chão com força sufi ciente para causar uma pequena onda de choque.\n",
     "requisito": "Pré-requisitos: For 17, habilidade de classe fúria.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: você pode gastar uma ação de movimento para pisar no chão com muita força. Se fi zer isso, todas as criaturas a até 3m (com exceção de você) devem fazer um teste de Fortitude (CD 10 + metade do seu nível + mod. For). Aquelas que falharem caem no chão. Você só pode usar este talento se estiver em fúria, e apenas uma vez por rodada.\n",
     "especial": ""
   },
   {
@@ -857,7 +857,7 @@
     "nome": "Sequência de Golpes",
     "descrição": "Você ataca com uma tempestade de golpes, usando a força de um movimento para impulsionar o outro, sem nunca dar uma chance para sua vítima reagir.\n",
     "requisito": "Pré-requisitos: bônus base de ataque +6, capacidade de realizar mais de um ataque corpo-a-corpo na mesma rodada.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: quando você acerta um ataque corpo-a-corpo em uma criatura, recebe um bônus cumulativo de +1 nas jogadas de ataque e dano realizadas contra a mesma criatura neste turno. Por exemplo, um guerreiro com Ataque Duplo faz dois ataques contra um inimigo. Caso acerte o primeiro, recebe um bônus de +1 nas jogadas de ataque e dano do segundo. Caso acerte o segundo, recebe um bônus de +2 nas jogadas de ataque e dano de um terceiro ataque contra o inimigo neste turno (que o guerreiro pode realizar através do uso de uma habilidade como Surto Heroico ou do gasto de um ponto de ação).\n",
     "especial": ""
   },
   {
@@ -1018,14 +1018,14 @@
     "nome": "Usar Escudos",
     "descrição": "Você sabe lutar com escudos.\n",
     "requisito": "",
-    "beneficio": "",
+    "beneficio": "Benefícios: você sabe usar escudos leves e pesados.\n",
     "especial": ""
   },
   {
     "nome": "Usar Escudo de Corpo",
     "descrição": "Você sabe lutar com escudos de corpo.\n",
     "requisito": "Pré-requisito: Usar Escudo.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: Você sabe usar escudos de corpo.\n",
     "especial": ""
   },
   {
