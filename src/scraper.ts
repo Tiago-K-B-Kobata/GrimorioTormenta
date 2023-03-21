@@ -4,6 +4,7 @@ import { TypeAndKeyword } from 'sucrase/dist/types/parser/tokenizer'
 
 class talento {
     nome: String
+    descrição: String
     requisito: String
     beneficio: String
     especial: String
@@ -20,13 +21,17 @@ async function scrape(url){
        
     for(let i = 0; i < quantH.length; i++){
         const $h = $('div > h3').eq(i).text()
-        const $r = $('h3').eq(i).nextUntil('h3').has('b:contains(Pré-requisito:)').text()
-        const $b = $('h3').eq(i).nextUntil('h3').has('b:contains(Benefício:)').text()
-        const $e = $('h3').eq(i).nextUntil('h3').has('b:contains(Especial:)').text()
+        const $r = $('div > h3').eq(i).nextUntil('h3').has('b:contains(Pré-requisito:)').text()
+        const $b = $('div > h3').eq(i).nextUntil('h3').has('b:contains(Benefício:)').text()
+        const $e = $('div > h3').eq(i).nextUntil('h3').has('b:contains(Especial:)').text()
+        const $d = $('div > h3').eq(i).nextUntil('h3').has('p > i').text()
+
         
         const tal = new talento
         
         tal.nome = $h  
+        
+        tal.descrição = $d
 
         tal.requisito = $r
         
@@ -35,9 +40,11 @@ async function scrape(url){
         tal.especial = $e
         
         
+        
         TALENTO.push(tal)
         
     }
+    
     writeFile('talentos.json',JSON.stringify(TALENTO, null, 2))
 }    
 
