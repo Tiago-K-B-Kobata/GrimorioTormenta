@@ -7,11 +7,12 @@ class talento {
     requisito: String
     beneficio: String
     especial: String
+    custo: String
 }
 
 let TALENTO:any = []
 
-const url = 'https://tsrd.fandom.com/pt-br/wiki/Talentos_de_Combate'
+const url = ['https://tsrd.fandom.com/pt-br/wiki/Talentos_de_Combate','https://tsrd.fandom.com/pt-br/wiki/Talentos_de_Magia']
 
 async function scrape(url){
     const res = await fetch(url)
@@ -25,7 +26,7 @@ async function scrape(url){
         const $b = $('div > h3').eq(i).nextUntil('h3').has('b:contains(Benefício)').text()
         const $e = $('div > h3').eq(i).nextUntil('h3').has('b:contains(Especial)').text()
         const $d = $('div > h3').eq(i).nextUntil('h3').has('p > i').text()
-
+        const $c = $('div > h3').eq(i).nextUntil('h3').has('b:contains(Custo)').text()
         
         const tal = new talento
         
@@ -33,13 +34,14 @@ async function scrape(url){
         tal.descrição = $d
         tal.requisito = $r        
         tal.beneficio = $b        
-        tal.especial = $e       
+        tal.especial = $e
+        tal.custo = $c     
         
         TALENTO.push(tal)
         
     }
     
-    writeFile('talentos.json',JSON.stringify(TALENTO, null, 2))
+   await writeFile('talentos.json',JSON.stringify(TALENTO, null, 2))
 }    
 
-scrape(url)
+url.forEach(scrape)
