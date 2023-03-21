@@ -3,308 +3,308 @@
     "nome": "Acerto Crítico Aprimorado",
     "descrição": "Escolha uma arma. Você sabe desferir golpes mortais com a arma escolhida.\n",
     "requisito": "Pré-requisito: Foco em Arma com a arma escolhida, bônus base de ataque +8.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: sua margem de ameaça com a arma escolhida é dobrada. Este efeito não se acumula com qualquer outro que dobre a margem de ameaça, e é sempre o primeiro a ser aplicado.\n",
     "especial": ""
   },
   {
     "nome": "Acuidade com Arma",
     "descrição": "Você é especialmente ágil com armas leves, que usam mais agilidade do que força.\n",
     "requisito": "Pré-requisito: Des 13.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: quando usa armas de corpo-a-corpo leves, você pode usar seu modificador de Destreza em vez de Força em jogadas de ataque. Se estiver usando este talento e um escudo, aplique a penalidade de armadura do escudo em jogadas de ataque, não pode ser usado para agarrar.\n",
     "especial": ""
   },
   {
     "nome": "Agarrar Aprimorado",
     "descrição": "Você consegue agarrar melhor seus oponentes.\n",
     "requisito": "Pré-requisito:For 13, Ataque Desarmado Aprimorado.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: você recebe +4 em jogadas de ataque para agarrar.\n",
     "especial": ""
   },
   {
     "nome": "Alcance Supremo",
     "descrição": "Você sabe esticar seu corpo e posicionar-se de forma a cobrir uma grande extensão do campo de batalha.\n",
     "requisito": "Pré-requisito: Especialização em Arma\n",
-    "beneficio": "",
+    "beneficio": "Benefício: enquanto estiver usando uma arma na qual você tenha Especialização em Arma, aumente seu alcance natural em 1,5m.\n",
     "especial": ""
   },
   {
     "nome": "Ameaça Concreta",
     "descrição": "Você não ameaça --- você conjura.\n",
     "requisito": "Pré-requisito: Car 13.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: Sempre que você reduzir os PV de um inimigo para 0 ou menos usando uma magia, seus oponentes hesitam. Todos os inimigos que tiverem nível igual ou menor ao oponente que você derrubou sofrem uma penalidade de -1 em jogadas de ataque e teste de resistência até o final do encontro. Apenas criaturas inteligentes(Int 3 ou maior) são afetadas.\n",
     "especial": ""
   },
   {
     "nome": "Animal Encurralado",
     "descrição": "Você é mais perigoso quando está cercado de inimigos.\n",
     "requisito": "Pré-requisito: Destreza 13.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: quando você estiver fl anqueado, sua margem de ameaça aumenta em 1 por oponente que estiver fl anqueando-o. Por exemplo, se estiver usando uma espada longa (margem de ameaça 19-20) e sendo flanqueado por dois oponentes, sua margem de ameaça passa para 17-20. Este benefício se aplica apenas contra oponentes que estão flanqueando-o.\n",
     "especial": ""
   },
   {
     "nome": "Apanhar Objetos",
     "descrição": "Você pode apanhar flechas, adagas e outras armas arremessadas ou disparadas contra você.\n",
     "requisito": "Pré-requisito: Des 15, Ataque Desarmado Aprimorado,  Desviar Objetos.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: quando usa o talento  Desviar Objetos, você pode apanhar a arma ao invés de apenas desviá-la. Armas de arremesso podem ser atiradas de volta ao oponente como uma reação.\n",
     "especial": ""
   },
   {
     "nome": "Aparar",
     "descrição": "Você pode usar sua arma para bloquear ataques.\n",
     "requisito": "Pré-requisito: Des 15, Acuidade com Arma, Especialização em Combate, bônus base de ataque +6.\n",
-    "beneficio": "",
+    "beneficio": "Benefício:uma vez por rodada, você pode tentar aparar um ataque que iria atingi-lo. Faça uma jogada de ataque. Se o resultado da sua jogada for maior que a do oponente, você evita o ataque.\n",
     "especial": ""
   },
   {
     "nome": "Aparência Inofensiva",
     "descrição": "Por algum motivo – ser uma mulher, parecer fraco, ser de tamanho Pequeno... – você não parece perigoso. Isso faz com que seus inimigos hesitem antes de atacá-lo\n",
     "requisito": "Pré-requisito: Car 13.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: a primeira criatura inteligente (Int 3 ou mais) que atacar você em um combate deve fazer um teste de Intuição (CD 10 + metade do seu nível + seu modificador de Carisma). Se falhar, perderá sua ação. Este talento só funciona uma vez por combate, isso é, independente da criatura falhar ou não no teste, poderá atacar você normalmente nas rodadas seguintes.\n",
     "especial": ""
   },
   {
     "nome": "Arma Arcana",
     "descrição": "Você aprendeu a usar suas magias empunhando uma arma.\n",
     "requisito": "Pré-requisito: Capacidade de lançar magias arcanas, Guerreiro Mágico.\n",
-    "beneficio": "",
+    "beneficio": "Benefício:Você pode lançar magias enquanto empunha uma arma de combate corpo-a-corpo, como se estivesse com a mão livre. Além disso, quando uma magia exigir um ataque de toque, você pode fazer este ataque com uma arma de combate corpo-a-corpo em vez de uma ataque desarmado.\n",
     "especial": ""
   },
   {
     "nome": "Arma Natural Aprimorada",
     "descrição": "Escolha uma arma natural. Esta arma natural é mais perigosa que o normal para seu tipo e tamanho.\n",
     "requisito": "Pré-requisito: uma ou mais armas naturais.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: a arma natural escolhida causa dano como se você fosse uma categoria de tamanho maior.\n",
     "especial": "Especial: a seguir estão os danos para uma criatura Colossal com este talento: mordida (6d6); garra ou ferrão (2d10); chifres ou cauda (4d8); pancada (2d10).\n"
   },
   {
     "nome": "Arma Secundária Grande",
     "descrição": "Você fortaleceu sua mão secundária para usar uma arma grande.\n",
     "requisito": "Pré-requisito: Combater com Duas Armas\n",
-    "beneficio": "",
+    "beneficio": "Benefício: você pode empunhar duas armas de uma mão com o talento Combater com Duas Armas.\n",
     "especial": ""
   },
   {
     "nome": "Armadura Natural Aprimorada",
     "descrição": "Sua armadura natural é mais espessa e resistente que o normal para seu tipo e tamanho.\n",
     "requisito": "Pré-requisito: bônus natural na classe de armadura, Con 13.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: seu bônus de armadura natural aumenta em +1.\n",
     "especial": "Especial: você pode escolher este talento diversas vezes. Seus efeitos se acumulam.\n"
   },
   {
     "nome": "Artilheiro",
     "descrição": "Você é treinado no uso de armas de artilharia.\n",
     "requisito": "",
-    "beneficio": "",
+    "beneficio": "Benefício: você recebe um bônus de +4 em jogadas de ataque com balistas, catapultas, canhões e nebulbos.\n",
     "especial": ""
   },
   {
     "nome": "Assustar",
     "descrição": "Você grita, rosna ou apenas mantém uma postura desconcertante em combate. Seus inimigos tremem.\n",
     "requisito": "Pré-requisito: Car 13, treinado em Intimidação.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: Com uma ação padrão, você pode fazer um teste de Intimidação oposto pelo teste de Vontade de um oponente a até 9m. Se você for bem-sucedido, o oponente fica desprevinido até o início do próximo turno dele.\n",
     "especial": ""
   },
   {
     "nome": "Assustar Aprimorado",
     "descrição": "Você consegue assustar rapidamente\n",
     "requisito": "Pré-requisito: Assustar\n",
-    "beneficio": "",
+    "beneficio": "Benefício: você pode usar o talento Assustar como uma ação de movimento.\n",
     "especial": ""
   },
   {
     "nome": "Ataque Atordoante",
     "descrição": "Você sabe atingir áreas vulneráveis de seus inimigos.\n",
     "requisito": "Pré-requisito: Sab 13, Ataque Desarmado Aprimorado.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: declare que está usando este talento antes de fazer um ataque desarmado. Se você acertar o ataque, além de sofrer o dano normal, a vítima deve fazer um teste de Fortitude (CD 10 + metade do seu nível + seu modificador de Sabedoria). Se falhar, fica atordoada por uma rodada.\n",
     "especial": ""
   },
   {
     "nome": "Ataque com Escudo",
     "descrição": "Você é treinado em atacar com uma arma e um escudo.\n",
     "requisito": "Pré-requisito: Usar Escudo.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: se estiver usando um escudo, você pode fazer um ataque adicional com ele. No entanto, você sofre uma penalidade de –2 em todas as jogadas de ataque e perde o bônus que o escudo fornece à CA até sua próxima rodada.\n",
     "especial": ""
   },
   {
     "nome": "Ataque com Escudo Aprimorado",
     "descrição": "Você sabe golpear com seu escudo sem perder sua proteção.\n",
     "requisito": "Pré-requisito: Usar Escudos\n",
-    "beneficio": "",
+    "beneficio": "Benefício: quando você ataca com o escudo, mantém seu bônus na CA.\n",
     "especial": ""
   },
   {
     "nome": "Ataque Desarmado Aprimorado",
     "descrição": "Você sabe lutar sem armas.\n",
     "requisito": "",
-    "beneficio": "",
+    "beneficio": "Benefício: seus ataques desarmados causam 1d4 pontos de dano, e podem causar dano letal ou não-letal (à sua escolha).\n",
     "especial": "Especial: este dano é para criaturas de tamanho Médio. Se você pertence a outra categoria de tamanho, consulte a tabela \"Dano de Armas por Tamanho” para saber seu dano desarmado.\n"
   },
   {
     "nome": "Ataque Duplo",
     "descrição": "Escolha uma arma. Você consegue atacar com velocidade impressionante com a arma escolhida.\n",
     "requisito": "Pré-requisito: Foco em Arma com a arma escolhida, bônus base de ataque +6.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: quando faz um ataque com a arma escolhida, você pode fazer um ataque adicional na mesma ação padrão, mas sofre penalidade de -5 em ambas as jogadas de ataque.\n",
     "especial": ""
   },
   {
     "nome": "Ataque em Movimento",
     "descrição": "Você faz ataques e se movimenta com agilidade\n",
     "requisito": "Pré-requisito: Des 13, Esquiva, Mobilidade, bônus base de ataque +4.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: quando estiver atacando corpo-a-corpo, você pode se mover antes e depois do ataque, desde que a distância total percorrida não seja maior que seu deslocamento.\n",
     "especial": ""
   },
   {
     "nome": "Ataque Furtivo Aprimorado",
     "descrição": "Ladrões sabem acertar onde dói. Membros de irmandades sabem acertar onde mata.\n",
     "requisito": "Pré-requisito: ataque furtivo +3d6.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: os dados de dano adicional que você causa com um ataque furtivo aumentam para d8.\n",
     "especial": ""
   },
   {
     "nome": "Ataque Giratório",
     "descrição": "Você é capaz de atacar todos os oponentes à sua volta em combate corpo-a-corpo.\n",
     "requisito": "Pré-requisito: Des 13, Int 13, Esquiva, Mobilidade, Ataque em Movimento, Especialização em Combate, bônus base de ataque +4.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: você pode fazer um ataque corpo-a-corpo contra cada oponente adjacente. Usar este talento é uma ação completa.\n",
     "especial": ""
   },
   {
     "nome": "Ataques Múltiplos",
     "descrição": "Você sabe como usar todo o seu corpo em uma luta.\n",
     "requisito": "Pré-requisito: uma ou mais armas naturais.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: quando faz um ataque adicional com uma arma natural, a penalidade que você sofre em seus ataques diminui para -2.\n",
     "especial": ""
   },
   {
     "nome": "Ataque Poderoso",
     "descrição": "Você pode sacrificar a precisão para desferir um golpe destruidor.\n",
     "requisito": "Pré-requisito: For 13.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: declare que está usando este talento antes de fazer um ataque corpo-a-corpo. Você sofre uma penalidade de -2 na jogada de Ataque, mas recebe +4 na jogada de dano.\n",
     "especial": ""
   },
   {
     "nome": "Ataque Poderoso Aprimorado",
     "descrição": "Seus golpes destruidores são destruidores mesmo.\n",
     "requisito": "Pré-requisito: Ataque Poderoso, bônus base de ataque +6.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: como Ataque Poderoso, mas você pode sofrer uma penalidade de –4 no ataque para receber um bônus de +8 no dano (não cumulativo com Ataque Poderoso).\n",
     "especial": ""
   },
   {
     "nome": "Ataque Preciso",
     "descrição": "Com lâminas leves, você sabe golpear com precisão mortal.\n",
     "requisito": "Pré-requisito: Des 15, Acuidade com Arma, Especialização em Combate, bônus base de ataque +11.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: quando usa uma arma afetada pelo talento Acuidade com Arma, você soma 1d6 em jogadas de dano.\n",
     "especial": ""
   },
   {
     "nome": "Ataque Sagaz",
     "descrição": "Sua espada é ágil, e também atinge os lugares certos.\n",
     "requisito": "Pré-requisito: Int 13, Acuidade com Arma, bônus base de ataque +4\n",
-    "beneficio": "",
+    "beneficio": "Benefício: quando usa uma arma afetada pelo talento Acuidade com Arma, você soma seu modificador de Inteligência (além do modificador de Força) em jogadas de dano.\n",
     "especial": ""
   },
   {
     "nome": "Até Acertar",
     "descrição": "Você não desiste frente a pequenas falhas. Tenta de novo e 'de novo, até ser bem-sucedido!\n",
     "requisito": "Pré-requisito: Foco em Arma.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: se você errar um ataque usando uma arma na qual possui Foco em Arma, recebe um bônus de +1 em jogadas de ataque, desde que use a mesma arma contra o mesmo oponente. Caso erre o segundo ataque, recebe um bônus de +2 no ataque posterior, e assim por diante. O bônus termina quando você acertar um ataque.\n",
     "especial": ""
   },
   {
     "nome": "Atropelar Aprimorado",
     "descrição": "Você não tem medo de passar por cima de seus oponentes.\n",
     "requisito": "Pré-requisito: For 13, Ataque Poderoso.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: quando você realiza a manobra atropelar, o alvo não pode escolher evitá-lo. Além disso, você receber +4 em jogadas de ataque para atropelar.\n",
     "especial": ""
   },
   {
     "nome": "Basta!",
     "descrição": "Você está farto dos truques e artimanhas de seus oponentes. 'Vai acabar com esta luta em um único golpe!\n",
     "requisito": "Pré-requisitos: Vontade de Ferro, bônus base de ataque +10.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: uma vez por dia, um golpe seu pode ignorar qualquer camuflagem, imunidade e redução de dano do alvo. Se você errar o ataque, o uso diário não é perdido.\n",
     "especial": ""
   },
   {
     "nome": "Bloqueio Ambidestro",
     "descrição": "Você é habilidoso em se defender usando duas amas ou uma arma dupla.\n",
     "requisito": "Pré-requisito: Des 15, Combater com Duas Armas.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: quando estiver usando duas armas ou uma arma dupla, você recebe +1 na classe de armadura.\n",
     "especial": ""
   },
   {
     "nome": "Bote da Víbora",
     "descrição": "Você corre em direção ao inimigo e golpeia com duas 'armas num único ataque.\n",
     "requisito": "Pré-requisito: Combater com Duas Armas.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: se você estiver lutando com duas armas, pode fazer um ataque com cada uma no final de uma investida. O ataque sofre a penalidade por atacar com duas armas e o bônus por investida, como normal.\n",
     "especial": ""
   },
   {
     "nome": "Brecha na Guarda",
     "descrição": "Você sabe se aproveitar das falhas na defesa de seu oponente. 'Não é covardia — é sobrevivência.\n",
     "requisito": "Pré-requisito: tendência não Leal.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: você recebe um bônus de +4 nas jogadas de dano contra oponentes atordoados, caídos ou desprevenidos.\n",
     "especial": ""
   },
   {
     "nome": "Briga de Rua",
     "descrição": "Em combate, você é um gato selvagem, mordendo, arranhando e chutando seus inimigos sem nenhuma ação arcaica de cavalheirismo ou jogo limpo.\n",
     "requisito": "Pré-requisito: Ataque Desarmado Aprimorado\n",
-    "beneficio": "",
+    "beneficio": "Benefício: em combate, você pode fazer uma finta seguida de um chute em uma área sensível ou qualquer outro truque sujo semelhante. Como uma ação completa, faça um teste de finta (veja a perícia Enganação) contra um oponente em combate corpo-a-corpo. Se você for bem-sucedido, como uma ação livre você pode fazer um ataque desarmado que causa dano dobrado.\n",
     "especial": ""
   },
   {
     "nome": "Casca Grossa",
     "descrição": "Sua pele dura e calejada resiste a ferimentos.\n",
     "requisito": "Pré-requisito: Con 13.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: você soma seu bônus de Constituição na CA. Este bônus não é cumulativo com armaduras.\n",
     "especial": ""
   },
   {
     "nome": "Chuva de Golpes",
     "descrição": "Em combate, cada parte de seu corpo é letal.\n",
     "requisito": "Pré-requisito: Ataque Desarmado Aprimorado, Combater com Duas Armas Aprimorado.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: Quando usa o talento Combater com Duas Armas, você recebe um ataque desarmado adicional.\n",
     "especial": ""
   },
   {
     "nome": "Combate Montado",
     "descrição": "Você sabe lutar cavalgando.\n",
     "requisito": "Pré-requisito: treinado em Cavalgar.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: uma vez por rodada, você pode tentar desviar um ataque que iria atingir sua montaria. Faça um teste de Cavalgar. Se o resultado for maior que a jogada de ataque do oponente, você evita o ataque.\n",
     "especial": ""
   },
   {
     "nome": "Combater com Duas Armas",
     "descrição": "Você é treinado em usar uma arma em cada mão.\n",
     "requisito": "Pré-requisito: Des 15.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: se estiver usando uma arma de uma mão e uma arma leve, ou duas armas leves, você pode fazer dois ataques com a mesma ação padrão, um com cada uma. No entanto, você sofre penalidade de -4 em ambas as jogadas de ataque.\n",
     "especial": ""
   },
   {
     "nome": "Combater com Duas Armas Aprimorado",
     "descrição": "Você é muito bem treinado em usar uma arma em cada mão.\n",
     "requisito": "Pré-requisito: Des 17, Combater com Duas Armas, bônus base de ataque +6.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: usando o talento Combater com Duas Armas, sua penalidade em jogadas de ataque diminui para -2.\n",
     "especial": ""
   },
   {
     "nome": "Combater com Duas Armas Maior",
     "descrição": "Você é um mestre em usar uma arma em cada mão.\n",
     "requisito": "Pré-requisito: Des 19, Combater com Duas Armas, Combater com Duas Armas Aprimorado, bônus base de ataque +11.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: usando o talento Combater com Duas Armas, você não sofre nenhuma penalidade em jogadas de ataque.\n",
     "especial": ""
   },
   {
     "nome": "Conhecimento de Golpes",
     "descrição": "Você aprendeu golpes especiais, mais complexos — eficazes — que meros cortes e estocadas.\n",
     "requisito": "Pré-requisito: bônus base de ataque +1.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: você recebe dois golpes da lista a partir da página 37, e 3 pontos de energia.\n",
     "especial": "Especial: você pode escolher este talento diversas vezes. A cada vez que escolhe, recebe dois golpes e 3 pontos de energia.\n"
   },
   {
     "nome": "Conhecimento de Posturas",
     "descrição": "Você treinou diversas posições de luta, e pode trocar entre elas conforme a situação exige.\n",
     "requisito": "Pré-requisito: bônus base de ataque +1.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: você recebe duas posturas da lista a partir da página 40.\n",
     "especial": "Especial: Você pode escolher esse talento diversas vezes. A cada vez que escolhe, recebe duas posturas.\n"
   },
   {
@@ -318,196 +318,196 @@
     "nome": "Derrubar Aprimorado",
     "descrição": "Você sabe derrubar inimigos em combate corpo-a-corpo.\n",
     "requisito": "Pré-requisito: Int 13, Especialização em Combate\n",
-    "beneficio": "",
+    "beneficio": "Benefício: +4 em testes de derrubar.\n",
     "especial": ""
   },
   {
     "nome": "Desarmar Aprimorado",
     "descrição": "Você sabe desarmar inimigos em combate corpo-a-corpo.\n",
     "requisito": "Pré-requisito: Int 13, Especialização em Combate.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: +4 em testes de desarmar.\n",
     "especial": ""
   },
   {
     "nome": "Destruir o Mal Aprimorado",
     "descrição": "Oponentes malignos caem como moscas frente ao seu poder divino.\n",
     "requisito": "Pré-requisito: habilidade de classe destruir o mal.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: ao utilizar a habilidade destruir o mal, você recebe um bônus de +4 na jogada de ataque ou na jogada de dano. Você escolhe o tipo de bônus que deseja utilizar antes da jogada de ataque.\n",
     "especial": ""
   },
   {
     "nome": "Destruir o Mal Persistente",
     "descrição": "Você não se abala com pequenas derrotas.\n",
     "requisito": "Pré-requisito: habilidade de classe destruir o mal.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: se você errar o ataque ou atacar um alvo não Maligno ao utilizar a habilidade destruir o mal, você não gasta um uso da habilidade.\n",
     "especial": ""
   },
   {
     "nome": "Desviar Objetos",
     "descrição": "Você pode desviar flechas, adagas e outras armas arremessadas ou disparas contra você.\n",
     "requisito": "Pré-requisito: Des 13, Ataque Desarmado Aprimorado.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: você pode tentar desviar um ataque à distância que iria atingi-lo. Faça um teste de Reflexos. Se o resultado do seu teste for maior que a jogada de ataque do oponente, você evita o ataque.\n",
     "especial": ""
   },
   {
     "nome": "Duelista Arcano",
     "descrição": "",
     "requisito": "Pré-requisito: treinado em Percepção e Identificar Magia.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: Você pode gastar uma ação de movimento para fazer um teste de Identificar Magia oposto pelo teste de Enganação de qualquer conjurador que esteja vendo. Se você for bem-sucedido, descobre se aquele conjurador vai lançar uma magia e seu próximo turno, e qual magia será lançada.\n",
     "especial": ""
   },
   {
     "nome": "Duro de Ferir",
     "descrição": "Quando está descansado e novo em folha, nada parece abalá-lo.\n",
     "requisito": "Pré-requisito: Constituição 13.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: você ignora o primeiro dano que sofre a cada combate.\n",
     "especial": ""
   },
   {
     "nome": "Duro de Matar",
     "descrição": "Você resiste a ferimentos que fariam outros cair.\n",
     "requisito": "",
-    "beneficio": "",
+    "beneficio": "Benefício: quando você sofre dano que poderia levá-lo a 0 ou menos pontos de vida, você pode ignorar completamente esse dano. Você pode usar este talento uma vez por dia.\n",
     "especial": ""
   },
   {
     "nome": "Empunhadura Poderosa",
     "descrição": "Você consegue usar armas grandes. Exageradamente grandes.\n",
     "requisito": "Pré-requisito: For 17.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: ao usar armas uma categoria de tamanho acima da sua, sua penalidade cai para -2.\n",
     "especial": ""
   },
   {
     "nome": "Empurrar Aprimorado",
     "descrição": "Você sabe como fazer seus inimigos recuarem.\n",
     "requisito": "Pré-requisito: For 13, Ataque Poderoso.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: +4 em jogadas de ataque para empurrar.\n",
     "especial": ""
   },
   {
     "nome": "Entrada Triunfal",
     "descrição": "Quando você consegue agir primeiro, é capaz de ditar os termos do combate.\n",
     "requisito": "Pré-requisitos: Destreza 13, Iniciativa Aprimorada.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: sempre que você ganhar a iniciativa, recebe uma quantidade de PV temporários igual à metade de seus PV normais.\n",
     "especial": ""
   },
   {
     "nome": "Erosão",
     "descrição": "Não importa a resistência do inimigo. Você é persistente, e continua golpeando até acabar com suas defesas.\n",
     "requisito": "Pré-requisito: Ataque Poderoso.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: sempre que você acertar um ataque corpo-a-corpo em um inimigo que tenha redução de dano, ele perde 1 ponto de sua RD. Caso faça um acerto crítico, em vez disso ele perde 2 pontos de sua RD. A redução de dano do inimigo volta ao normal após o fim do combate. Este talento afeta qualquer tipo de RD, mesmo aquelas que não podem ser ignoradas.\n",
     "especial": ""
   },
   {
     "nome": "Escudo Destemido",
     "descrição": "Você avança sem medo contra o inimigo, confiando que seu escudo irá protegê-lo.\n",
     "requisito": "Pré-requisito: Usar Escudo.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: se estiver usando um escudo, você não sofre a penalidade de –2 em CA ao fazer uma investida.\n",
     "especial": ""
   },
   {
     "nome": "Escudo Fraterno",
     "descrição": "Você aprendeu a usar seu escudo para proteger seus aliados, além de si mesmo.\n",
     "requisito": "Pré-requisito: Usar Escudo.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: se você terminar seu turno adjacente a um aliado, pode conceder seu bônus de escudo em CA a ele (sem que você mesmo o perca). Seu aliado perde o bônus se não estiver mais adjacente a você.\n",
     "especial": ""
   },
   {
     "nome": "Escudo Heroico",
     "descrição": "Você arremessa seu escudo como uma arma mortal.\n",
     "requisito": "Pré-requisito: Ataque com Escudo Aprimorado.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: Você pode usar seu escudo como uma arma de arremesso. Um escudo leve tem incremento de alcance de 15m e um escudo pesado tem incremento de alcance de 9m. Todas as outras estatísticas do escudo são iguais às de um ataque em corpo-a-corpo com o escudo. Sempre que você acerta um adversário com um escudo arremessado, o escudo retorna à sua mão na mesma rodada, desde que o adversário atingido não esteja a mais de um incremento de distância de você. Você recebe o bônus em CA pelo escudo se estiver empunhando-o, mesmo que tenha arremessado-o na mesma rodada.\n",
     "especial": ""
   },
   {
     "nome": "Escudo Inteligente",
     "descrição": "Quando você arremessa seu escudo, ele parece ter vida própria.\n",
     "requisito": "Pré-requisito: Escudo Heroico.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: Sempre que você acerta um adversário arremessando um escudo, o escudo ricocheteia no oponente e tenta atingir um segundo oponente que esteja dentro de um incremento de distância do primeiro. Caso acerte este segundo ataque, o escudo busca um terceiro oponente, que esteja dentro de um incremento de distância do segundo, e assim por diante, até que um ataque erre. Você não sofre penalidades por distância além do primeiro ataque, mas cada ataque além do primeiro impõe uma penalidade cumulativa de –2 (assim, –2 para o segundo ataque, –4 para o terceiro, –6 para o quarto, etc.). Após o primeiro erro, o escudo ricocheteia na superfície sólida mais próxima e volta à sua mão, desde que não esteja fora do alcance máximo em relação a você. Você recebe o bônus em CA pelo escudo se estiver empunhando-o, mesmo que tenha arremessado-o na mesma rodada.\n",
     "especial": ""
   },
   {
     "nome": "Escudo Veloz",
     "descrição": "Você sabe se movimentar com rapidez, usando seu escudo para se defender de ataques de todos os lados.\n",
     "requisito": "Pré-requisito: Usar Escudo.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: se você estiver usando um escudo, não pode ser flanqueado.\n",
     "especial": ""
   },
   {
     "nome": "Especialização em Arma",
     "descrição": "Escolha uma arma. Seus golpes com a arma escolhida causam ferimentos profundos.\n",
     "requisito": "Pré-requisito: Foco em Arma com a arma escolhida, guerreiro 4º nível.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: usando a arma escolhida, você recebe +2 em jogadas de dano.\n",
     "especial": ""
   },
   {
     "nome": "Especialização em Arma Aprimorada",
     "descrição": "Escolha uma arma. Seus golpes com a arma escolhida causam ferimentos terríveis.\n",
     "requisito": "Pré-requisito: Foco em Arma, Foco em Arma Aprimorado, Especialização em Arma com a arma escolhida, guerreiro 12º nível.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: seu bônus no dano pelo talento Especialização em Arma aumenta para +4.\n",
     "especial": ""
   },
   {
     "nome": "Especialização em Armadura",
     "descrição": "Escolha um tipo de armadura entre leve, média ou pesada. Você sabe usar esse tipo de armadura para absorver os golpes.\n",
     "requisito": "Pré-requisito: Foco em Armadura do tipo escolhido, guerreiro 8º nível.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: quando usando uma armadura do tipo escolhido você recebe redução de dano 2.\n",
     "especial": ""
   },
   {
     "nome": "Especialização em Combate",
     "descrição": "Você é capaz de usar suas habilidades de combate tanto para atacar quanto para se defender.\n",
     "requisito": "Pré-requisito: Int 13.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: declare que está usando este talento antes de fazer um ataque corpo-a-corpo. Você sofre uma penalidade de -2 na jogada de Ataque, mas recebe +4 de bônus na CA.\n",
     "especial": ""
   },
   {
     "nome": "Especialização em Raio",
     "descrição": "Seus raios são mais poderosos.\nPré-requisitos: Foco em Raio.\n",
     "requisito": "Pré-requisitos: Foco em Raio.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: Você recebe um bônus de +3 em jogadas de dano com magias que exigem ataques de toque.\n",
     "especial": ""
   },
   {
     "nome": "Especialização em Toque",
     "descrição": "Seus ataques de toque são mais poderosos.\n",
     "requisito": "Pré-requisito: Foco em Toque\n",
-    "beneficio": "",
+    "beneficio": "Benefício: Você recebe um bônus de +3 em jogadas de dano com magias que exigem ataques de toque à distância.\n",
     "especial": ""
   },
   {
     "nome": "Esquiva",
     "descrição": "Você é bom em esquivar-se de golpes.\n",
     "requisito": "Pré-requisito: Des 13.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: você recebe CA +1.\n",
     "especial": ""
   },
   {
     "nome": "Estocada Cruel",
     "descrição": "Você é capaz de atravessar seus oponentes com golpes precisos.\n",
     "requisito": "Pré-requisito: Foco em Arma (qualquer arma corpo-a-corpo de perfuração).\n",
-    "beneficio": "",
+    "beneficio": "Benefício: sempre que você acerta um ataque com uma arma corpo-a-corpo de perfuração na qual você tenha Foco em Arma, seu oponente fi ca sangrando. Deve fazer um teste de Constituição contra CD 15 no início de cada turno; se for bem-sucedido, estabiliza-se. Se falhar, sofre 1d4 pontos de dano e continua sangrando.\n",
     "especial": "Especial: criaturas imunes a acertos críticos também são imunes a este talento. O efeito deste talento não se acumula consigo mesmo.\n"
   },
   {
     "nome": "Estocada Cruel Maior",
     "descrição": "Os inimigos viram espetinho frente à sua lâmina!\n",
     "requisito": "Pré-requisitos: Estocada Cruel, bônus base de ataque +6.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: como Estocada Cruel, acima. Contudo, o efeito do talento passa a se acumular consigo mesmo. Por exemplo, caso você acerte três golpes no mesmo oponente, ele deverá fazer três testes de Constituição, perdendo 1d4 PV por falha.\n",
     "especial": "Especial: criaturas imunes a acertos críticos continuam imunes a este talento.\n"
   },
   {
     "nome": "Exterminador de Monstros",
     "descrição": "Você é um especialista em matar criaturas gigantescas.\n",
     "requisito": "Pré-requisito: bônus base de ataque +8.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: você recebe +2 nas jogadas de dano contra criaturas Grandes ou maiores. Além disso, seus inimigos não recebem bônus por tamanho em testes de manobra (como agarrar, derrubar ou empurrar).\n",
     "especial": ""
   },
   {
     "nome": "Falange",
     "descrição": "Você é experiente em lutar em uma formação compacta, juntando seu escudo com os de seus companheiros.\n",
     "requisito": "Pré-requisito: Usar Escudo.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: se você estiver usando um escudo, recebe um bônus de +1 na CA. Além disso, se estiver adjacente a um aliado com este talento, vocês podem gastar uma ação de movimento para formar uma falange. Uma falange concede cobertura a todos os seus participantes.\n",
     "especial": ""
   },
   {
@@ -521,84 +521,84 @@
     "nome": "Fintar Aprimorado",
     "descrição": "Você sabe como distrair seus adversários em combate.\n",
     "requisito": "Pré-requisito: Int 13, Especialização em Combate.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: você pode realizar um teste de Enganação para fintar em combate usando uma ação de movimento.\n",
     "especial": ""
   },
   {
     "nome": "Flerte Estratégico",
     "descrição": "Em pleno combate, você consegue seduzir ou embaraçar seus inimigos com uma manobra audaciosa (e nada educada). Por exemplo, beijando sua adversária durante a luta, colocando uma rosa em seu cabelo, usando a espada para rasgar sua roupa e revelar partes interessantes de sua anatomia...\n",
     "requisito": "Pré-requisito: Car 13, Fintar Aprimorado.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: faça uma finta em combate contra um inimigo que possa se sentir fisicamente atraído por você. Se for bem-sucedido, sua vítima fica embaraçada e sofre penalidade de -2 em jogadas de ataque até o fim do combate.\n",
     "especial": ""
   },
   {
     "nome": "Foco em Arma",
     "descrição": "Escolha uma arma. Você sabe lutar melhor com a arma escolhida. “Ataque desarmado” também pode ser escolhido como arma para este talento.\n",
     "requisito": "Pré-requisito: saber usar a arma escolhida, bônus base de ataque +1\n",
-    "beneficio": "",
+    "beneficio": "Benefício: +1 em jogadas de ataque com a arma escolhida.\n",
     "especial": ""
   },
   {
     "nome": "Foco em Arma Aprimorado",
     "descrição": "Escolha uma arma. Você sabe lutar ainda melhor com ela.\n",
     "requisito": "Pré-requisito: Foco em Arma com a arma escolhida, guerreiro, 8º nível.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: o bônus que você recebe pelo talento Foco em Arma aumenta para +2.\n",
     "especial": ""
   },
   {
     "nome": "Foco em Armadura",
     "descrição": "Escolha um tipo de armadura entre leve, média ou pesada. Você é mais hábil em defesa e movimento com esse tipo.\n",
     "requisito": "Pré-requisito: saber usar o tipo de armadura escolhido.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: quando usando uma armadura do tipo escolhido, você aumenta seu bônus de armadura em +1 e diminui sua penalidade de armadura em -1.\n",
     "especial": ""
   },
   {
     "nome": "Foco em Escudo",
     "descrição": "Escolha um tipo de escudo entre leve, pesado ou de corpo. Com o tipo escolhido você consegue se proteger muito bem de golpes e outros tipos de ataque.\n",
     "requisito": "Pré-requisito: Saber usar o tipo de escudo escolhido.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: quando usando um escudo do tipo escolhido, você aumenta seu bônus de CA em +1 e recebe um bônus de +1 nos testes de resistências.\n",
     "especial": ""
   },
   {
     "nome": "Foco em Raio",
     "descrição": "Seus raios são mais precisos.\n",
     "requisito": "Pré-requisito: Bônus Base de Ataque +1.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: Você recebe um bônus de +2 em jogadas de ataque com magias que exigem ataques de toque.\n",
     "especial": ""
   },
   {
     "nome": "Foco em Toque",
     "descrição": "Seus ataques de toque são mais precisos.\n",
     "requisito": "Pré-requisito: BBA +1\n",
-    "beneficio": "",
+    "beneficio": "Benefício: Você recebe um bônus de +2 em jogadas de ataque com magias que exijam toque.\n",
     "especial": ""
   },
   {
     "nome": "Formação Tartaruga",
     "descrição": "Usando um escudo em um padrão de movimentos complexos, você se protege por inteiro, como uma tartaruga dentro de seu casco.\n",
     "requisito": "Pré-requisito: Escudo Veloz.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: se você estiver usando um escudo, recebe um bônus de +2 nos testes de resistência.\n",
     "especial": ""
   },
   {
     "nome": "Golpe Avassalador",
     "descrição": "Você pode realizar golpes capazes de arremessar seus oponentes para longe.\n",
     "requisito": "Pré-requisito: Ataque Poderoso, For 25, tamanho Grande ou maior.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: declare que está usando este talento antes de fazer um ataque corpo-a-corpo. Você sofre uma penalidade de -4 na jogada de ataque, mas, se acertar, além de causar dano, derruba e arremessa a vítima 1d6 x 1,5m numa direção à sua escolha. A criatura tem direito a um teste de Fortitude (CD igual ao dano) para evitar este efeito (mas não o dano).\n",
     "especial": ""
   },
   {
     "nome": "Golpe com Duas Mãos",
     "descrição": "Você consegue canalizar toda a sua força quando usa uma arma com as duas mãos.\n",
     "requisito": "Pré-requisito: For 15, Ataque Poderoso.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: quando usando uma arma de corpo-a-corpo com as duas mãos, você soma o dobro de seu modificador de Força às jogadas de dano. Este talento não pode ser usada com armas leves.\n",
     "especial": ""
   },
   {
     "nome": "Golpe Especial",
     "descrição": "Você é um herói. E todo herói tem seu golpe característico.\n",
     "requisito": "Pré-requisito: Surto Heroico.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: sempre que você usar Surto Heroico para fazer um ataque adicional, pode fazer um golpe especial. Este golpe recebe um bônus de +2 nas jogadas de ataque e dano, além de um poder especial de arma mágica equivalente a um bônus de +2 (veja em Tormenta RPG, Capítulo 10). Uma vez que você escolha o poder especial do seu golpe, não pode trocá-lo.\n",
     "especial": ""
   },
   {
@@ -612,182 +612,182 @@
     "nome": "Granadeiro",
     "descrição": "Explodir tudo é a forma mais garantida de causar dano ao inimigo. Mesmo que, às vezes, algum aliado também acabe se machucando um bocadinho...\n",
     "requisito": "Pré-requisito: treinado em Ofício (alquimia).\n",
-    "beneficio": "",
+    "beneficio": "Benefício: você recebe +2 em jogadas de ataque e dano com quaisquer armas que permitem um teste de Reflexos para reduzir seu efeito, como fogo alquímico e granadas.\n",
     "especial": ""
   },
   {
     "nome": "Gritos de Poder",
     "descrição": "",
     "requisito": "Pré-requisito: habilidade de classe fúria.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: você recebe dois gritos de poder da lista a partir da página 43.\n",
     "especial": "Especial: você pode escolher este talento diversas vezes. A cada vez que escolhe, recebe dois gritos.\n"
   },
   {
     "nome": "Impacto Estonteante",
     "descrição": "Seus oponentes ficam tontos ante a força de suas pancadas.\n",
     "requisito": "Pré-requisito: Foco em Arma (qualquer arma corpo-a-corpo de esmagamento).\n",
-    "beneficio": "",
+    "beneficio": "Benefício: Sempre que você acerta um ataque com uma arma corpo-a-corpo de esmagamento na qual você tenha Foco em Arma, seu oponente sofre uma penalidade de –1 em seus ataques na rodada seguinte. Caso você consiga um acerto crítico, a penalidade é de –2.\n",
     "especial": ""
   },
   {
     "nome": "Impacto Estonteante Maior",
     "descrição": "Suas pancadas deixam seus oponentes no chão!\n",
     "requisito": "Pré-requisitos: Impacto Estonteante, bônus base de ataque +6.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: como Impacto Estonteante, acima. Contudo, o oponente também deve fazer um teste de Reflexos contra CD 10 + metade do seu nível + seu modificador de Força. Em caso de falha, ele cai no chão.\n",
     "especial": ""
   },
   {
     "nome": "Imobilização",
     "descrição": "Você sabe como imobilizar um inimigo agarrado.\n",
     "requisito": "Pré-requisito: Agarrar Aprimorado.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: Você pode imobilizar uma criatura que esteja agarrando. Para isso, gaste uma ação padrão e faça um teste de manobra. Se for bem-sucedido, imobiliza a criatura — ela fica indefesa e não pode realizar nenhuma ação, exceto tentar se soltar (o que exige um teste de manobra). Caso a criatura consiga se soltar da imobilização, ainda fica agarrada. Enquanto estiver imobilizando uma criatura, você sofre as mesmas penalidades de agarrar.\n",
     "especial": ""
   },
   {
     "nome": "Insulto Sagaz",
     "descrição": "Você sabe dizer barbaridades sobre seu adversário, deixando-o tão furioso que prejudica seu desempenho em combate.\n",
     "requisito": "Pré-requisito: Car 13, Fintar Aprimorado.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: faça uma finta em combate. Se for bem sucedido, seu oponente fica enfurecido e sofre uma penalidade de -2 na CA até o fim do combate.\n",
     "especial": ""
   },
   {
     "nome": "Investida Aérea",
     "descrição": "Você é capaz de fazer investidas devastadoras a partir do ar.\n",
     "requisito": "Pré-requisito: deslocamento de voo.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: quando está voando e faz uma investida, você causa dano dobrado com uma arma comum, ou triplicado com uma lança.\n",
     "especial": ""
   },
   {
     "nome": "Investida Implacável",
     "descrição": "Você realiza ataques devastadores cavalgando em investida.\n",
     "requisito": "Pré-requisito: treinado em Cavalgar, Combate Montado, Investida Montada.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: quando está montado e faz uma investida, você causa dano dobrado com uma arma comum, ou triplicado com uma lança.\n",
     "especial": ""
   },
   {
     "nome": "Investida Montada",
     "descrição": "Você é mais eficiente fazendo ataques de investida quando está cavalgando.\n",
     "requisito": "Pré-requisito: treinado em Cavalgar, Combate Montado.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: quando está montado e faz uma investida, você pode continuar se movendo depois do ataque. Você deve continuar se movendo em linha reta, e seu movimento total na rodada não pode ser superior ao dobro do deslocamento da montaria.\n",
     "especial": ""
   },
   {
     "nome": "Investida Ricochete",
     "descrição": "Você é capaz de ricochetear de um inimigo que tenha acabado de atacar, já partindo para o próximo ataque.\n",
     "requisito": "Pré-requisitos: Foco em Arma (qualquer arma corpo-a-corpo de esmagamento), Mobilidade.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: quando você fizer uma investida usando uma arma corpo-a-corpo de esmagamento com a qual tenha Foco em Arma, pode ricochetear do oponente, indo atacar um segundo inimigo. Após realizar o ataque, mova-se para o segundo inimigo, como se fi zesse uma outra investida. Esta segunda investida não gera um novo ricochete.\n",
     "especial": ""
   },
   {
     "nome": "Jogo Sujo",
     "descrição": "Os hobgoblins tun'walaaye são mestres no uso de táticas sujas em combate, normalmente buscando distrair o oponente para um golpe furtivo.\n",
     "requisito": "Pré-requisitos: bônus base de ataque +1, tendência não Bondosa.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: como uma ação completa, você pode fazer um teste de manobra contra um teste de iniciativa do oponente. Se for bem-sucedido, o oponente fica ofuscado por 1 rodada. Se a jogada superar o resultado do oponente por 5 ou mais, o alvo fica desprevenido por 1 rodada. Se superar por 10 ou mais, o alvo fica cego por 1 rodada.\n",
     "especial": ""
   },
   {
     "nome": "Luta Galante",
     "descrição": "Você não quer apenas vencer - quer entreter seu publico!\n",
     "requisito": "Pré-requisito: treinado em Atuação, bônus base de ataque +1.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: você pode usar um teste de Atuação no lugar de uma jogada de ataque ou de sua classe de armadura contra um ataque (neste caso, faça um teste de Atuação; se o resultado for maior que a jogada de ataque do oponente, você evita o ataque). Você pode utilizar este talento um número de vezes por dia igual ao seu bônus de Carisma.\n",
     "especial": ""
   },
   {
     "nome": "Lutar às Cegas",
     "descrição": "Você tem maiores chances de atingir alvos que não possa ver.\n",
     "requisito": "",
-    "beneficio": "",
+    "beneficio": "Benefício: sempre que você erra um ataque devido à camuflagem, pode rolar mais uma vez a chance de acertar. Além disso, você não fica desprevenido contra inimigos que não possa ver.\n",
     "especial": ""
   },
   {
     "nome": "Mestre em Arma",
     "descrição": "Escolha uma arma. Você é um dos melhores guerreiros do mundo com a arma escolhida.\n",
     "requisito": "Pré-requisito: Especialização em Arma, Especialização em Arma Aprimorada, Foco em Arma, Foco em Arma Aprimorado (todos com a arma escolhida), guerreiro 16º nível.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: usando a arma escolhida, você recebe +1 em jogadas de ataque e dano, e sua margem de ameaça aumenta em 1. Além disso, uma vez por dia, você pode rolar outra vez uma jogada de ataque que tenha recém realizado. Você deve aceitar a segunda rolagem, mesmo que seja pior que a primeira.\n",
     "especial": "Especial: este talento se acumula com quaisquer outros efeitos que aumentem a margem de ameaça de uma arma, mas é o último efeito a ser considerado. Assim, um personagem com Mestre em Arma e Acerto Crítico Aprimorado (machado de guerra) tem margem de ameaça 18-20.\n"
   },
   {
     "nome": "Mira Apurada",
     "descrição": "Seus tiros têm precisão mortal.\n",
     "requisito": "Pré-requisito: Sab 13, Tiro Certeiro, Tiro Longo.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: você pode gastar uma ação de movimento para mirar um alvo. Se fizer isso, recebe +1 em jogadas de ataque à distância realizadas contra ele na mesma rodada.\n",
     "especial": ""
   },
   {
     "nome": "Mira Mortal",
     "descrição": "Entre os olhos. No coração. São lugares onde seus tiros costumam acertar!\n",
     "requisito": "Pré-requisito: Des 17, Sab 13, Mira Apurada, Tiro Certeiro, Tiro Longo, bônus base de ataque +11.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: sua margem de ameaça com armas de projéteis aumenta em 1. Por exemplo, a margem de ameaça da pistola é 19-20, para um personagem com este talento, será 18-20.\n",
     "especial": "Especial: este talento se acumula com quaisquer outros efeitos que aumentam a margem de ameaça de uma arma, mas é o último efeito a ser considerado. Assim, um personagem com Mira Mortal e Acerto Crítico Aprimorado (pistola) tem margem de ameaça (16-20).\n"
   },
   {
     "nome": "Mobilidade",
     "descrição": "Você é hábil em esquivar-se enquanto se movimenta.\n",
     "requisito": "Pré-requisito: Des 13, Esquiva.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: você recebe +2 na CA sempre que usa uma ação de movimento para deslocar-se.\n",
     "especial": ""
   },
   {
     "nome": "Mobilidade Perfeita",
     "descrição": "",
     "requisito": "Pré-requisito: Mobilidade.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: Você recebe um bônus de +2 em testes de resistência sempre que usar uma ação de movimento para se deslocar em combate.\n",
     "especial": "Especial: Se você estiver usando a regra opcional de ataques de oportunidade, você não provoca ataques de oportunidade por se deslocar.\n"
   },
   {
     "nome": "Morte Vinda do Céu",
     "descrição": "Você salta com selvageria sobre seus oponentes!\n",
     "requisito": "Pré-requisitos: Habilidade de classe fúria, treinado em Atletismo.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: quando estiver em fúria e fizer uma investida,você pode saltar em direção a seu inimigo. Isso significa que você ignora terreno difícil e pode fazer a investida mesmo que não haja uma linha reta pelo solo (desde que nenhum dos obstáculos seja muito alto, segundo a decisão do mestre).\n",
     "especial": ""
   },
   {
     "nome": "Na Mosca",
     "descrição": "Sua mira é incrível, e seus disparos acertam onde dói mais.\n",
     "requisito": "Pré-requisito: Des 13, Tiro Certeiro, Tiro Preciso.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: você soma seu modificador de Destreza em jogadas de dano com armas de ataque à distância.\n",
     "especial": ""
   },
   {
     "nome": "Olhos nas Costas",
     "descrição": "Você está prevenido contra inimigos que atacam pelas costas.\n",
     "requisito": "Pré-requisitos: treinado em Percepção, Mobilidade.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: na primeira vez que você for flanqueado durante um combate, pode realizar uma manobra especial instantaneamente, fora de seu próprio turno. Você tem direito a um ataque imediato contra um dos oponentes que estão flanqueando-o, antes que eles mesmos possam atacar. Em seguida, você pode se mover 1,5m em qualquer direção. Após você completar seu movimento, os adversários continuam suas ações normalmente.\n",
     "especial": ""
   },
   {
     "nome": "Pairar",
     "descrição": "Você consegue pairar em pleno voo, de modo a realizar ações enquanto se movimenta.\n",
     "requisito": "Pré-requisito: deslocamento de voo.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: quando gasta uma ação de movimento para se deslocar voando, você pode fazer uma ação padrão no meio do vôo. A distância total percorrida não pode ser maior que seu deslocamento. Uma criatura com deslocamento de voo de 24m pode voar 18m, fazer uma ação padrão (atacar, lançar uma magia, usar uma habilidade especial...) e voar mais 6m, por exemplo.\n",
     "especial": ""
   },
   {
     "nome": "Panache",
     "descrição": "Você tem a (irritante) habilidade de humilhar seus oponentes em combate. Você pode trocar a espada de mão no meio da luta, arrancar os botões da camisa do oponente, derrubar seu charuto com um tiro, riscar sua inicial nas roupas dele com a ponta da espada...\n",
     "requisito": "Pré-requisito: Car 13, Fintar Aprimorado.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: faça uma finta em combate. Se for bem-sucedido, seu oponente fica espantado com a manobra, e no próximo turno só pode realizar uma ação padrão.\n",
     "especial": ""
   },
   {
     "nome": "Pancada na Cabeça",
     "descrição": "Um golpe bem colocado na nuca é suficiente para deixar qualquer um tonto.\n",
     "requisito": "Pré-requisito: ataque furtivo +2d6.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: quando você faz um ataque furtivo, pode reduzir seu dano em 1d6. Se fizer isso e o ataque causar dano, o alvo do ataque deve fazer um teste de Fortitude (CD 10+1/2 do seu nível+mod. de Força). Se falhar, ele fica atordoado por uma rodada. Este talento não pode ser usado contra criaturas imunes a ataques furtivos.\n",
     "especial": ""
   },
   {
     "nome": "Parede de Escudos",
     "descrição": "Ao lado de seus companheiros, seu escudo é uma defesa impenetrável.\n",
     "requisito": "Pré-requisito: Falange.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: se você estiver participando de uma falange, pode fazer um ataque corpo-a-corpo imediato contra qualquer criatura que se mova para ficar adjacente a você ou aos aliados adjacentes a você. Este talento só pode ser usado uma vez por rodada.\n",
     "especial": ""
   },
   {
     "nome": "Perito em Arma",
     "descrição": "Escolha uma arma. Você consegue usar a arma escolhida para realizar façanhas incríveis.\n",
     "requisito": "Pré-requisito: Des 13, Int 13, Acuidade com Arma, Foco em Arma com a arma escolhida.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: graças a uma extrema habilidade com a arma, que funciona como uma verdadeira extensão de seu corpo, você pode substituir um teste de qualquer perícia por uma jogada de ataque com a arma escolhida. Você pode, por exemplo, usar uma espada para destrancar uma fechadura (Ladinagem), como suporte para subir em algo (Atletismo), como apoio para uma cambalhota (Acrobacia), para fazer manobras impressionantes (Atuação) e assim por diante.\n",
     "especial": ""
   },
   {
@@ -801,56 +801,56 @@
     "nome": "Pisotear",
     "descrição": "Você sabe usar sua montaria para atropelar oponentes.\n",
     "requisito": "Pré-requisito: treinado em Cavalgar, Combate Montado.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: quando está montado e realiza a manobra atropelar, o alvo não pode escolher evitá-lo. Além disso, se a montaria derrubar um oponente, pode fazer um ataque contra esse oponente como uma ação livre (recebendo o bônus padrão de +4 em jogadas contra alvos caídos).\n",
     "especial": ""
   },
   {
     "nome": "Rapidez de Recarga",
     "descrição": "Escolha uma arma de disparo (como besta, funda ou pistola). Você recarrega a arma escolhida muito rapidamente.\n",
     "requisito": "Pré-requisito: saber usar a arma escolhida.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: a ação necessária para recarregar a arma escolhida diminui em uma categoria – ação completa vira padrão, padrão vira de movimento, e de movimento vira livre. Por exemplo, recarregar um mosquete normalmente é uma ação padrão, mas para um personagem com este talento é uma ação de movimento.\n",
     "especial": ""
   },
   {
     "nome": "Reflexos de Combate",
     "descrição": "Você consegue reagir rapidamente contra oponentes com a guarda baixa.\n",
     "requisito": "Pré-requisito: Des 13.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: se estiver adjacente a um oponente desprevenido, você pode fazer um ataque corpo-a-corpo contra ele como uma ação livre.\n",
     "especial": ""
   },
   {
     "nome": "Retroceder Nunca, Render-se Jamais",
     "descrição": "Você não desiste!\n",
     "requisito": "Pré-requisitos: Vitalidade, Vontade de Ferro.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: quando você estiver com menos da metade dos seus PV totais, recebe um bônus de +2 em CA e em todos os testes de resistência. Se estiver com menos da metade dos seus PV totais e todos os seus aliados já tiverem sido derrotados (você for o último “de pé”), estes bônus dobram. Este efeito acaba se você ficar com mais da metade dos seus PV totais.\n",
     "especial": ""
   },
   {
     "nome": "Rigidez Raivosa",
     "descrição": "Ser ferido não o abala, só aumenta sua resolução.\n",
     "requisito": "Pré-requisitos: Casca Grossa, Fortitude Maior.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: sempre que você sofrer dano físico, recebe redução de dano 1, cumulativa com quaisquer outras fontes. Por exemplo, se sofrer três golpes que causem dano físico, recebe redução de dano 3. Este efeito acaba assim que você recuperar pontos de vida por qualquer razão, ou assim que o combate terminar.\n",
     "especial": ""
   },
   {
     "nome": "Salto para a Salvação",
     "descrição": "Seu objetivo no combate não é matar inimigos. É salvar aliados.\n",
     "requisito": "Pré-requisitos: treinado em Cura e Iniciativa.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: declare que sua ação na próxima rodada será curar um companheiro específico (você deve dizer quem). Você torna-se o primeiro a agir na ordem de iniciativa a partir da próxima rodada e ganha uma ação de movimento adicional, que deve usar especificamente para se mover até o companheiro. Você pode usar este talento uma vez por combate.\n",
     "especial": ""
   },
   {
     "nome": "Saque Rápido",
     "descrição": "Você consegue sacar sua arma mais rápido que o normal.\n",
     "requisito": "",
-    "beneficio": "",
+    "beneficio": "Benefício: você pode sacar ou guardar uma arma como uma ação livre.\n",
     "especial": ""
   },
   {
     "nome": "Separar Aprimorado",
     "descrição": "Você sabe atingir a arma do oponente, ou outro objeto que ele esteja carregando.\n",
     "requisito": "Pré-requisito: For 13, Ataque Poderoso.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: você recebe +4 em jogadas de ataque para separar. Além disso, você causa dano dobrado contra objetos.\n",
     "especial": ""
   },
   {
@@ -864,154 +864,154 @@
     "nome": "Sete Escorpiões",
     "descrição": "O estilo de luta dos Sete Escorpiões baseia-se em usar diversas armas diferentes para maximizar as oportunidades de ataque.\n",
     "requisito": "Pré-requisíto: Des 19, Combater com Duas Armas, Saque Rápido, Bônus base de ataque +8.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: Se você gastar uma ação padrão para atacar, pode fazer um ataque extra. Entretanto, este ataque deve ser feito com uma arma diferente das que você já utilizou na rodada.\n",
     "especial": ""
   },
   {
     "nome": "Sucesso Atrai Sucesso",
     "descrição": "Uma vez que entre no ritmo do combate, você se torna invencível.\n",
     "requisito": "Pré-requisito: bônus base de ataque +6.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: gaste 1 ponto de ação na primeira rodada de combate. Durante o combate inteiro, cada acerto crítico que você fizer aumenta sua margem de ameaça em 1 ponto. Por exemplo, após o primeiro acerto crítico, o bônus na margem de ameaça é de +1. Após o segundo, é de +2, e assim por diante.\n",
     "especial": ""
   },
   {
     "nome": "Tiro Certeiro",
     "descrição": "Você é capaz de disparos precisos contra alvos próximos.\n",
     "requisito": "",
-    "beneficio": "",
+    "beneficio": "Benefício: você recebe +1 em jogadas de ataque e dano com armas de ataque à distância contra alvos que estejam a até 9m.\n",
     "especial": ""
   },
   {
     "nome": "Tiro em Movimento",
     "descrição": "Você faz disparos rápidos e se movimenta com agilidade.\n",
     "requisito": "Pré-requisito: Des 13, Esquiva, Mobilidade, Tiro Certeiro, bônus base de ataque +4.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: quando estiver atacando à distância, você pode se mover antes e depois do ataque, desde que a distância total percorrida não seja maior que seu deslocamento.\n",
     "especial": ""
   },
   {
     "nome": "Tiro Especial",
     "descrição": "Você é capaz de disparos espantosos, capazes de derrubar, desarmar ou empurrar seus inimigos.\n",
     "requisito": "Pré-requisitos: Des 15, Tiro Certeiro, Tiro Preciso, bônus base de ataque +4.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: você pode realizar as manobras de combate derrubar, desarmar e empurrar com ataques à distância. Seu teste de manobra usa seu bônus de ataque à distância, mas seu oponente continua usando seu bônus de ataque corpo-a-corpo. Para todos os outros critérios, use as regras normais de manobras.\n",
     "especial": ""
   },
   {
     "nome": "Tiro Longo",
     "descrição": "Seus disparos de longa distância vão muito mais longe.\n",
     "requisito": "Pré-requisito: Tiro Certeiro.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: o incremento de distância de qualquer arma que você utiliza é dobrado.\n",
     "especial": ""
   },
   {
     "nome": "Tiro Montado",
     "descrição": "Você é talentoso em atacar à distância enquanto cavalga.\n",
     "requisito": "Pré-requisito: treinado em Cavalgar, Combate Montado.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: sua penalidade para ataques à distância quando sua montaria se movimenta é reduzida para -2.\n",
     "especial": ""
   },
   {
     "nome": "Tiro Múltiplo",
     "descrição": "Você atira mais em menos tempo.\n",
     "requisito": "Pré-requisito: Des 17, Tiro Certeiro, Tiro Rápido, bônus base de ataque +6.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: usando uma ação padrão e uma arma de projéteis, você pode fazer dois ataques contra um único oponente a até 9m. Ambos usam a mesma jogada (com penalidade de -4) e causam dano normalmente.\n",
     "especial": "Especial: em caso de acerto crítico, apenas o primeiro ataque causa dano multiplicado; o segundo ataque causa dano normal.\n"
   },
   {
     "nome": "Tiro Preciso",
     "descrição": "Você é capaz de mirar e disparar no momento certo.\n",
     "requisito": "Pré-requisito: Tiro Certeiro.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: você pode fazer ataques à distância contra oponentes envolvidos em combate corpo-a-corpo sem sofrer penalidade de -4 na jogada de ataque.\n",
     "especial": ""
   },
   {
     "nome": "Tiro Preciso Aprimorado",
     "descrição": "Sua mira é infalível.\n",
     "requisito": "Pré-requisito: Des 19, Tiro Certeiro, Tiro Preciso, bônus base de ataque +11.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: Seus ataques à distância ignoram cobertura e camuflagem (exceto cobertura ou camuflagem totais). Além disso, quando ataca um alvo envolvido na manobra agarrar, você acerta automaticamente o alvo que escolheu.\n",
     "especial": ""
   },
   {
     "nome": "Tiro Rápido",
     "descrição": "Você é muito rápido atacando à distância.\n",
     "requisito": "Pré-requisito: Des 13, Tiro Certeiro.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: usando uma arma de ataque à distância, você pode fazer um ataque adicional. Se fizer isso, sofre uma penalidade de -2 em todas as jogadas de ataque. Usar este talento é uma ação completa.\n",
     "especial": ""
   },
   {
     "nome": "Torcida",
     "descrição": "Você luta melhor quando há fãs torcendo por você.\n",
     "requisito": "Pré-requisito: Car 13.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: você recebe +1 em jogadas de ataque, CA e testes de resistência quando tem a torcida a seu favor, durante uma luta ou outro tipo de disputa. Entenda-se por “torcida” qualquer número de pessoas ou criaturas inteligentes (mesmo que seja apenas uma!) que não está realizando nenhuma outra ação além de ver a luta. Você só recebe este benefício quando a maioria das pessoas presentes na cena está gritando seu nome ou torcendo por sua vitória.\n",
     "especial": "Especial: a reação e uma torcida depende do mestre, mas você pode tentar um teste de Atuação ou Diplomacia (CD 20) como uma ação padrão para cair nas graças dos torcedores.\n"
   },
   {
     "nome": "Treinado em Escola",
     "descrição": "Você foi treinado em uma escola de combate específica, recebendo grande conhecimento, em troca de muita dedicação. Você possui técnicas e vantagens que não estão disponíveis para lutadores comuns.\n",
     "requisito": "Pré-requisito: variável (veja o texto).\n",
-    "beneficio": "",
+    "beneficio": "Benefício: variável (veja o texto).\n",
     "especial": "Especial: cada escola é um talento diferente. Você pode escolher tantas escolas quanto quiser, desde que cumpra os pré-requisitos de todas. Veja a descrição completa das escolas, seus pré-requisitos, seus benefícios e demais detalhes a partir da página 42.\n"
   },
   {
     "nome": "Trespassar",
     "descrição": "Quando você derruba um inimigo, pode continuar o golpe e acertar outro alvo.\n",
     "requisito": "Pré-requisito: For 13, Ataque Poderoso.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: quando você derruba um inimigo com um ataque corpo-a-corpo (reduzindo seus PV para 0 ou menos), pode realizar um ataque adicional contra outra criatura adjacente.\n",
     "especial": ""
   },
   {
     "nome": "Trespassar Aprimorado",
     "descrição": "Você empunha suas armas com tanta força que um golpe seu pode derrubar diversos inimigos.\nBenefício: você pode usar o talento Trespassar quantas vezes quiser na mesma rodada.\n",
     "requisito": "Pré-requisito: For 13, Ataque Poderoso, Trespassar, bônus base de ataque +4.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: você pode usar o talento Trespassar quantas vezes quiser na mesma rodada.\n",
     "especial": ""
   },
   {
     "nome": "Usar Armas Simples",
     "descrição": "Você foi treinado para usar todas as armas simples, como adaga e bordão.\n",
     "requisito": "",
-    "beneficio": "",
+    "beneficio": "Benefício: você sabe usar armas simples.\n",
     "especial": ""
   },
   {
     "nome": "Truque do Desarme",
     "descrição": "Você é capaz de enganar seus oponentes, aparando suas armas de forma a arrancá-las de suas mãos.\n",
     "requisito": "Pré-requisito: Bloqueio Ambidestro.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: você pode gastar uma ação completa para receber um bônus de +4 em CA durante uma rodada. Todos os oponentes que atacarem-no com armas de corpo-a-corpo durante esta rodada e errarem seus ataques são desarmados automaticamente. As armas caem a seus pés.\n",
     "especial": "Especial: um oponente tem direito a um teste de Intuição contra CD 20 para notar que você está realizando esta manobra e evitar atacá-lo\n"
   },
   {
     "nome": "Usar Armas Marciais",
     "descrição": "Você foi treinado para usar todas as armas marciais, como espada longa ou machado de guerra.\n",
     "requisito": "Pré-requisito: Usar Armas Simples.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: você sabe usar armas marciais.\n",
     "especial": ""
   },
   {
     "nome": "Usar Arma Exótica",
     "descrição": "Escolha uma arma exótica, como katana ou pistola. Você foi treinado para usar estar arma.\n",
     "requisito": "Pré-requisito: Usar Armas Simples.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: você sabe usar a arma escolhida\n",
     "especial": ""
   },
   {
     "nome": "Usar Armaduras Leves",
     "descrição": "Você foi treinado para usar armaduras leves.\n",
     "requisito": "",
-    "beneficio": "",
+    "beneficio": "Benefício: você sabe usar armadura acolchoada, corselete de couro, couro batido, camisa de cota de malha e outras armaduras leves.\n",
     "especial": ""
   },
   {
     "nome": "Usar Armaduras Médias",
     "descrição": "Você foi treinado para usar armaduras médias.\n",
     "requisito": "Pré-requisito: Usar Armaduras Leves.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: você sabe usar cota de escamas, cota de malha, couraça, gibão de pele e outras armaduras médias.\n",
     "especial": ""
   },
   {
     "nome": "Usar Armaduras Pesadas",
     "descrição": "Você foi treinado para usar armaduras pesadas.\n",
     "requisito": "Pré-requisito: Usar Armaduras (Usar Armaduras Leves,Usar Armaduras Medias).\n",
-    "beneficio": "",
+    "beneficio": "Benefício: você sabe usar loriga segmentada, meia-armadura, armadura completa e outras armaduras pesadas.\n",
     "especial": ""
   },
   {
@@ -1032,21 +1032,21 @@
     "nome": "Usar Veneno",
     "descrição": "Você faz o que muitos consideram desleal: usa venenos para deixar suas armas mais perigosas.\n",
     "requisito": "Pré-requisito: treinado em Ofício (alquimia), tendência não Bondosa.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: você pode aplicar veneno em armas sem risco de se envenenar acidentalmente.\n",
     "especial": ""
   },
   {
     "nome": "Vitalidade",
     "descrição": "Você suporta mais ferimentos que outras pessoas.\n",
     "requisito": "",
-    "beneficio": "",
+    "beneficio": "Benefício: você recebe 1 ponto de vida acional por nível de personagem. Para níveis após o 1º, o bônus é retroativo, ou seja, se adquirido no 6º nível, o bônus será de 6 PVs.\n",
     "especial": "Especial: você pode escolher este talento diversas vezes. Seus efeitos se acumulam.\n"
   },
   {
     "nome": "Vitória a Qualquer Preço",
     "descrição": "Você dá tudo de si para vencer uma luta.\n",
     "requisito": "Pré-requisitos: For 13, Con 13, Tolerância, Vitalidade.\n",
-    "beneficio": "",
+    "beneficio": "Benefício: com uma ação de movimento, você pode sofre 1 ponto de dano de Constituição e receber um bônus de +2 nas suas próximas jogadas de ataque e dano. Você pode escolher sofre mais dano para receber um bônus proporcional (+2 para cada ponto de dano sofrido), até um bônus máximo de +10 por uso.\n",
     "especial": "Especial: apenas criaturas vivas (com um valor de Constituição) podem usar este talento. Você não pode usar esse talento se for imune a dano de habilidade.\n"
   }
 ]
