@@ -1,6 +1,6 @@
 import * as cheerio from 'cheerio'
 import { writeFile, appendFile } from 'fs/promises'
-import { TypeAndKeyword } from 'sucrase/dist/types/parser/tokenizer'
+
 
 class talento {
     nome: String
