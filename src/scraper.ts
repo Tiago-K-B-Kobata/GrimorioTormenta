@@ -21,7 +21,7 @@ async function scrape(url){
        
     for(let i = 0; i < quantH.length; i++){
         const $h = $('div > h3').eq(i).text()
-        const $r = $('div > h3').eq(i).nextUntil('h3').has('b:contains(Pré-requisito:)').text()
+        const $r = $('div > h3').eq(i).nextUntil('h3').has('b:contains(Pré-requisito),b:contains(Pré-requisitos),b:contains(Pré-requisíto)').text()
         const $b = $('div > h3').eq(i).nextUntil('h3').has('b:contains(Benefício:)').text()
         const $e = $('div > h3').eq(i).nextUntil('h3').has('b:contains(Especial:)').text()
         const $d = $('div > h3').eq(i).nextUntil('h3').has('p > i').text()

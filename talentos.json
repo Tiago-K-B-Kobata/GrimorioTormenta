@@ -219,7 +219,7 @@
   {
     "nome": "Basta!",
     "descrição": "Você está farto dos truques e artimanhas de seus oponentes. 'Vai acabar com esta luta em um único golpe!\n",
-    "requisito": "",
+    "requisito": "Pré-requisitos: Vontade de Ferro, bônus base de ataque +10.\n",
     "beneficio": "Benefício: uma vez por dia, um golpe seu pode ignorar qualquer camuflagem, imunidade e redução de dano do alvo. Se você errar o ataque, o uso diário não é perdido.\n",
     "especial": ""
   },
@@ -310,7 +310,7 @@
   {
     "nome": "Dança do Calamar",
     "descrição": "A arte marcial mais famosa entre as sereias exige o uso de um túnica calamarina. Para utilizá-la, a guerreira movimenta os braços e o corpo em giros, criando uma dança em que as fitas se movem com harmonia, imitando os tentáculos de uma lula, procurando apunhalar, rasgar ou enredar seus oponentes.\nPré-requisito: deslocamento de natação 9m ou mais; Foco em Arma (túnica calamarina), Foco em Perícia (Atuação [dança]), Iniciativa Aprimorada; bônus base de ataque +6.\n",
-    "requisito": "",
+    "requisito": "Pré-requisito: deslocamento de natação 9m ou mais; Foco em Arma (túnica calamarina), Foco em Perícia (Atuação [dança]), Iniciativa Aprimorada; bônus base de ataque +6.\n",
     "beneficio": "",
     "especial": ""
   },
@@ -387,7 +387,7 @@
   {
     "nome": "Entrada Triunfal",
     "descrição": "Quando você consegue agir primeiro, é capaz de ditar os termos do combate.\n",
-    "requisito": "",
+    "requisito": "Pré-requisitos: Destreza 13, Iniciativa Aprimorada.\n",
     "beneficio": "Benefício: sempre que você ganhar a iniciativa, recebe uma quantidade de PV temporários igual à metade de seus PV normais.\n",
     "especial": ""
   },
@@ -464,7 +464,7 @@
   {
     "nome": "Especialização em Raio",
     "descrição": "Seus raios são mais poderosos.\nPré-requisitos: Foco em Raio.\n",
-    "requisito": "",
+    "requisito": "Pré-requisitos: Foco em Raio.\n",
     "beneficio": "Benefício: Você recebe um bônus de +3 em jogadas de dano com magias que exigem ataques de toque.\n",
     "especial": ""
   },
@@ -492,7 +492,7 @@
   {
     "nome": "Estocada Cruel Maior",
     "descrição": "Os inimigos viram espetinho frente à sua lâmina!\n",
-    "requisito": "",
+    "requisito": "Pré-requisitos: Estocada Cruel, bônus base de ataque +6.\n",
     "beneficio": "Benefício: como Estocada Cruel, acima. Contudo, o efeito do talento passa a se acumular consigo mesmo. Por exemplo, caso você acerte três golpes no mesmo oponente, ele deverá fazer três testes de Constituição, perdendo 1d4 PV por falha.\n",
     "especial": "Especial: criaturas imunes a acertos críticos continuam imunes a este talento.\n"
   },
@@ -513,7 +513,7 @@
   {
     "nome": "Fiandeiro",
     "descrição": "Você foi treinado pelo grupo que patrulha o Novelo, a rede de túneis dos halflings em Ramknal.\n",
-    "requisito": "",
+    "requisito": "Pré-requisitos: raça halfling; Acrobacia Audaz, Ataque em Movimento, Reflexos de Combate\n",
     "beneficio": "",
     "especial": "Especial: se você tiver acesso ao Manual do Combate, os pré-requisitos são alterados para raça halfling; treinado em Acrobacia; Ataque em Movimento, Reflexos de Combate; postura Aposta de Hyninn.\n"
   },
@@ -604,7 +604,7 @@
   {
     "nome": "Golpista",
     "descrição": "Você é um tipo especial de ladrão - quando rouba, suas vitímas lhe agradecem e comentam sobre sua gentileza!\n",
-    "requisito": "",
+    "requisito": "Pré-requisitos: Enganação 8 graduações, Impostor.\n",
     "beneficio": "",
     "especial": ""
   },
@@ -632,7 +632,7 @@
   {
     "nome": "Impacto Estonteante Maior",
     "descrição": "Suas pancadas deixam seus oponentes no chão!\n",
-    "requisito": "",
+    "requisito": "Pré-requisitos: Impacto Estonteante, bônus base de ataque +6.\n",
     "beneficio": "Benefício: como Impacto Estonteante, acima. Contudo, o oponente também deve fazer um teste de Reflexos contra CD 10 + metade do seu nível + seu modificador de Força. Em caso de falha, ele cai no chão.\n",
     "especial": ""
   },
@@ -674,14 +674,14 @@
   {
     "nome": "Investida Ricochete",
     "descrição": "Você é capaz de ricochetear de um inimigo que tenha acabado de atacar, já partindo para o próximo ataque.\n",
-    "requisito": "",
+    "requisito": "Pré-requisitos: Foco em Arma (qualquer arma corpo-a-corpo de esmagamento), Mobilidade.\n",
     "beneficio": "Benefício: quando você fizer uma investida usando uma arma corpo-a-corpo de esmagamento com a qual tenha Foco em Arma, pode ricochetear do oponente, indo atacar um segundo inimigo. Após realizar o ataque, mova-se para o segundo inimigo, como se fi zesse uma outra investida. Esta segunda investida não gera um novo ricochete.\n",
     "especial": ""
   },
   {
     "nome": "Jogo Sujo",
     "descrição": "Os hobgoblins tun'walaaye são mestres no uso de táticas sujas em combate, normalmente buscando distrair o oponente para um golpe furtivo.\n",
-    "requisito": "",
+    "requisito": "Pré-requisitos: bônus base de ataque +1, tendência não Bondosa.\n",
     "beneficio": "Benefício: como uma ação completa, você pode fazer um teste de manobra contra um teste de iniciativa do oponente. Se for bem-sucedido, o oponente fica ofuscado por 1 rodada. Se a jogada superar o resultado do oponente por 5 ou mais, o alvo fica desprevenido por 1 rodada. Se superar por 10 ou mais, o alvo fica cego por 1 rodada.\n",
     "especial": ""
   },
@@ -737,7 +737,7 @@
   {
     "nome": "Morte Vinda do Céu",
     "descrição": "Você salta com selvageria sobre seus oponentes!\n",
-    "requisito": "",
+    "requisito": "Pré-requisitos: Habilidade de classe fúria, treinado em Atletismo.\n",
     "beneficio": "Benefício: quando estiver em fúria e fizer uma investida,você pode saltar em direção a seu inimigo. Isso significa que você ignora terreno difícil e pode fazer a investida mesmo que não haja uma linha reta pelo solo (desde que nenhum dos obstáculos seja muito alto, segundo a decisão do mestre).\n",
     "especial": ""
   },
@@ -751,7 +751,7 @@
   {
     "nome": "Olhos nas Costas",
     "descrição": "Você está prevenido contra inimigos que atacam pelas costas.\n",
-    "requisito": "",
+    "requisito": "Pré-requisitos: treinado em Percepção, Mobilidade.\n",
     "beneficio": "Benefício: na primeira vez que você for flanqueado durante um combate, pode realizar uma manobra especial instantaneamente, fora de seu próprio turno. Você tem direito a um ataque imediato contra um dos oponentes que estão flanqueando-o, antes que eles mesmos possam atacar. Em seguida, você pode se mover 1,5m em qualquer direção. Após você completar seu movimento, os adversários continuam suas ações normalmente.\n",
     "especial": ""
   },
@@ -793,7 +793,7 @@
   {
     "nome": "Pisão",
     "descrição": "Quando está em fúria, você pode pisar no chão com força sufi ciente para causar uma pequena onda de choque.\n",
-    "requisito": "",
+    "requisito": "Pré-requisitos: For 17, habilidade de classe fúria.\n",
     "beneficio": "",
     "especial": ""
   },
@@ -821,21 +821,21 @@
   {
     "nome": "Retroceder Nunca, Render-se Jamais",
     "descrição": "Você não desiste!\n",
-    "requisito": "",
+    "requisito": "Pré-requisitos: Vitalidade, Vontade de Ferro.\n",
     "beneficio": "Benefício: quando você estiver com menos da metade dos seus PV totais, recebe um bônus de +2 em CA e em todos os testes de resistência. Se estiver com menos da metade dos seus PV totais e todos os seus aliados já tiverem sido derrotados (você for o último “de pé”), estes bônus dobram. Este efeito acaba se você ficar com mais da metade dos seus PV totais.\n",
     "especial": ""
   },
   {
     "nome": "Rigidez Raivosa",
     "descrição": "Ser ferido não o abala, só aumenta sua resolução.\n",
-    "requisito": "",
+    "requisito": "Pré-requisitos: Casca Grossa, Fortitude Maior.\n",
     "beneficio": "Benefício: sempre que você sofrer dano físico, recebe redução de dano 1, cumulativa com quaisquer outras fontes. Por exemplo, se sofrer três golpes que causem dano físico, recebe redução de dano 3. Este efeito acaba assim que você recuperar pontos de vida por qualquer razão, ou assim que o combate terminar.\n",
     "especial": ""
   },
   {
     "nome": "Salto para a Salvação",
     "descrição": "Seu objetivo no combate não é matar inimigos. É salvar aliados.\n",
-    "requisito": "",
+    "requisito": "Pré-requisitos: treinado em Cura e Iniciativa.\n",
     "beneficio": "Benefício: declare que sua ação na próxima rodada será curar um companheiro específico (você deve dizer quem). Você torna-se o primeiro a agir na ordem de iniciativa a partir da próxima rodada e ganha uma ação de movimento adicional, que deve usar especificamente para se mover até o companheiro. Você pode usar este talento uma vez por combate.\n",
     "especial": ""
   },
@@ -856,14 +856,14 @@
   {
     "nome": "Sequência de Golpes",
     "descrição": "Você ataca com uma tempestade de golpes, usando a força de um movimento para impulsionar o outro, sem nunca dar uma chance para sua vítima reagir.\n",
-    "requisito": "",
+    "requisito": "Pré-requisitos: bônus base de ataque +6, capacidade de realizar mais de um ataque corpo-a-corpo na mesma rodada.\n",
     "beneficio": "",
     "especial": ""
   },
   {
     "nome": "Sete Escorpiões",
     "descrição": "O estilo de luta dos Sete Escorpiões baseia-se em usar diversas armas diferentes para maximizar as oportunidades de ataque.\n",
-    "requisito": "",
+    "requisito": "Pré-requisíto: Des 19, Combater com Duas Armas, Saque Rápido, Bônus base de ataque +8.\n",
     "beneficio": "Benefício: Se você gastar uma ação padrão para atacar, pode fazer um ataque extra. Entretanto, este ataque deve ser feito com uma arma diferente das que você já utilizou na rodada.\n",
     "especial": ""
   },
@@ -891,7 +891,7 @@
   {
     "nome": "Tiro Especial",
     "descrição": "Você é capaz de disparos espantosos, capazes de derrubar, desarmar ou empurrar seus inimigos.\n",
-    "requisito": "",
+    "requisito": "Pré-requisitos: Des 15, Tiro Certeiro, Tiro Preciso, bônus base de ataque +4.\n",
     "beneficio": "Benefício: você pode realizar as manobras de combate derrubar, desarmar e empurrar com ataques à distância. Seu teste de manobra usa seu bônus de ataque à distância, mas seu oponente continua usando seu bônus de ataque corpo-a-corpo. Para todos os outros critérios, use as regras normais de manobras.\n",
     "especial": ""
   },
@@ -1045,7 +1045,7 @@
   {
     "nome": "Vitória a Qualquer Preço",
     "descrição": "Você dá tudo de si para vencer uma luta.\n",
-    "requisito": "",
+    "requisito": "Pré-requisitos: For 13, Con 13, Tolerância, Vitalidade.\n",
     "beneficio": "Benefício: com uma ação de movimento, você pode sofre 1 ponto de dano de Constituição e receber um bônus de +2 nas suas próximas jogadas de ataque e dano. Você pode escolher sofre mais dano para receber um bônus proporcional (+2 para cada ponto de dano sofrido), até um bônus máximo de +10 por uso.\n",
     "especial": "Especial: apenas criaturas vivas (com um valor de Constituição) podem usar este talento. Você não pode usar esse talento se for imune a dano de habilidade.\n"
   }
