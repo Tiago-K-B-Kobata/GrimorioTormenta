@@ -1,5 +1,5 @@
 import * as cheerio from 'cheerio'
-import { writeFile, appendFile } from 'fs/promises'
+import { writeFile, readFile } from 'fs/promises'
 
 class talento {
     nome: String
@@ -8,11 +8,12 @@ class talento {
     beneficio: String
     especial: String
     custo: String
+    tabela: String
 }
 
 let TALENTO:any = []
 
-const url = ['https://tsrd.fandom.com/pt-br/wiki/Talentos_de_Combate','https://tsrd.fandom.com/pt-br/wiki/Talentos_de_Magia']
+const url = ['https://tsrd.fandom.com/pt-br/wiki/Talentos_de_Combate','https://tsrd.fandom.com/pt-br/wiki/Talentos_de_Magia','https://tsrd.fandom.com/pt-br/wiki/Talentos_de_Per%C3%ADcia']
 
 async function scrape(url){
     const res = await fetch(url)
@@ -27,6 +28,7 @@ async function scrape(url){
         const $e = $('div > h3').eq(i).nextUntil('h3').has('b:contains(Especial)').text()
         const $d = $('div > h3').eq(i).nextUntil('h3').has('p > i').text()
         const $c = $('div > h3').eq(i).nextUntil('h3').has('b:contains(Custo)').text()
+        const $t = $('div > h3').eq(i).nextUntil('h3').has('tr > td').text()
         
         const tal = new talento
         
@@ -35,7 +37,8 @@ async function scrape(url){
         tal.requisito = $r        
         tal.beneficio = $b        
         tal.especial = $e
-        tal.custo = $c     
+        tal.custo = $c
+        tal.tabela = $t     
         
         TALENTO.push(tal)
         
@@ -44,4 +47,11 @@ async function scrape(url){
    await writeFile('talentos.json',JSON.stringify(TALENTO, null, 2))
 }    
 
-url.forEach(scrape)
+async function organize() {
+    const file = await readFile('talentos.json','utf-8')
+    const lista = JSON.parse(file)
+    console.log(lista)
+}
+
+// url.forEach(scrape)
+organize()
