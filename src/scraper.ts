@@ -64,16 +64,16 @@ async function scrapeMagia(url) {
     const res = await fetch(url)
     const html = await res.text()
     const $ = cheerio.load(html)
-    const quantH = $('div').find('h2')
+    const quantH = $('div').not('').filter('#mw-content-text').find('h2')
     
     for(let i = 0; i < quantH.length; i++){
-        const $h  = $('h2').eq(i).text()
-        const $n  = $('h2').eq(i).nextUntil('h2').find('li:contains(Nível)').text()
-        const $t  = $('h2').eq(i).nextUntil('h2').find('li:contains(Tempo de Execução)').text()
-        const $ac = $('h2').eq(i).nextUntil('h2').find('li:contains(Alcance)').text()
-        const $av = $('h2').eq(i).nextUntil('h2').find('li:contains(Área),li:contains(Alvo)').text()
-        const $d  = $('h2').eq(i).nextUntil('h2').find('li:contains(Duração)').text()
-        const $r  = $('h2').eq(i).nextUntil('h2').find('li:contains(Teste de Resistência)').text()
+        const $h  = $('h2').not('#mw-toc-heading').eq(i).text()
+        const $n  = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Nível)').text()
+        const $t  = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Tempo de Execução)').text()
+        const $ac = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Alcance)').text()
+        const $av = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Área),li:contains(Alvo)').text()
+        const $d  = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Duração)').text()
+        const $r  = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Teste de Resistência)').text()
         
         const mag = new magia
         
