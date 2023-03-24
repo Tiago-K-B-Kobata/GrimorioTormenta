@@ -1350,465 +1350,6 @@
     "tabela": ""
   },
   {
-    "nome": "Adaptabilidade",
-    "descrição": "Na hora de maior necessidade. você lembra como lançar aquela magia que não tinha preparado.\n",
-    "requisito": "Pré-requisito: classe mago.\n",
-    "beneficio": "Benefício: você pode lançar uma magia que não preparou. Você deve perder magias preparadas cujo custo some pelo menos o dobro do custo da magia que quer lançar. Por exemplo, para lançar uma magia de 3 PM, você deve perder magias preparadas que somem pelo menos 6 PM.\n",
-    "especial": "",
-    "custo": "",
-    "tabela": ""
-  },
-  {
-    "nome": "Barreira Mística",
-    "descrição": "Você pode materializar energia arcana para criar um escudo contra ataques físicos. \n",
-    "requisito": "Pré-requisito: capacidade de lançar magias arcanas de 1º nível. \n",
-    "beneficio": "Benefício: como uma ação livre, você pode gastar 1 PM (ou perder uma magia memorizada de 1º nível ou maior) para ganhar um bônus de +4 na CA até o início de seu próximo turno. \n",
-    "especial": "",
-    "custo": "",
-    "tabela": ""
-  },
-  {
-    "nome": "Canto Monástico",
-    "descrição": "Você foi treinado em um mosteiro, onde rezava através de belos cânticos.\n",
-    "requisito": "Pré-requisitos: treinado em Atuação (música), capacidade de lançar magias divinas.\n",
-    "beneficio": "Benefício: quando você lança uma magia, pode gastar uma ação de movimento para entoar um canto litúrgico. Se fizer isso, a CD para resistir à magia aumenta em +1. Você pode usar este talento um número de vezes por dia igual ao seu bônus de Carisma +1. Obviamente, você não pode lançar magias desta forma se não puder fazer sons (por exemplo, sob efeito de Magia Silenciosa).\n",
-    "especial": "",
-    "custo": "",
-    "tabela": ""
-  },
-  {
-    "nome": "Canto Monástico Aprimorado",
-    "descrição": "No mosteiro onde foi treinado, você era responsável por\nensinar os acólitos a cantar como anjos.\n",
-    "requisito": "Pré-requisito: Atuação (música) 8 graduações, Canto Monástico.\n",
-    "beneficio": "Benefício: quando você usa o talento Canto Monástico, soma seu bônus de Carisma aos efeitos numéricos variáveis da magia (dano causado, PV curados, etc.). Este efeito ocorre em\nadição ao efeito de Canto Monástico.\n",
-    "especial": "",
-    "custo": "",
-    "tabela": ""
-  },
-  {
-    "nome": "Canto Monástico Magistral",
-    "descrição": "Os deuses choram de emoção ao ouvi-lo cantar.\n",
-    "requisito": "Pré-requisito: Atuação (música) 13 graduações, Canto Monástico Aprimorado.\n",
-    "beneficio": "Benefício: quando você usa o talento Canto Monástico, a magia fica sob efeito do talento Maximizar Magia. Este efeito ocorre em adição aos efeitos de Canto Monástico e Canto Monástico Aprimorado.\n",
-    "especial": "",
-    "custo": "",
-    "tabela": ""
-  },
-  {
-    "nome": "Conhecimento Mágico",
-    "descrição": "Você estudou para aumentar seu repertório de magias.\n",
-    "requisito": "",
-    "beneficio": "Benefício: você aprende mais duas magias de quaisquer níveis que possa lançar. Por exemplo, se você é um mago de 3º nível, pode aprender duas magias novas de 1º ou 2º nível.\n",
-    "especial": "Especial: você pode escolher este talento diversas vezes. Cada vez, você aprende duas novas magias.\n",
-    "custo": "",
-    "tabela": ""
-  },
-  {
-    "nome": "Contramágica Aprimorada",
-    "descrição": "Você sabe contra-atacar uma magia com mais eficiência.\n",
-    "requisito": "",
-    "beneficio": "Benefício: você pode usar qualquer magia como contramágica, desde que seu custo em PM seja igual ou superior ao custo da magia que você quer anular.\n",
-    "especial": "",
-    "custo": "",
-    "tabela": ""
-  },
-  {
-    "nome": "Dominar Magia",
-    "descrição": "Escolha uma magia. Você tem mais familiaridade com ela.\n",
-    "requisito": "",
-    "beneficio": "Benefício: o custo em PM para lançar a magia escolhida diminui em 1. O custo final (após aplicar todos os modificadores, incluindo este talento e talentos metamágicos) é no mínimo 1 PM.\n",
-    "especial": "",
-    "custo": "",
-    "tabela": ""
-  },
-  {
-    "nome": "Druida Boticário",
-    "descrição": "Quando você e o seu caldeirão se juntam, as possibilidades são enormes.\n",
-    "requisito": "Pré-requisitos: classe druida, talento Preparar Poções, treinado em Ofício (alquimia).\n",
-    "beneficio": "Benefício: você pode criar poções com magias de até 5º nível.\n",
-    "especial": "",
-    "custo": "",
-    "tabela": ""
-  },
-  {
-    "nome": "Escudo da Fé Aprimorado",
-    "descrição": "Para você, o nome de certa magia tem significado bem literal.\n",
-    "requisito": "Pré-requisitos: treinamento com escudo, capacidade de lançar a magia escudo da fé.\n",
-    "beneficio": "Benefício: quando você lança a magia escudo da fé, não recebe o bônus de +2 em CA como normal. Em vez disso, a magia cria um escudo pesado +2 brilhante, com o símbolo sagrado de seu deus. Apenas você pode empunhar este escudo (ele se desvanece se outro personagem tentar usá-lo), mas você pode arremessá-lo ou largá-lo por quanto tempo quiser, e ele persistirá. O escudo dura por um dia. Você não pode lançar a\nversão “normal” da magia escudo da fé.\n",
-    "especial": "",
-    "custo": "",
-    "tabela": ""
-  },
-  {
-    "nome": "Escrever Pergaminhos",
-    "descrição": "Você pode criar pergaminhos que você ou outro conjurador podem usar para lançar uma magia uma vez.\n",
-    "requisito": "Pré-requisito: capacidade de lançar magias de 1º nível.\n",
-    "beneficio": "Benefício: você pode criar pergaminhos. O pré-requisito para criar um pergaminho é conhecer a magia que ele irá conter (pergaminhos podem conter qualquer magia). O preço de um pergaminho é igual ao nível mínimo que um conjurador precisa ter para lançar a magia contida nele x 25 TO. Se a magia tiver um componente material ou um custo em XP, você deve pagar esses custos para criar o pergaminho.\n",
-    "especial": "",
-    "custo": "",
-    "tabela": ""
-  },
-  {
-    "nome": "Familiar",
-    "descrição": "Você possui um animal de estimação mágico.\n",
-    "requisito": "Pré-requisito: capacidade de lançar magias arcanas.\n",
-    "beneficio": "Benefício: você recebe a habilidade familiar do mago.\n",
-    "especial": "Especial: um mago que já possua a habilidade de classe familiar não pode escolher este talento.\n",
-    "custo": "",
-    "tabela": ""
-  },
-  {
-    "nome": "Foco em Magia",
-    "descrição": "Escolha uma magia. Quando você lança essa magia, é difícil que seus inimigos resistam ao efeito.\n",
-    "requisito": "",
-    "beneficio": "Benefício: a dificuldade do teste de resistência contra a magia escolhida aumenta em CD +2.\n",
-    "especial": "",
-    "custo": "",
-    "tabela": ""
-  },
-  {
-    "nome": "Foco em Magia Aprimorado",
-    "descrição": "Escolha uma magia. Quando você lança essa magia, é muito difícil que seus inimigos resistam ao efeito.\n",
-    "requisito": "Pré-requisito: Foco em Magia com a magia escolhida.\n",
-    "beneficio": "Benefício: o aumento de dificuldade oferecido pelo talento Foco em Magia aumenta para CD +4.\n",
-    "especial": "",
-    "custo": "",
-    "tabela": ""
-  },
-  {
-    "nome": "Magia Camuflada",
-    "descrição": "Mesmo em um combate, você mantém seus poderes mágicos em segredo. Bolas de fogo brotam do chão, sem que você comprometa sua identidade.\n",
-    "requisito": "Pré-requisito: Magia sem Gestos e Magia Silenciosa.\n",
-    "beneficio": "Benefício: depois que você lançar uma magia, um oponente deve ser bem-sucedido num teste de Identificar Magia contra CD 25 - nível da magia para determinar quem é o conjurador. Cada magia lançada dá direito a um novo teste.\n",
-    "especial": "",
-    "custo": "",
-    "tabela": ""
-  },
-  {
-    "nome": "Magia dos Becos",
-    "descrição": "Você é capaz de decifrar os segredos arcanos que as ruas escondem, na forma de pichações e manchas que não fazem sentido para os leigos.\nBenefício: Você pode preparar magias diferentes lendo pichações nas paredes, panfletos jogados pelo chão, tabuletas de armazéns e oficinas... Quando for preparar suas magias, se estiver em uma cidade, você pode fazer um teste de Inteligência para preparar uma magia que você não conhece. A CD é 10+o nível da magia. Você ainda deve ser capaz de lançar a magia. Se for bem-sucedido, você pode preparar a magia normalmente; se falhar, você só pode tentar novamente no dia seguinte.\n",
-    "requisito": "Pré-requisito: lançar magias arcanas.\n",
-    "beneficio": "Benefício: Você pode preparar magias diferentes lendo pichações nas paredes, panfletos jogados pelo chão, tabuletas de armazéns e oficinas... Quando for preparar suas magias, se estiver em uma cidade, você pode fazer um teste de Inteligência para preparar uma magia que você não conhece. A CD é 10+o nível da magia. Você ainda deve ser capaz de lançar a magia. Se for bem-sucedido, você pode preparar a magia normalmente; se falhar, você só pode tentar novamente no dia seguinte.\n",
-    "especial": "",
-    "custo": "",
-    "tabela": ""
-  },
-  {
-    "nome": "Magia Natural",
-    "descrição": "Você pode lançar magias mesmo quando transformado em outra criatura.\n",
-    "requisito": "Pré-requisito: Sab 13, habilidade de forma selvagem.\n",
-    "beneficio": "Benefício: com esse talento você pode lançar magias quando está na forma selvagem.\n",
-    "especial": "",
-    "custo": "",
-    "tabela": ""
-  },
-  {
-    "nome": "Magias em Combate",
-    "descrição": "Você é habilidoso ao lançar magias em situações de perigo.\n",
-    "requisito": "",
-    "beneficio": "Benefício: você não fica desprevenido quando conjura uma magia.\n",
-    "especial": "",
-    "custo": "",
-    "tabela": ""
-  },
-  {
-    "nome": "Mago de Batalha",
-    "descrição": "Você se especializou em magias de combate, e sabe como aumentar o poder delas.\n",
-    "requisito": "Pré-requisito: Int 13, Magias em Combate, mago 4º nível.\n",
-    "beneficio": "Benefício: você soma seu modificador de Inteligência às jogadas de dano de suas magias.\n",
-    "especial": "",
-    "custo": "",
-    "tabela": ""
-  },
-  {
-    "nome": "Médico de Campo",
-    "descrição": "Você está acostumado a correr sob saraivadas de flechas, para salvar a vida de companheiros e soldados caídos.\nBenefício: você pode usar uma magia de curar ferimentos em um aliado até uma rodada depois de sua morte.\n",
-    "requisito": "Pré-requisito: capacidade de lançar magias divinas de 1º nível.\n",
-    "beneficio": "Benefício: você pode usar uma magia de curar ferimentos em um aliado até uma rodada depois de sua morte.\n",
-    "especial": "",
-    "custo": "",
-    "tabela": ""
-  },
-  {
-    "nome": "Poder do Rebanho",
-    "descrição": "Você é fortalecido pela fé de seus aliados.\n",
-    "requisito": "Pré-requisito: Carisma 13, capacidade de lançar magias divinas.\n",
-    "beneficio": "Benefício: a CD para resistir às suas magias divinas aumenta se houver devotos de seu deus rezando por você (em termos de regras, não fazendo nenhuma ação) a até 18m. O bônus varia de acordo com a quantidade de devotos: de 1 a 9 pessoas, bônus de +1. De 10 a 49 pessoas, bônus de +2. Mais de 50 pessoas (uma verdadeira missa!), bônus de +3.\n",
-    "especial": "",
-    "custo": "",
-    "tabela": ""
-  },
-  {
-    "nome": "Poder do Rebanho Aprimorado",
-    "descrição": "Seus aliados nem precisam ter muita fé para ajudá-lo — então trate de convertê-los!\n",
-    "requisito": "Pré-requisito: Poder do Rebanho.\n",
-    "beneficio": "Benefício: o benefício do talento Poder do Rebanho se aplica aos seus testes de resistência (além da CD das suas magias), e se ativa mesmo que as pessoas rezando por você não tenham a habilidade de classe ou o talento Devoto. Elas precisam apenas ter a sua divindade como padroeira. Caso haja alguma dúvida sobre um personagem ser ou não fiel ao deus, o mestre tem a palavra final.\n",
-    "especial": "",
-    "custo": "",
-    "tabela": ""
-  },
-  {
-    "nome": "Poder Mágico",
-    "descrição": "Você tem uma parcela maior de poder mágico.\n",
-    "requisito": "",
-    "beneficio": "Benefício: você recebe 1 ponto de magia adicional.\n",
-    "especial": "Especial: você pode escolher este talento diversas vezes. Cada vez que ele é escolhido além da primeira, os pontos de magia fornecidos pelo talento aumentam em +1. Por exemplo, um personagem que tenha escolhido Poder Mágico três vezes recebe um total de 6 PM adicionais (1 PM pela primeira vez, 2 PM pela segunda e 3 PM pela terceira).\n",
-    "custo": "",
-    "tabela": ""
-  },
-  {
-    "nome": "Preparar Poções",
-    "descrição": "Você pode criar poções que você ou outro personagem podem beber para receber o efeito de uma magia.\n",
-    "requisito": "Pré-requisito: capacidade de lançar magias de 2º nível.\n",
-    "beneficio": "Benefício: você pode criar poções. O pré-requisito para criar uma poção é conhecer a magia que ela irá conter (poções podem conter magias de até 3º nível que tenham uma ou mais criaturas como alvo). O preço de uma poção é igual ao nível mínimo que um conjurador precisa ter para lançar a magia contida nela x 50 TO. Se a magia tiver um componente material ou um custo em XP, você deve pagar esses custos para criar a poção.\n",
-    "especial": "",
-    "custo": "",
-    "tabela": ""
-  },
-  {
-    "nome": "Potencializar Invocação",
-    "descrição": "As criaturas que você invoca são mais poderosas.\n",
-    "requisito": "",
-    "beneficio": "Benefício: criaturas que você invoca com magias invocar recebem +2 em suas jogadas de ataque e dano.\n",
-    "especial": "",
-    "custo": "",
-    "tabela": ""
-  },
-  {
-    "nome": "Realizar Implante",
-    "descrição": "Através de processos misteriosos e complexos, você pode exertar partes monstruosas em pacientes voluntários.\n",
-    "requisito": "Pré-requisito: treinado em Cura, capacidade de lançar magias arcanas de 3º nível\n",
-    "beneficio": "Benefício: você pode realizar uma cirurgia para exertar um implante (em geral uma parte de uma criatura monstruosa) em um paciente. A cirurgia dura um dia, e você precisa de um laboratório equipado (no valor de pelo menos 1.000 PO). Ao fim do dia, deve fazer um teste de Cura contra CD 25 e um teste de Identificar Magia contra CD 20. Caso seja bem-sucedido, você conseguiu realizar o implante. O procedimento é parcialmente mágico e consome 20 PM.\n",
-    "especial": "",
-    "custo": "",
-    "tabela": ""
-  },
-  {
-    "nome": "Resíduo Mágico Curativo",
-    "descrição": "",
-    "requisito": "Pré-requisitos: treinado em Conhecimento (arcano) e Cura.\n",
-    "beneficio": "Benefício: sempre que você lançar uma magia, recebe uma quantidade de PV temporários igual ao custo em PM da magia.\n",
-    "especial": "",
-    "custo": "",
-    "tabela": ""
-  },
-  {
-    "nome": "Sacerdote Copista",
-    "descrição": "Anos de prática copiando livros e documentos aprimoraram a sua caligrafia e eficiência na criação de pergaminhos.\n",
-    "requisito": "Pré-requisitos: classe clérigo, treinado em Ofício (caligrafia), Escrever Pergaminhos.\n",
-    "beneficio": "Benefício: quando criar um pergaminho, você pode adicionar o efeito de um talento metamágico à magia contida nele. Os talentos metamágicos que podem ser adicionados desta forma são Aumentar Magia, Estender Magia, Potencializar Invocação e Potencializar Magia.\n",
-    "especial": "",
-    "custo": "",
-    "tabela": ""
-  },
-  {
-    "nome": "Tese Arcana de Graduação",
-    "descrição": "Você se formou em uma escola de magia e desenvolveu uma pesquisa arcana, criando suas próprias teorias. De acordo com sua tese, você pode alterar algumas características de magias.\n",
-    "requisito": "Pré-requisito: mago de 4º nível, estar matriculado em uma guilda ou academia de magia, passar no exame da banca.\n",
-    "beneficio": "Benefício: uma vez por dia, você pode usar um talento metamágico que você possua com custo de até +2 PM sem pagar o custo adicional e sem precisar prepará-lo.\n",
-    "especial": "",
-    "custo": "",
-    "tabela": ""
-  },
-  {
-    "nome": "Tese Arcana de Mestre",
-    "descrição": "Você é um estudioso da magia, reconhecido por outros pesquisadores. É capaz de alterar profundamente suas magias.\n",
-    "requisito": "Pré-requisito: mago de 8º nível, estar matriculado em uma guilda ou academia de magia, Tese Arcana de Graduação, passar no exame da banca.\n",
-    "beneficio": "Benefício: uma vez por dia, você pode usar um talento metamágico que você possua sem pagar o custo adicional e sem precisar prepará-lo. Além disso, o prestígio que você adquiriu na comunidade arcana lhe concede um bônus de +2 em testes de Diplomacia com outros magos.\n",
-    "especial": "",
-    "custo": "",
-    "tabela": ""
-  },
-  {
-    "nome": "Tese Arcana de Grão-Mestre",
-    "descrição": "Você é um dos maiores especialistas do mundo na sua área de pesquisa arcana. Conta com o respeito e admiração de outros magos, e pode manipular livremente suas magias.\nBenefício: uma vez por dia, você pode usar um talento metamágico qualquer (mesmo um que você não possua) sem pagar o custo adicional e sem precisar prepará-lo. Além disso, o prestígio que você adquiriu na comunidade arcana lhe concede um bônus de +4 em testes de Diplomacia com outros magos.Você tem grandes chances de ser convidado para se tornar um professor ou pesquisador arcano financiado por algum reino abastado.\n",
-    "requisito": "Pré-requisito: mago de 12º nível, estar matriculado em uma guilda ou academia de magia, Tese Arcana de Mestre, passar no exame da banca.\n",
-    "beneficio": "Benefício: uma vez por dia, você pode usar um talento metamágico qualquer (mesmo um que você não possua) sem pagar o custo adicional e sem precisar prepará-lo. Além disso, o prestígio que você adquiriu na comunidade arcana lhe concede um bônus de +4 em testes de Diplomacia com outros magos.Você tem grandes chances de ser convidado para se tornar um professor ou pesquisador arcano financiado por algum reino abastado.\n",
-    "especial": "",
-    "custo": "",
-    "tabela": ""
-  },
-  {
-    "nome": "Acelerar Magia",
-    "descrição": "Você pode lançar magias mais rapidamente.\n",
-    "requisito": "",
-    "beneficio": "Benefício: quando você usa este talento, pode lançar uma magia como uma ação livre. Lançar uma magia acelerada não deixa você desprevenido.\n",
-    "especial": "",
-    "custo": "Custo: +4 PM.\n",
-    "tabela": ""
-  },
-  {
-    "nome": "Ampliar Magia",
-    "descrição": "Você pode fazer com que uma magia afeta uma área maior.\n",
-    "requisito": "",
-    "beneficio": "Benefício: quando você usa este talento, a área da magia é duplicada (por exemplo, uma bola de fogo ampliada tem 12m de raio, em vez de 6m).\n",
-    "especial": "",
-    "custo": "Custo: +3 PM.\n",
-    "tabela": ""
-  },
-  {
-    "nome": "Aumentar Magia",
-    "descrição": "Você pode aumentar o alcance de uma magia.\nBenefício: quando você usar este talento, o alcance da magia é duplicado (por exemplo, um relâmpago aumentado tem um alcance de 90m, em vez de 45m).\n",
-    "requisito": "",
-    "beneficio": "Benefício: quando você usar este talento, o alcance da magia é duplicado (por exemplo, um relâmpago aumentado tem um alcance de 90m, em vez de 45m).\n",
-    "especial": "",
-    "custo": "Custo: +1 PM.\n",
-    "tabela": ""
-  },
-  {
-    "nome": "Elevar Magia",
-    "descrição": "Você pode tornar uma magia mais poderosa.\n",
-    "requisito": "",
-    "beneficio": "Benefício: uma magia elevada tem um nível de magia mais alto que o normal (até um máximo de 9º nível). Diferente de outros talentos metamágicos, Elevar Magia aumenta verdadeiramente o nível da magia. Todos os efeitos dependentes de nível (como CD para resistir) são calculados de acordo com o nível elevado.\n",
-    "especial": "",
-    "custo": "Custo: +1 PM por nível que se deseja aumentar.\n",
-    "tabela": ""
-  },
-  {
-    "nome": "Esculpir Magia",
-    "descrição": "",
-    "requisito": "",
-    "beneficio": "Benefício: este talento só pode ser aplicado em magias que tenham como área cilindro, cone, esfera, linha, explosão ou quadrado. Você pode trocar a área da magia para um cilindro com 3m de raio, um cone com 9m de comprimento, urna esfera com 6m de raio, uma linha com 30m comprimento ou um quadrado com 9m de lado.\n",
-    "especial": "",
-    "custo": "Custo: +1 PM.\n",
-    "tabela": ""
-  },
-  {
-    "nome": "Estender Magia",
-    "descrição": "Você sabe fazer com que uma magia dura mais tempo.\n",
-    "requisito": "",
-    "beneficio": "Benefício: a duração de uma magia é duplicada (por exemplo, um imobilizar pessoa estendido dura 2 minutos, em vez de 1 minuto).\n",
-    "especial": "",
-    "custo": "Custo: +1 PM.\n",
-    "tabela": ""
-  },
-  {
-    "nome": "Invocação Aberrante (TORMENTA)",
-    "descrição": "Você pode invocar criaturas da Tormenta.\n",
-    "requisito": "Pré-requisitos: capacidade de lançar invocar monstro, três outros talentos da Tormenta.\n",
-    "beneficio": "Benefício: suas criaturas invocadas adquirem o modelo criatura da Tormenta.\n",
-    "especial": "",
-    "custo": "Custo: +3 PM.\n",
-    "tabela": ""
-  },
-  {
-    "nome": "Magia Congelante",
-    "descrição": "Em suas mãos, o frio congela e prende seus inimigos.\n",
-    "requisito": "Pré-requisito: Substituição Elemental (frio).\n",
-    "beneficio": "Benefício: você só pode aplicar este talento em magias com o descritor \"frio\". Uma magia congelante enreda por uma rodada os alvos que falhem no teste de resistência(um alvo enredado tem -2 nas jogadas de ataque, -4 na Destreza, metade do deslocamento e é incapaz de correr ou fazer investidas). Magias sem teste de resistência permitem um teste de Fortitude contra o efeito de enredar.\n",
-    "especial": "",
-    "custo": "Custo: +1PM.\n",
-    "tabela": ""
-  },
-  {
-    "nome": "Magia Conspurcada",
-    "descrição": "Suas magias têm um toque sinistro e macabro.\n",
-    "requisito": "Pré-requisitos: habilidade de classe canalizar energia negativa, tendência Maligna.\n",
-    "beneficio": "Benefício: o dano causado pela magia preparada com este talento passa a ter o descritor profano, não sendo mais afetado por resistência a energia de nenhum tipo.\n",
-    "especial": "",
-    "custo": "Custo: +1 PM e um uso diário da habilidade canalizar energia negativa.\n",
-    "tabela": ""
-  },
-  {
-    "nome": "Magia Corrosiva ",
-    "descrição": "Em suas mãos, o ácido é mais poderoso.\n",
-    "requisito": "Pré-requisito: Substituição Elemental (ácido).\n",
-    "beneficio": "Benefício: você só pode aplicar este talento em magias com o descritor \"ácido\". Uma magia corrosiva causa dano adicional igual à metade do dano causado, na rodada seguinte à rodada em que foi lançada. Por exemplo, névoa ácida corrosiva causa 2d6 pontos de dano no início de cada turno, mais 1d6 pontos de dano na rodada seguinte. Testes de resistência não se aplicam a este dano secundário.\n",
-    "especial": "",
-    "custo": "Custo: +1PM.\n",
-    "tabela": ""
-  },
-  {
-    "nome": "Magia Eletrizante ",
-    "descrição": "Suas magias elétricas são capazes de atordoar seus alvos.\n",
-    "requisito": "Pré-requisito: Substituição Elemental (eletricidade).\n",
-    "beneficio": "Benefício: você só pode aplicar este talento em magias com o descritor \"eletricidade\". Uma magia eletrizante atordoa por uma rodada os alvos que falhem no teste de resistência. Magias sem teste de resistência permitem um teste de Fortitude contra o efeito de atordoamento.\n",
-    "especial": "",
-    "custo": "Custo: +1 PM.\n",
-    "tabela": ""
-  },
-  {
-    "nome": "Magia Explosiva ",
-    "descrição": "Em suas mãos, o fogo pode gerar explosões poderosas.\n",
-    "requisito": "Pré-requisito: Substituição Elemental (fogo)\n",
-    "beneficio": "Benefício: você só pode aplicar este talento em magias com o descritor \"fogo\". Uma magia explosiva arremessa alvos que falhem no teste de resistência 3 metros para trás, deixando-os derrubados. Magias sem teste de resistência permitem um teste de Reflexos contra o efeito de arremesso.\n",
-    "especial": "",
-    "custo": "Custo: +1PM.\n",
-    "tabela": ""
-  },
-  {
-    "nome": "Magia Primordial",
-    "descrição": "Suas magias são brutas e diretas, assim como a natureza.\n",
-    "requisito": "Pré-requisito: habilidade de classe forma selvagem.\n",
-    "beneficio": "Benefício: o dano causado pela magia preparada com este talento passa a ser dano físico (corte, esmagamento ou perfuração). Este dano está sujeito à redução de dano apropriada (por exemplo, 5/esmagamento), mas não a qualquer tipo de resistência a energia ou a magia.\n",
-    "especial": "",
-    "custo": "Custo: +1 PM e um uso diários da habilidade forma selvagem.\n",
-    "tabela": ""
-  },
-  {
-    "nome": "Magia Santificada",
-    "descrição": "Suas magias são puras e abençoadas.\n",
-    "requisito": "Pré-requisitos: habilidade de classe canalizar energia positiva, tendência Bondosa.\n",
-    "beneficio": "Benefício: o dano causado pela magia preparada com este talento passa a ter o descritor sagrado, não sendo mais afetado por resistência a energia de nenhum tipo.\n",
-    "especial": "",
-    "custo": "Custo: +1 PM e um uso diário da habilidade canalizar energia positiva.\n",
-    "tabela": ""
-  },
-  {
-    "nome": "Magia sem Gestos",
-    "descrição": "Você consegue lançar magias sem gestos.\n",
-    "requisito": "",
-    "beneficio": "Benefício: uma magia sem gestos pode ser lançada sem nenhum componente gestual.\n",
-    "especial": "",
-    "custo": "Custo: +1 PM.\n",
-    "tabela": ""
-  },
-  {
-    "nome": "Magia Silenciosa",
-    "descrição": "Você consegue lançar magias sem falar.\n",
-    "requisito": "",
-    "beneficio": "Benefício: uma magia silenciosa pode ser lançada sem nenhum componente verbal.\n",
-    "especial": "",
-    "custo": "Custo: +1 PM.\n",
-    "tabela": ""
-  },
-  {
-    "nome": "Maximizar Magia",
-    "descrição": "Você consegue fazer com que suas magias tenham efeito máximo.\nBenefício: quando você usa este talento, todos os efeitos numéricos variáveis da magia são aumentados ao máximo. Por exemplo, uma bola de fogo capaz de causa 6d6 pontos de dano, quando maximizada, causará 36 pontos de dano (mais quaisquer bônus), sem a necessidade de rolar dados.\n",
-    "requisito": "",
-    "beneficio": "Benefício: quando você usa este talento, todos os efeitos numéricos variáveis da magia são aumentados ao máximo. Por exemplo, uma bola de fogo capaz de causa 6d6 pontos de dano, quando maximizada, causará 36 pontos de dano (mais quaisquer bônus), sem a necessidade de rolar dados.\n",
-    "especial": "",
-    "custo": "Custo: +3 PM.\n",
-    "tabela": ""
-  },
-  {
-    "nome": "Potencializar Magia",
-    "descrição": "Você faz com que suas magias tenham efeito maior.\n",
-    "requisito": "",
-    "beneficio": "Benefício: quando você usa este talento, todos os efeitos numéricos variáveis da magia são aumentados em 50%. Por exemplo, um relâmpago capaz de causar 6d6 pontos de dano, após rolar 21, causa mais 50% (neste caso, 10), para um total de 31 pontos de dano. Quaisquer bônus que você tenha também são potencializados.\n",
-    "especial": "",
-    "custo": "Custo: +2 PM.\n",
-    "tabela": ""
-  },
-  {
-    "nome": "Substituição Elemental",
-    "descrição": "Você é capaz de manipular as energias elementais em formas específicas.\nBenefício: escolha um descritor elemental, entre ácido, eletricidade, fogo, frio ou sônico. Se você for um feiticeiro, pode trocar o descritor de uma magia que cause dano para o descritor escolhido a qualquer momento. Se for um mago, pode preparar uma magia que cause dano e trocar o seu descritor para o descritor escolhido. Por exemplo, uma bola de fogo causa 6d6 pontos de dano de fogo. Com Substituição Elemental (ácido), pode tornar-se uma bola de ácido, causando 6d6 pontos de dano de ácido.\n",
-    "requisito": "",
-    "beneficio": "Benefício: escolha um descritor elemental, entre ácido, eletricidade, fogo, frio ou sônico. Se você for um feiticeiro, pode trocar o descritor de uma magia que cause dano para o descritor escolhido a qualquer momento. Se for um mago, pode preparar uma magia que cause dano e trocar o seu descritor para o descritor escolhido. Por exemplo, uma bola de fogo causa 6d6 pontos de dano de fogo. Com Substituição Elemental (ácido), pode tornar-se uma bola de ácido, causando 6d6 pontos de dano de ácido.\n",
-    "especial": "Especial: você pode escolher este talento várias vezes. A cada vez, ele se aplica a um descritor elemental diferente. Assim, você pode ter Substituição Elemental (ácido), Substituição Elemental (eletricidade), Substituição Elemental (fogo) e assim por diante.\n",
-    "custo": "Custo: +0 PM.\n",
-    "tabela": ""
-  },
-  {
-    "nome": "Toque Longínquo",
-    "descrição": "Suas magias de toque vão além do alcance de seus braços.\n",
-    "requisito": "",
-    "beneficio": "Benefício: este talento só pode ser aplicado em magias de toque. Uma magia de toque longínquo passa a ter alcance de 12m. Você ainda deve fazer um ataque de toque à distância para acertar o alvo.\n",
-    "especial": "",
-    "custo": "Custo: +1 PM.\n",
-    "tabela": ""
-  },
-  {
     "nome": "Acrobacia Audaz",
     "descrição": "Você consegue atravessar aposentos lotados ou mobiliados, correndo sobre mesas, escorregando por corrimões de escada, balançando-se em candelabros ou até pisando sobre outras pessoas!\n",
     "requisito": "Pré-requisito: treinado em Acrobacia\n",
@@ -2301,6 +1842,465 @@
     "beneficio": "Benefício: você pode preparar qualquer armadilha da lista de Tormenta RPG, Capítulo 10. Preparar essas armadilhas demora 1 dia por ND (ou 10 minutos para ND ½) e custa uma quantidade de TO igual a 10 x o ND.\n",
     "especial": "",
     "custo": "",
+    "tabela": ""
+  },
+  {
+    "nome": "Adaptabilidade",
+    "descrição": "Na hora de maior necessidade. você lembra como lançar aquela magia que não tinha preparado.\n",
+    "requisito": "Pré-requisito: classe mago.\n",
+    "beneficio": "Benefício: você pode lançar uma magia que não preparou. Você deve perder magias preparadas cujo custo some pelo menos o dobro do custo da magia que quer lançar. Por exemplo, para lançar uma magia de 3 PM, você deve perder magias preparadas que somem pelo menos 6 PM.\n",
+    "especial": "",
+    "custo": "",
+    "tabela": ""
+  },
+  {
+    "nome": "Barreira Mística",
+    "descrição": "Você pode materializar energia arcana para criar um escudo contra ataques físicos. \n",
+    "requisito": "Pré-requisito: capacidade de lançar magias arcanas de 1º nível. \n",
+    "beneficio": "Benefício: como uma ação livre, você pode gastar 1 PM (ou perder uma magia memorizada de 1º nível ou maior) para ganhar um bônus de +4 na CA até o início de seu próximo turno. \n",
+    "especial": "",
+    "custo": "",
+    "tabela": ""
+  },
+  {
+    "nome": "Canto Monástico",
+    "descrição": "Você foi treinado em um mosteiro, onde rezava através de belos cânticos.\n",
+    "requisito": "Pré-requisitos: treinado em Atuação (música), capacidade de lançar magias divinas.\n",
+    "beneficio": "Benefício: quando você lança uma magia, pode gastar uma ação de movimento para entoar um canto litúrgico. Se fizer isso, a CD para resistir à magia aumenta em +1. Você pode usar este talento um número de vezes por dia igual ao seu bônus de Carisma +1. Obviamente, você não pode lançar magias desta forma se não puder fazer sons (por exemplo, sob efeito de Magia Silenciosa).\n",
+    "especial": "",
+    "custo": "",
+    "tabela": ""
+  },
+  {
+    "nome": "Canto Monástico Aprimorado",
+    "descrição": "No mosteiro onde foi treinado, você era responsável por\nensinar os acólitos a cantar como anjos.\n",
+    "requisito": "Pré-requisito: Atuação (música) 8 graduações, Canto Monástico.\n",
+    "beneficio": "Benefício: quando você usa o talento Canto Monástico, soma seu bônus de Carisma aos efeitos numéricos variáveis da magia (dano causado, PV curados, etc.). Este efeito ocorre em\nadição ao efeito de Canto Monástico.\n",
+    "especial": "",
+    "custo": "",
+    "tabela": ""
+  },
+  {
+    "nome": "Canto Monástico Magistral",
+    "descrição": "Os deuses choram de emoção ao ouvi-lo cantar.\n",
+    "requisito": "Pré-requisito: Atuação (música) 13 graduações, Canto Monástico Aprimorado.\n",
+    "beneficio": "Benefício: quando você usa o talento Canto Monástico, a magia fica sob efeito do talento Maximizar Magia. Este efeito ocorre em adição aos efeitos de Canto Monástico e Canto Monástico Aprimorado.\n",
+    "especial": "",
+    "custo": "",
+    "tabela": ""
+  },
+  {
+    "nome": "Conhecimento Mágico",
+    "descrição": "Você estudou para aumentar seu repertório de magias.\n",
+    "requisito": "",
+    "beneficio": "Benefício: você aprende mais duas magias de quaisquer níveis que possa lançar. Por exemplo, se você é um mago de 3º nível, pode aprender duas magias novas de 1º ou 2º nível.\n",
+    "especial": "Especial: você pode escolher este talento diversas vezes. Cada vez, você aprende duas novas magias.\n",
+    "custo": "",
+    "tabela": ""
+  },
+  {
+    "nome": "Contramágica Aprimorada",
+    "descrição": "Você sabe contra-atacar uma magia com mais eficiência.\n",
+    "requisito": "",
+    "beneficio": "Benefício: você pode usar qualquer magia como contramágica, desde que seu custo em PM seja igual ou superior ao custo da magia que você quer anular.\n",
+    "especial": "",
+    "custo": "",
+    "tabela": ""
+  },
+  {
+    "nome": "Dominar Magia",
+    "descrição": "Escolha uma magia. Você tem mais familiaridade com ela.\n",
+    "requisito": "",
+    "beneficio": "Benefício: o custo em PM para lançar a magia escolhida diminui em 1. O custo final (após aplicar todos os modificadores, incluindo este talento e talentos metamágicos) é no mínimo 1 PM.\n",
+    "especial": "",
+    "custo": "",
+    "tabela": ""
+  },
+  {
+    "nome": "Druida Boticário",
+    "descrição": "Quando você e o seu caldeirão se juntam, as possibilidades são enormes.\n",
+    "requisito": "Pré-requisitos: classe druida, talento Preparar Poções, treinado em Ofício (alquimia).\n",
+    "beneficio": "Benefício: você pode criar poções com magias de até 5º nível.\n",
+    "especial": "",
+    "custo": "",
+    "tabela": ""
+  },
+  {
+    "nome": "Escudo da Fé Aprimorado",
+    "descrição": "Para você, o nome de certa magia tem significado bem literal.\n",
+    "requisito": "Pré-requisitos: treinamento com escudo, capacidade de lançar a magia escudo da fé.\n",
+    "beneficio": "Benefício: quando você lança a magia escudo da fé, não recebe o bônus de +2 em CA como normal. Em vez disso, a magia cria um escudo pesado +2 brilhante, com o símbolo sagrado de seu deus. Apenas você pode empunhar este escudo (ele se desvanece se outro personagem tentar usá-lo), mas você pode arremessá-lo ou largá-lo por quanto tempo quiser, e ele persistirá. O escudo dura por um dia. Você não pode lançar a\nversão “normal” da magia escudo da fé.\n",
+    "especial": "",
+    "custo": "",
+    "tabela": ""
+  },
+  {
+    "nome": "Escrever Pergaminhos",
+    "descrição": "Você pode criar pergaminhos que você ou outro conjurador podem usar para lançar uma magia uma vez.\n",
+    "requisito": "Pré-requisito: capacidade de lançar magias de 1º nível.\n",
+    "beneficio": "Benefício: você pode criar pergaminhos. O pré-requisito para criar um pergaminho é conhecer a magia que ele irá conter (pergaminhos podem conter qualquer magia). O preço de um pergaminho é igual ao nível mínimo que um conjurador precisa ter para lançar a magia contida nele x 25 TO. Se a magia tiver um componente material ou um custo em XP, você deve pagar esses custos para criar o pergaminho.\n",
+    "especial": "",
+    "custo": "",
+    "tabela": ""
+  },
+  {
+    "nome": "Familiar",
+    "descrição": "Você possui um animal de estimação mágico.\n",
+    "requisito": "Pré-requisito: capacidade de lançar magias arcanas.\n",
+    "beneficio": "Benefício: você recebe a habilidade familiar do mago.\n",
+    "especial": "Especial: um mago que já possua a habilidade de classe familiar não pode escolher este talento.\n",
+    "custo": "",
+    "tabela": ""
+  },
+  {
+    "nome": "Foco em Magia",
+    "descrição": "Escolha uma magia. Quando você lança essa magia, é difícil que seus inimigos resistam ao efeito.\n",
+    "requisito": "",
+    "beneficio": "Benefício: a dificuldade do teste de resistência contra a magia escolhida aumenta em CD +2.\n",
+    "especial": "",
+    "custo": "",
+    "tabela": ""
+  },
+  {
+    "nome": "Foco em Magia Aprimorado",
+    "descrição": "Escolha uma magia. Quando você lança essa magia, é muito difícil que seus inimigos resistam ao efeito.\n",
+    "requisito": "Pré-requisito: Foco em Magia com a magia escolhida.\n",
+    "beneficio": "Benefício: o aumento de dificuldade oferecido pelo talento Foco em Magia aumenta para CD +4.\n",
+    "especial": "",
+    "custo": "",
+    "tabela": ""
+  },
+  {
+    "nome": "Magia Camuflada",
+    "descrição": "Mesmo em um combate, você mantém seus poderes mágicos em segredo. Bolas de fogo brotam do chão, sem que você comprometa sua identidade.\n",
+    "requisito": "Pré-requisito: Magia sem Gestos e Magia Silenciosa.\n",
+    "beneficio": "Benefício: depois que você lançar uma magia, um oponente deve ser bem-sucedido num teste de Identificar Magia contra CD 25 - nível da magia para determinar quem é o conjurador. Cada magia lançada dá direito a um novo teste.\n",
+    "especial": "",
+    "custo": "",
+    "tabela": ""
+  },
+  {
+    "nome": "Magia dos Becos",
+    "descrição": "Você é capaz de decifrar os segredos arcanos que as ruas escondem, na forma de pichações e manchas que não fazem sentido para os leigos.\nBenefício: Você pode preparar magias diferentes lendo pichações nas paredes, panfletos jogados pelo chão, tabuletas de armazéns e oficinas... Quando for preparar suas magias, se estiver em uma cidade, você pode fazer um teste de Inteligência para preparar uma magia que você não conhece. A CD é 10+o nível da magia. Você ainda deve ser capaz de lançar a magia. Se for bem-sucedido, você pode preparar a magia normalmente; se falhar, você só pode tentar novamente no dia seguinte.\n",
+    "requisito": "Pré-requisito: lançar magias arcanas.\n",
+    "beneficio": "Benefício: Você pode preparar magias diferentes lendo pichações nas paredes, panfletos jogados pelo chão, tabuletas de armazéns e oficinas... Quando for preparar suas magias, se estiver em uma cidade, você pode fazer um teste de Inteligência para preparar uma magia que você não conhece. A CD é 10+o nível da magia. Você ainda deve ser capaz de lançar a magia. Se for bem-sucedido, você pode preparar a magia normalmente; se falhar, você só pode tentar novamente no dia seguinte.\n",
+    "especial": "",
+    "custo": "",
+    "tabela": ""
+  },
+  {
+    "nome": "Magia Natural",
+    "descrição": "Você pode lançar magias mesmo quando transformado em outra criatura.\n",
+    "requisito": "Pré-requisito: Sab 13, habilidade de forma selvagem.\n",
+    "beneficio": "Benefício: com esse talento você pode lançar magias quando está na forma selvagem.\n",
+    "especial": "",
+    "custo": "",
+    "tabela": ""
+  },
+  {
+    "nome": "Magias em Combate",
+    "descrição": "Você é habilidoso ao lançar magias em situações de perigo.\n",
+    "requisito": "",
+    "beneficio": "Benefício: você não fica desprevenido quando conjura uma magia.\n",
+    "especial": "",
+    "custo": "",
+    "tabela": ""
+  },
+  {
+    "nome": "Mago de Batalha",
+    "descrição": "Você se especializou em magias de combate, e sabe como aumentar o poder delas.\n",
+    "requisito": "Pré-requisito: Int 13, Magias em Combate, mago 4º nível.\n",
+    "beneficio": "Benefício: você soma seu modificador de Inteligência às jogadas de dano de suas magias.\n",
+    "especial": "",
+    "custo": "",
+    "tabela": ""
+  },
+  {
+    "nome": "Médico de Campo",
+    "descrição": "Você está acostumado a correr sob saraivadas de flechas, para salvar a vida de companheiros e soldados caídos.\nBenefício: você pode usar uma magia de curar ferimentos em um aliado até uma rodada depois de sua morte.\n",
+    "requisito": "Pré-requisito: capacidade de lançar magias divinas de 1º nível.\n",
+    "beneficio": "Benefício: você pode usar uma magia de curar ferimentos em um aliado até uma rodada depois de sua morte.\n",
+    "especial": "",
+    "custo": "",
+    "tabela": ""
+  },
+  {
+    "nome": "Poder do Rebanho",
+    "descrição": "Você é fortalecido pela fé de seus aliados.\n",
+    "requisito": "Pré-requisito: Carisma 13, capacidade de lançar magias divinas.\n",
+    "beneficio": "Benefício: a CD para resistir às suas magias divinas aumenta se houver devotos de seu deus rezando por você (em termos de regras, não fazendo nenhuma ação) a até 18m. O bônus varia de acordo com a quantidade de devotos: de 1 a 9 pessoas, bônus de +1. De 10 a 49 pessoas, bônus de +2. Mais de 50 pessoas (uma verdadeira missa!), bônus de +3.\n",
+    "especial": "",
+    "custo": "",
+    "tabela": ""
+  },
+  {
+    "nome": "Poder do Rebanho Aprimorado",
+    "descrição": "Seus aliados nem precisam ter muita fé para ajudá-lo — então trate de convertê-los!\n",
+    "requisito": "Pré-requisito: Poder do Rebanho.\n",
+    "beneficio": "Benefício: o benefício do talento Poder do Rebanho se aplica aos seus testes de resistência (além da CD das suas magias), e se ativa mesmo que as pessoas rezando por você não tenham a habilidade de classe ou o talento Devoto. Elas precisam apenas ter a sua divindade como padroeira. Caso haja alguma dúvida sobre um personagem ser ou não fiel ao deus, o mestre tem a palavra final.\n",
+    "especial": "",
+    "custo": "",
+    "tabela": ""
+  },
+  {
+    "nome": "Poder Mágico",
+    "descrição": "Você tem uma parcela maior de poder mágico.\n",
+    "requisito": "",
+    "beneficio": "Benefício: você recebe 1 ponto de magia adicional.\n",
+    "especial": "Especial: você pode escolher este talento diversas vezes. Cada vez que ele é escolhido além da primeira, os pontos de magia fornecidos pelo talento aumentam em +1. Por exemplo, um personagem que tenha escolhido Poder Mágico três vezes recebe um total de 6 PM adicionais (1 PM pela primeira vez, 2 PM pela segunda e 3 PM pela terceira).\n",
+    "custo": "",
+    "tabela": ""
+  },
+  {
+    "nome": "Preparar Poções",
+    "descrição": "Você pode criar poções que você ou outro personagem podem beber para receber o efeito de uma magia.\n",
+    "requisito": "Pré-requisito: capacidade de lançar magias de 2º nível.\n",
+    "beneficio": "Benefício: você pode criar poções. O pré-requisito para criar uma poção é conhecer a magia que ela irá conter (poções podem conter magias de até 3º nível que tenham uma ou mais criaturas como alvo). O preço de uma poção é igual ao nível mínimo que um conjurador precisa ter para lançar a magia contida nela x 50 TO. Se a magia tiver um componente material ou um custo em XP, você deve pagar esses custos para criar a poção.\n",
+    "especial": "",
+    "custo": "",
+    "tabela": ""
+  },
+  {
+    "nome": "Potencializar Invocação",
+    "descrição": "As criaturas que você invoca são mais poderosas.\n",
+    "requisito": "",
+    "beneficio": "Benefício: criaturas que você invoca com magias invocar recebem +2 em suas jogadas de ataque e dano.\n",
+    "especial": "",
+    "custo": "",
+    "tabela": ""
+  },
+  {
+    "nome": "Realizar Implante",
+    "descrição": "Através de processos misteriosos e complexos, você pode exertar partes monstruosas em pacientes voluntários.\n",
+    "requisito": "Pré-requisito: treinado em Cura, capacidade de lançar magias arcanas de 3º nível\n",
+    "beneficio": "Benefício: você pode realizar uma cirurgia para exertar um implante (em geral uma parte de uma criatura monstruosa) em um paciente. A cirurgia dura um dia, e você precisa de um laboratório equipado (no valor de pelo menos 1.000 PO). Ao fim do dia, deve fazer um teste de Cura contra CD 25 e um teste de Identificar Magia contra CD 20. Caso seja bem-sucedido, você conseguiu realizar o implante. O procedimento é parcialmente mágico e consome 20 PM.\n",
+    "especial": "",
+    "custo": "",
+    "tabela": ""
+  },
+  {
+    "nome": "Resíduo Mágico Curativo",
+    "descrição": "",
+    "requisito": "Pré-requisitos: treinado em Conhecimento (arcano) e Cura.\n",
+    "beneficio": "Benefício: sempre que você lançar uma magia, recebe uma quantidade de PV temporários igual ao custo em PM da magia.\n",
+    "especial": "",
+    "custo": "",
+    "tabela": ""
+  },
+  {
+    "nome": "Sacerdote Copista",
+    "descrição": "Anos de prática copiando livros e documentos aprimoraram a sua caligrafia e eficiência na criação de pergaminhos.\n",
+    "requisito": "Pré-requisitos: classe clérigo, treinado em Ofício (caligrafia), Escrever Pergaminhos.\n",
+    "beneficio": "Benefício: quando criar um pergaminho, você pode adicionar o efeito de um talento metamágico à magia contida nele. Os talentos metamágicos que podem ser adicionados desta forma são Aumentar Magia, Estender Magia, Potencializar Invocação e Potencializar Magia.\n",
+    "especial": "",
+    "custo": "",
+    "tabela": ""
+  },
+  {
+    "nome": "Tese Arcana de Graduação",
+    "descrição": "Você se formou em uma escola de magia e desenvolveu uma pesquisa arcana, criando suas próprias teorias. De acordo com sua tese, você pode alterar algumas características de magias.\n",
+    "requisito": "Pré-requisito: mago de 4º nível, estar matriculado em uma guilda ou academia de magia, passar no exame da banca.\n",
+    "beneficio": "Benefício: uma vez por dia, você pode usar um talento metamágico que você possua com custo de até +2 PM sem pagar o custo adicional e sem precisar prepará-lo.\n",
+    "especial": "",
+    "custo": "",
+    "tabela": ""
+  },
+  {
+    "nome": "Tese Arcana de Mestre",
+    "descrição": "Você é um estudioso da magia, reconhecido por outros pesquisadores. É capaz de alterar profundamente suas magias.\n",
+    "requisito": "Pré-requisito: mago de 8º nível, estar matriculado em uma guilda ou academia de magia, Tese Arcana de Graduação, passar no exame da banca.\n",
+    "beneficio": "Benefício: uma vez por dia, você pode usar um talento metamágico que você possua sem pagar o custo adicional e sem precisar prepará-lo. Além disso, o prestígio que você adquiriu na comunidade arcana lhe concede um bônus de +2 em testes de Diplomacia com outros magos.\n",
+    "especial": "",
+    "custo": "",
+    "tabela": ""
+  },
+  {
+    "nome": "Tese Arcana de Grão-Mestre",
+    "descrição": "Você é um dos maiores especialistas do mundo na sua área de pesquisa arcana. Conta com o respeito e admiração de outros magos, e pode manipular livremente suas magias.\nBenefício: uma vez por dia, você pode usar um talento metamágico qualquer (mesmo um que você não possua) sem pagar o custo adicional e sem precisar prepará-lo. Além disso, o prestígio que você adquiriu na comunidade arcana lhe concede um bônus de +4 em testes de Diplomacia com outros magos.Você tem grandes chances de ser convidado para se tornar um professor ou pesquisador arcano financiado por algum reino abastado.\n",
+    "requisito": "Pré-requisito: mago de 12º nível, estar matriculado em uma guilda ou academia de magia, Tese Arcana de Mestre, passar no exame da banca.\n",
+    "beneficio": "Benefício: uma vez por dia, você pode usar um talento metamágico qualquer (mesmo um que você não possua) sem pagar o custo adicional e sem precisar prepará-lo. Além disso, o prestígio que você adquiriu na comunidade arcana lhe concede um bônus de +4 em testes de Diplomacia com outros magos.Você tem grandes chances de ser convidado para se tornar um professor ou pesquisador arcano financiado por algum reino abastado.\n",
+    "especial": "",
+    "custo": "",
+    "tabela": ""
+  },
+  {
+    "nome": "Acelerar Magia",
+    "descrição": "Você pode lançar magias mais rapidamente.\n",
+    "requisito": "",
+    "beneficio": "Benefício: quando você usa este talento, pode lançar uma magia como uma ação livre. Lançar uma magia acelerada não deixa você desprevenido.\n",
+    "especial": "",
+    "custo": "Custo: +4 PM.\n",
+    "tabela": ""
+  },
+  {
+    "nome": "Ampliar Magia",
+    "descrição": "Você pode fazer com que uma magia afeta uma área maior.\n",
+    "requisito": "",
+    "beneficio": "Benefício: quando você usa este talento, a área da magia é duplicada (por exemplo, uma bola de fogo ampliada tem 12m de raio, em vez de 6m).\n",
+    "especial": "",
+    "custo": "Custo: +3 PM.\n",
+    "tabela": ""
+  },
+  {
+    "nome": "Aumentar Magia",
+    "descrição": "Você pode aumentar o alcance de uma magia.\nBenefício: quando você usar este talento, o alcance da magia é duplicado (por exemplo, um relâmpago aumentado tem um alcance de 90m, em vez de 45m).\n",
+    "requisito": "",
+    "beneficio": "Benefício: quando você usar este talento, o alcance da magia é duplicado (por exemplo, um relâmpago aumentado tem um alcance de 90m, em vez de 45m).\n",
+    "especial": "",
+    "custo": "Custo: +1 PM.\n",
+    "tabela": ""
+  },
+  {
+    "nome": "Elevar Magia",
+    "descrição": "Você pode tornar uma magia mais poderosa.\n",
+    "requisito": "",
+    "beneficio": "Benefício: uma magia elevada tem um nível de magia mais alto que o normal (até um máximo de 9º nível). Diferente de outros talentos metamágicos, Elevar Magia aumenta verdadeiramente o nível da magia. Todos os efeitos dependentes de nível (como CD para resistir) são calculados de acordo com o nível elevado.\n",
+    "especial": "",
+    "custo": "Custo: +1 PM por nível que se deseja aumentar.\n",
+    "tabela": ""
+  },
+  {
+    "nome": "Esculpir Magia",
+    "descrição": "",
+    "requisito": "",
+    "beneficio": "Benefício: este talento só pode ser aplicado em magias que tenham como área cilindro, cone, esfera, linha, explosão ou quadrado. Você pode trocar a área da magia para um cilindro com 3m de raio, um cone com 9m de comprimento, urna esfera com 6m de raio, uma linha com 30m comprimento ou um quadrado com 9m de lado.\n",
+    "especial": "",
+    "custo": "Custo: +1 PM.\n",
+    "tabela": ""
+  },
+  {
+    "nome": "Estender Magia",
+    "descrição": "Você sabe fazer com que uma magia dura mais tempo.\n",
+    "requisito": "",
+    "beneficio": "Benefício: a duração de uma magia é duplicada (por exemplo, um imobilizar pessoa estendido dura 2 minutos, em vez de 1 minuto).\n",
+    "especial": "",
+    "custo": "Custo: +1 PM.\n",
+    "tabela": ""
+  },
+  {
+    "nome": "Invocação Aberrante (TORMENTA)",
+    "descrição": "Você pode invocar criaturas da Tormenta.\n",
+    "requisito": "Pré-requisitos: capacidade de lançar invocar monstro, três outros talentos da Tormenta.\n",
+    "beneficio": "Benefício: suas criaturas invocadas adquirem o modelo criatura da Tormenta.\n",
+    "especial": "",
+    "custo": "Custo: +3 PM.\n",
+    "tabela": ""
+  },
+  {
+    "nome": "Magia Congelante",
+    "descrição": "Em suas mãos, o frio congela e prende seus inimigos.\n",
+    "requisito": "Pré-requisito: Substituição Elemental (frio).\n",
+    "beneficio": "Benefício: você só pode aplicar este talento em magias com o descritor \"frio\". Uma magia congelante enreda por uma rodada os alvos que falhem no teste de resistência(um alvo enredado tem -2 nas jogadas de ataque, -4 na Destreza, metade do deslocamento e é incapaz de correr ou fazer investidas). Magias sem teste de resistência permitem um teste de Fortitude contra o efeito de enredar.\n",
+    "especial": "",
+    "custo": "Custo: +1PM.\n",
+    "tabela": ""
+  },
+  {
+    "nome": "Magia Conspurcada",
+    "descrição": "Suas magias têm um toque sinistro e macabro.\n",
+    "requisito": "Pré-requisitos: habilidade de classe canalizar energia negativa, tendência Maligna.\n",
+    "beneficio": "Benefício: o dano causado pela magia preparada com este talento passa a ter o descritor profano, não sendo mais afetado por resistência a energia de nenhum tipo.\n",
+    "especial": "",
+    "custo": "Custo: +1 PM e um uso diário da habilidade canalizar energia negativa.\n",
+    "tabela": ""
+  },
+  {
+    "nome": "Magia Corrosiva ",
+    "descrição": "Em suas mãos, o ácido é mais poderoso.\n",
+    "requisito": "Pré-requisito: Substituição Elemental (ácido).\n",
+    "beneficio": "Benefício: você só pode aplicar este talento em magias com o descritor \"ácido\". Uma magia corrosiva causa dano adicional igual à metade do dano causado, na rodada seguinte à rodada em que foi lançada. Por exemplo, névoa ácida corrosiva causa 2d6 pontos de dano no início de cada turno, mais 1d6 pontos de dano na rodada seguinte. Testes de resistência não se aplicam a este dano secundário.\n",
+    "especial": "",
+    "custo": "Custo: +1PM.\n",
+    "tabela": ""
+  },
+  {
+    "nome": "Magia Eletrizante ",
+    "descrição": "Suas magias elétricas são capazes de atordoar seus alvos.\n",
+    "requisito": "Pré-requisito: Substituição Elemental (eletricidade).\n",
+    "beneficio": "Benefício: você só pode aplicar este talento em magias com o descritor \"eletricidade\". Uma magia eletrizante atordoa por uma rodada os alvos que falhem no teste de resistência. Magias sem teste de resistência permitem um teste de Fortitude contra o efeito de atordoamento.\n",
+    "especial": "",
+    "custo": "Custo: +1 PM.\n",
+    "tabela": ""
+  },
+  {
+    "nome": "Magia Explosiva ",
+    "descrição": "Em suas mãos, o fogo pode gerar explosões poderosas.\n",
+    "requisito": "Pré-requisito: Substituição Elemental (fogo)\n",
+    "beneficio": "Benefício: você só pode aplicar este talento em magias com o descritor \"fogo\". Uma magia explosiva arremessa alvos que falhem no teste de resistência 3 metros para trás, deixando-os derrubados. Magias sem teste de resistência permitem um teste de Reflexos contra o efeito de arremesso.\n",
+    "especial": "",
+    "custo": "Custo: +1PM.\n",
+    "tabela": ""
+  },
+  {
+    "nome": "Magia Primordial",
+    "descrição": "Suas magias são brutas e diretas, assim como a natureza.\n",
+    "requisito": "Pré-requisito: habilidade de classe forma selvagem.\n",
+    "beneficio": "Benefício: o dano causado pela magia preparada com este talento passa a ser dano físico (corte, esmagamento ou perfuração). Este dano está sujeito à redução de dano apropriada (por exemplo, 5/esmagamento), mas não a qualquer tipo de resistência a energia ou a magia.\n",
+    "especial": "",
+    "custo": "Custo: +1 PM e um uso diários da habilidade forma selvagem.\n",
+    "tabela": ""
+  },
+  {
+    "nome": "Magia Santificada",
+    "descrição": "Suas magias são puras e abençoadas.\n",
+    "requisito": "Pré-requisitos: habilidade de classe canalizar energia positiva, tendência Bondosa.\n",
+    "beneficio": "Benefício: o dano causado pela magia preparada com este talento passa a ter o descritor sagrado, não sendo mais afetado por resistência a energia de nenhum tipo.\n",
+    "especial": "",
+    "custo": "Custo: +1 PM e um uso diário da habilidade canalizar energia positiva.\n",
+    "tabela": ""
+  },
+  {
+    "nome": "Magia sem Gestos",
+    "descrição": "Você consegue lançar magias sem gestos.\n",
+    "requisito": "",
+    "beneficio": "Benefício: uma magia sem gestos pode ser lançada sem nenhum componente gestual.\n",
+    "especial": "",
+    "custo": "Custo: +1 PM.\n",
+    "tabela": ""
+  },
+  {
+    "nome": "Magia Silenciosa",
+    "descrição": "Você consegue lançar magias sem falar.\n",
+    "requisito": "",
+    "beneficio": "Benefício: uma magia silenciosa pode ser lançada sem nenhum componente verbal.\n",
+    "especial": "",
+    "custo": "Custo: +1 PM.\n",
+    "tabela": ""
+  },
+  {
+    "nome": "Maximizar Magia",
+    "descrição": "Você consegue fazer com que suas magias tenham efeito máximo.\nBenefício: quando você usa este talento, todos os efeitos numéricos variáveis da magia são aumentados ao máximo. Por exemplo, uma bola de fogo capaz de causa 6d6 pontos de dano, quando maximizada, causará 36 pontos de dano (mais quaisquer bônus), sem a necessidade de rolar dados.\n",
+    "requisito": "",
+    "beneficio": "Benefício: quando você usa este talento, todos os efeitos numéricos variáveis da magia são aumentados ao máximo. Por exemplo, uma bola de fogo capaz de causa 6d6 pontos de dano, quando maximizada, causará 36 pontos de dano (mais quaisquer bônus), sem a necessidade de rolar dados.\n",
+    "especial": "",
+    "custo": "Custo: +3 PM.\n",
+    "tabela": ""
+  },
+  {
+    "nome": "Potencializar Magia",
+    "descrição": "Você faz com que suas magias tenham efeito maior.\n",
+    "requisito": "",
+    "beneficio": "Benefício: quando você usa este talento, todos os efeitos numéricos variáveis da magia são aumentados em 50%. Por exemplo, um relâmpago capaz de causar 6d6 pontos de dano, após rolar 21, causa mais 50% (neste caso, 10), para um total de 31 pontos de dano. Quaisquer bônus que você tenha também são potencializados.\n",
+    "especial": "",
+    "custo": "Custo: +2 PM.\n",
+    "tabela": ""
+  },
+  {
+    "nome": "Substituição Elemental",
+    "descrição": "Você é capaz de manipular as energias elementais em formas específicas.\nBenefício: escolha um descritor elemental, entre ácido, eletricidade, fogo, frio ou sônico. Se você for um feiticeiro, pode trocar o descritor de uma magia que cause dano para o descritor escolhido a qualquer momento. Se for um mago, pode preparar uma magia que cause dano e trocar o seu descritor para o descritor escolhido. Por exemplo, uma bola de fogo causa 6d6 pontos de dano de fogo. Com Substituição Elemental (ácido), pode tornar-se uma bola de ácido, causando 6d6 pontos de dano de ácido.\n",
+    "requisito": "",
+    "beneficio": "Benefício: escolha um descritor elemental, entre ácido, eletricidade, fogo, frio ou sônico. Se você for um feiticeiro, pode trocar o descritor de uma magia que cause dano para o descritor escolhido a qualquer momento. Se for um mago, pode preparar uma magia que cause dano e trocar o seu descritor para o descritor escolhido. Por exemplo, uma bola de fogo causa 6d6 pontos de dano de fogo. Com Substituição Elemental (ácido), pode tornar-se uma bola de ácido, causando 6d6 pontos de dano de ácido.\n",
+    "especial": "Especial: você pode escolher este talento várias vezes. A cada vez, ele se aplica a um descritor elemental diferente. Assim, você pode ter Substituição Elemental (ácido), Substituição Elemental (eletricidade), Substituição Elemental (fogo) e assim por diante.\n",
+    "custo": "Custo: +0 PM.\n",
+    "tabela": ""
+  },
+  {
+    "nome": "Toque Longínquo",
+    "descrição": "Suas magias de toque vão além do alcance de seus braços.\n",
+    "requisito": "",
+    "beneficio": "Benefício: este talento só pode ser aplicado em magias de toque. Uma magia de toque longínquo passa a ter alcance de 12m. Você ainda deve fazer um ataque de toque à distância para acertar o alvo.\n",
+    "especial": "",
+    "custo": "Custo: +1 PM.\n",
     "tabela": ""
   }
 ]

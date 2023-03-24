@@ -11,11 +11,24 @@ class talento {
     tabela: String
 }
 
+class magia {
+    nome: String
+    nivel: String
+    Temp_Exec: String
+    alcance: String
+    alvo: String
+    duracao: String
+    resistencia: String
+}
+
 let TALENTO:any = []
+let MAGIA:any = []
 
-const url = ['https://tsrd.fandom.com/pt-br/wiki/Talentos_de_Combate','https://tsrd.fandom.com/pt-br/wiki/Talentos_de_Magia','https://tsrd.fandom.com/pt-br/wiki/Talentos_de_Per%C3%ADcia']
+const urlT = ['https://tsrd.fandom.com/pt-br/wiki/Talentos_de_Combate','https://tsrd.fandom.com/pt-br/wiki/Talentos_de_Magia','https://tsrd.fandom.com/pt-br/wiki/Talentos_de_Per%C3%ADcia']
+const urlM = ['https://tsrd.fandom.com/pt-br/wiki/Magias_A']
 
-async function scrape(url){
+
+async function scrapeTalento(url){
     const res = await fetch(url)
     const html = await res.text()
     const $ = cheerio.load(html)
@@ -47,11 +60,35 @@ async function scrape(url){
    await writeFile('talentos.json',JSON.stringify(TALENTO, null, 2))
 }    
 
-async function organize() {
-    const file = await readFile('talentos.json','utf-8')
-    const lista = JSON.parse(file)
-    console.log(lista)
+async function scrapeMagia(url) {
+    const res = await fetch(url)
+    const html = await res.text()
+    const $ = cheerio.load(html)
+    const quantH = $('div').find('h2')
+    
+    for(let i = 0; i < quantH.length; i++){
+        const $h  = $('h2').eq(i).text()
+        const $n  = $('h2').eq(i).nextUntil('h2').find('li:contains(Nível)').text()
+        const $t  = $('h2').eq(i).nextUntil('h2').find('li:contains(Tempo de Execução)').text()
+        const $ac = $('h2').eq(i).nextUntil('h2').find('li:contains(Alcance)').text()
+        const $av = $('h2').eq(i).nextUntil('h2').find('li:contains(Área),li:contains(Alvo)').text()
+        const $d  = $('h2').eq(i).nextUntil('h2').find('li:contains(Duração)').text()
+        const $r  = $('h2').eq(i).nextUntil('h2').find('li:contains(Teste de Resistência)').text()
+        
+        const mag = new magia
+        
+        mag.nome = $h        
+        mag.nivel = $n
+        mag.Temp_Exec = $t        
+        mag.alcance = $ac        
+        mag.alvo = $av
+        mag.duracao = $d
+        mag.resistencia = $r    
+        
+        MAGIA.push(mag)
+        
+    }
+    await writeFile('magias.json',JSON.stringify(MAGIA, null, 2))
 }
 
-// url.forEach(scrape)
-organize()
+ urlM.forEach(scrapeMagia)

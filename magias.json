@@ -1,0 +1,866 @@
+[
+  {
+    "nome": "Índice",
+    "nivel": "",
+    "Temp_Exec": "",
+    "alcance": "",
+    "alvo": "",
+    "duracao": "",
+    "resistencia": ""
+  },
+  {
+    "nome": "Abençoar Água",
+    "nivel": "Nível: divina 1 (cura);",
+    "Temp_Exec": "Tempo de Execução: 1 minuto;",
+    "alcance": "Alcance: toque;",
+    "alvo": "Alvo: 1 frasco de água;",
+    "duracao": "Duração: instantânea;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Abraço Gélido",
+    "nivel": "Nível: arcana 2 (frio);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: pessoal;",
+    "alvo": "Alvo: 1 criatura que esteja agarrando o conjurador;",
+    "duracao": "Duração: 1 minuto;",
+    "resistencia": "Teste de Resistência: Fortitude parcial (veja o texto);"
+  },
+  {
+    "nome": "Abraço Gélido Maior",
+    "nivel": "Nível: arcana 6 (frio);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: pessoal;",
+    "alvo": "Alvo: 1 criatura que esteja agarrando o conjurador;",
+    "duracao": "Duração: 1 minuto;",
+    "resistencia": "Teste de Resistência: Fortitude parcial (veja o texto);"
+  },
+  {
+    "nome": "Abrir/Fechar",
+    "nivel": "Nível: arcana 0 (transmutação);",
+    "Temp_Exec": "Tempo de Execução: ação de movimento;",
+    "alcance": "Alcance: 9m;",
+    "alvo": "Alvo: 1 objeto de até 20kg que possa ser aberto ou fechado;",
+    "duracao": "Duração: instantânea;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Acalmar Animal",
+    "nivel": "Nível: divina 1 (encantamento);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: 9m;",
+    "alvo": "Alvo: 1 animal;",
+    "duracao": "Duração: 1 minuto;",
+    "resistencia": "Teste de Resistência: Vontade anula;"
+  },
+  {
+    "nome": "Acalmar Emoções",
+    "nivel": "Nível: divina 2 (encantamento);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: 30m;",
+    "alvo": "Área: dispersão com 6m de raio;",
+    "duracao": "Duração: concentração, até 1 minuto;",
+    "resistencia": "Teste de Resistência: Vontade anula;"
+  },
+  {
+    "nome": "Adaptação Ambiental",
+    "nivel": "Nível: arcana 5 (transmutação);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: toque;",
+    "alvo": "Alvo: uma criatura;",
+    "duracao": "Duração: 1 hora;",
+    "resistencia": ""
+  },
+  {
+    "nome": "Adivinhação",
+    "nivel": "Nível: divina 4 (adivinhação);",
+    "Temp_Exec": "Tempo de Execução: 10 minutos;",
+    "alcance": "Alcance: pessoal;",
+    "alvo": "Alvo: você;",
+    "duracao": "Duração: instantânea;",
+    "resistencia": ""
+  },
+  {
+    "nome": "Agilidade do Gato",
+    "nivel": "Nível: arcana 2, divina 2 (transmutação);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: toque;",
+    "alvo": "Alvo: 1 criatura;",
+    "duracao": "Duração: 1 minuto;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Agilidade do Gato em Massa",
+    "nivel": "Nível: arcana 6, divina 6 (transmutação);",
+    "Temp_Exec": "",
+    "alcance": "Alcance: 9 metros;",
+    "alvo": "Alvo: 5 criaturas;",
+    "duracao": "",
+    "resistencia": ""
+  },
+  {
+    "nome": "Ajuda",
+    "nivel": "Nível: divina 2 (cura);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: toque;",
+    "alvo": "Alvo: 1 criatura;",
+    "duracao": "Duração: 1 minuto;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Alarme",
+    "nivel": "Nível: arcana 1 (abjuração);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: 9m;",
+    "alvo": "Área: emanação de 6m de raio centrada em um ponto no espaço;",
+    "duracao": "Duração: 1 dia;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Alarme Maior",
+    "nivel": "Nível: arcana 4 (abjuração);",
+    "Temp_Exec": "Tempo de Execução: 1 minuto;",
+    "alcance": "Alcance: 9m;",
+    "alvo": "Área: emanação de 90m de raio centrada em um ponto no espaço;",
+    "duracao": "Duração: 1 dia;",
+    "resistencia": "Teste de Resistência: especial (veja o texto);"
+  },
+  {
+    "nome": "Aliado Extra-planar",
+    "nivel": "Nível: divina 6 (invocação);",
+    "Temp_Exec": "",
+    "alcance": "",
+    "alvo": "",
+    "duracao": "",
+    "resistencia": ""
+  },
+  {
+    "nome": "Aliado Extra-planar Maior",
+    "nivel": "Nível:divina 8 (invocação);",
+    "Temp_Exec": "",
+    "alcance": "",
+    "alvo": "",
+    "duracao": "",
+    "resistencia": ""
+  },
+  {
+    "nome": "Aliado Extra-planar Menor",
+    "nivel": "Nível: divina 4 (invocação);",
+    "Temp_Exec": "Tempo de Execução: 10 minutos;",
+    "alcance": "Alcance: 1 espírito de até 6° nível;",
+    "alvo": "",
+    "duracao": "Duração: instantânea;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Alterar Forma",
+    "nivel": "Nível: arcana 9, divina 9 (transmutação);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: pessoal;",
+    "alvo": "Alvo: você;",
+    "duracao": "Duração: 1 hora (D);",
+    "resistencia": ""
+  },
+  {
+    "nome": "Alterar Paisagem",
+    "nivel": "Nível: divina 2 (invocação);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: 30m;",
+    "alvo": "",
+    "duracao": "Duração: 10 minutos;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Alterar-se",
+    "nivel": "Nível: arcana 2 (transmutação);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: pessoal;",
+    "alvo": "Alvo: você;",
+    "duracao": "Duração: 1 hora (D);",
+    "resistencia": ""
+  },
+  {
+    "nome": "Amaldiçoar Água",
+    "nivel": "Nível: divina 1 (necromancia);",
+    "Temp_Exec": "Tempo de Execução: 1 minuto;",
+    "alcance": "Alcance: toque;",
+    "alvo": "Alvo: 1 frasco de água;",
+    "duracao": "Duração: instantânea;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Amolecer Terra e Pedra",
+    "nivel": "Nível: divina 2 (terra);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: 9m;",
+    "alvo": "Área: 1 quadrado de 9m de lado;",
+    "duracao": "Duração: instantânea;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Amor Incontestável do Mago",
+    "nivel": "Nível: arcana 2 (encantamento);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: toque;",
+    "alvo": "Alvo: 1 criatura;",
+    "duracao": "Duração: 1 dia;",
+    "resistencia": "Teste de Resistência: vontade anula;"
+  },
+  {
+    "nome": "Ampliar Animal",
+    "nivel": "Nível: arcana 5, divina 5 (transmutação);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: 30m;",
+    "alvo": "Alvo: 1 animal;",
+    "duracao": "Duração: 10 minuto;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Ampliar Plantas",
+    "nivel": "Nível: divina 3 (transmutação);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: 90m;",
+    "alvo": "Área: dispersão com 90m de raio;",
+    "duracao": "Duração: instantânea;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Analisar Encantamento ",
+    "nivel": "Nível: arcana 6 (adivinhação);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: 9m;",
+    "alvo": "Alvos: até 10 criaturas ou objetos;",
+    "duracao": "Duração: 1 minuto;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Âncora Dimensional ",
+    "nivel": "Nível: arcana 4, divina 4 (abjuração);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: 30m;",
+    "alvo": "",
+    "duracao": "Duração: 10 minutos;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Âncora Gravitacional",
+    "nivel": "Nível: arcana 2 (essência, terra);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: 9m;",
+    "alvo": "Alvo: uma criatura Grande ou menor;",
+    "duracao": "Duração: 1 minuto;",
+    "resistencia": "Teste de Resistência: Fortitude Anula;"
+  },
+  {
+    "nome": "Âncora Planar",
+    "nivel": "Nível: arcana 6 (invocação);",
+    "Temp_Exec": "",
+    "alcance": "",
+    "alvo": "Alvo: 1 espírito de até 12º nível;",
+    "duracao": "",
+    "resistencia": ""
+  },
+  {
+    "nome": "Âncora Planar Maior",
+    "nivel": "Nível: arcana 8 (invocação);",
+    "Temp_Exec": "",
+    "alcance": "",
+    "alvo": "Alvo: 1 espírito de até 18º nível;",
+    "duracao": "",
+    "resistencia": ""
+  },
+  {
+    "nome": "Âncora Planar Menor",
+    "nivel": "Nível: arcana 5 (invocação);",
+    "Temp_Exec": "Tempo de Execução: 10 minutos;",
+    "alcance": "Alcance: 9m;",
+    "alvo": "Alvo: 1 espírito de até 6° nível;",
+    "duracao": "Duração: instantânea;",
+    "resistencia": "Teste de Resistência: Vontade anula;"
+  },
+  {
+    "nome": "Andar no Ar",
+    "nivel": "Nível: divina 4 (transmutação);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: toque;",
+    "alvo": "Alvo: 1 criatura;",
+    "duracao": "Duração: 10 minutos;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Andar nas Sombras",
+    "nivel": "Nível: arcana 6 (ilusão);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: toque;",
+    "alvo": "Alvos: até 5 criaturas voluntárias;",
+    "duracao": "",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Animação Ilusória",
+    "nivel": "Nível: arcana 8 (ilusão);",
+    "Temp_Exec": "Tempo de Execução: 10 minutos;",
+    "alcance": "Alcance: 9m;",
+    "alvo": "Área: 1 cubo de 90m de lado;",
+    "duracao": "",
+    "resistencia": "Teste de Resistência: nenhum ou Vontade anula (veja texto);"
+  },
+  {
+    "nome": "Animar Corda",
+    "nivel": "Nível: arcana 1 (transmutação);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: 9m;",
+    "alvo": "Alvo: 1 corda (ou objeto similar) de até 15m;",
+    "duracao": "Duração: 1 minuto;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Animar Corrente",
+    "nivel": "Nível: arcana 3 (transmutação);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: 9m;",
+    "alvo": "Alvo: 1 corrente de até 1,5m;",
+    "duracao": "Duração: 1 minuto;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Animar Objetos",
+    "nivel": "Nível: arcana 6, divina 6 (transmutação);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: 30m;",
+    "alvo": "Alvos: até 8 objetos Pequenos, 4 objetos Médios, 2 objetos Grandes ou 1 objeto Enorme;",
+    "duracao": "Duração: 1 minuto;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Animar Plantas",
+    "nivel": "Nível: divina 7 (transmutação);",
+    "Temp_Exec": "",
+    "alcance": "",
+    "alvo": "",
+    "duracao": "",
+    "resistencia": ""
+  },
+  {
+    "nome": "Antipatia",
+    "nivel": "Nível: arcana 8, divina 9 (encantamento);",
+    "Temp_Exec": "Tempo de Execução: 1 hora;",
+    "alcance": "Alcance: 9m;",
+    "alvo": "Alvo ou Área: 1 objeto ou 1 cubo com 30m de lado;",
+    "duracao": "Duração: 1 dia;",
+    "resistencia": "Teste de Resistência: Vontade parcial;"
+  },
+  {
+    "nome": "Ao Alcance da Mão",
+    "nivel": "Nível: arcana 2, divina 2 (água ou terra);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: toque;",
+    "alvo": "Alvo: 1 criatura;",
+    "duracao": "Duração: 1 minuto;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Apagar",
+    "nivel": "Nível: arcana 1 (transmutação);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: 9m;",
+    "alvo": "Alvo: 1 pergaminho (ou objeto similar);",
+    "duracao": "Duração: instantânea;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Aparição de Megalokk (absoluta)",
+    "nivel": "",
+    "Temp_Exec": "Tempo de Execução: Ação Completa;",
+    "alcance": "Alcance: 90 Metros;",
+    "alvo": "",
+    "duracao": "Duração: 3 rodadas;",
+    "resistencia": "Teste de Resistência: varia (veja abaixo);"
+  },
+  {
+    "nome": "Apavorante Gás do Bardo",
+    "nivel": "Nível: arcana 0 (ar);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: 9m;",
+    "alvo": "Alvo: 1 criatura;",
+    "duracao": "Duração: 1 minuto;",
+    "resistencia": "Teste de Resistência: Fortitude anula;"
+  },
+  {
+    "nome": "Aprimorar Familiar",
+    "nivel": "Nível: arcana 1 (transmutação);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: 9m;",
+    "alvo": "Alvo: seu familiar;",
+    "duracao": "Duração: 1 hora;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Aprisionamento",
+    "nivel": "Nível: arcana 9 (abjuração);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: toque;",
+    "alvo": "Alvo: 1 criatura;",
+    "duracao": "Duração: instantânea;",
+    "resistencia": "Teste de Resistência: Vontade anula;"
+  },
+  {
+    "nome": "Aprisionar a Alma",
+    "nivel": "Nível: arcana 8 (necromancia);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: 9m;",
+    "alvo": "Alvo: 1 criatura;",
+    "duracao": "Duração: instantânea;",
+    "resistencia": "Teste de Resistência: Vontade anula ou nenhum (veja texto);"
+  },
+  {
+    "nome": "Arca Secreta",
+    "nivel": "Nível: arcana 5;",
+    "Temp_Exec": "Tempo de Execução: 10 minutos;",
+    "alcance": "Alcance: 1 baú e até 250kg de equipamento;",
+    "alvo": "Alvo: 2 meses;",
+    "duracao": "Duração: instantânea;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Ardil do Conjurador",
+    "nivel": "Nível: arcana 4 (abjuração,essência);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: 9m;",
+    "alvo": "Alvo: 1 criatura;",
+    "duracao": "Duração: 1 minuto;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Ardil do Guerreiro",
+    "nivel": "Nível: arcana 4 (abjuração,essência);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: 9m;",
+    "alvo": "Alvo: você;",
+    "duracao": "Duração: 1 minuto;",
+    "resistencia": "Teste de Resistência: Vontade anula;"
+  },
+  {
+    "nome": "Área Escorregadia",
+    "nivel": "Nível: arcana 1 (água);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: 9m;",
+    "alvo": "Alvo ou Área: 1 objeto ou quadrado de 3m de lado;",
+    "duracao": "Duração: 1 minuto;",
+    "resistencia": "Teste de Resistência: Reflexos (veja texto);"
+  },
+  {
+    "nome": "Arma de Energia",
+    "nivel": "Nível: arcana 3 (transmutação);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: toque;",
+    "alvo": "Alvo: 1 arma;",
+    "duracao": "Duração: 1 minuto;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Arma do Rompimento",
+    "nivel": "Nível: divina 5 (transmutação);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: toque;",
+    "alvo": "Alvo: 1 arma de corpo-a-corpo;",
+    "duracao": "Duração: 1 minuto;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Arma Elemental",
+    "nivel": "Nível: arcana 1 (eletricidade, fogo ou frio);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: toque;",
+    "alvo": "Alvo: 1 arma;",
+    "duracao": "Duração: 1 minuto;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Arma Elemental em Massa",
+    "nivel": "Nível: arcana 5 (eletricidade, fogo ou frio);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: 9m;",
+    "alvo": "Alvo: até 5 armas;",
+    "duracao": "Duração: 1 minuto;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Arma Espinhenta",
+    "nivel": "Nível: divina 1 (transmutação);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: toque;",
+    "alvo": "Alvo: 1 cajado, clava ou porrete mundano;",
+    "duracao": "Duração: 1 hora;",
+    "resistencia": "Teste de Resistência: nenhum."
+  },
+  {
+    "nome": "Arma Espinhenta Maior",
+    "nivel": "Nível: divina 3 (transmutação).",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: toque;",
+    "alvo": "Alvo: 1 cajado, clava ou porrete mundano;",
+    "duracao": "Duração: 1 hora;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Arma Espinhenta Suprema",
+    "nivel": "Nível: divina 5 (transmutação);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: toque;",
+    "alvo": "Alvo: 1 cajado, clava ou porrete mundano;",
+    "duracao": "Duração: 1 hora;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Arma Espiritual",
+    "nivel": "Nível: divina 2;",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: 30m + 3m /nivel;",
+    "alvo": "",
+    "duracao": "Duração: 1 minuto;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Arma Gloriosa",
+    "nivel": "Nível: divina 1 (bem, encantamento);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: toque;",
+    "alvo": "Alvo: 1 arma mágica;",
+    "duracao": "Duração: 1 minuto;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Arma Mágica",
+    "nivel": "Nível: arcana 1, divina 1 (transmutação);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: toque;",
+    "alvo": "Alvo: 1 arma mundana;",
+    "duracao": "Duração: 1 minuto;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Arma Mágica Maior",
+    "nivel": "Nível: arcana 3, divina 4 (transmutação);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: toque;",
+    "alvo": "Alvo: 1 arma;",
+    "duracao": "Duração: 1 hora;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Arma Mágica Suprema",
+    "nivel": "Nível: arcana 5, divina 6 (transmutação); ",
+    "Temp_Exec": "Tempo de Execução: ação padrão; ",
+    "alcance": "Alcance: toque; ",
+    "alvo": "Alvo: 1 arma; ",
+    "duracao": "Duração: 1 hora; ",
+    "resistencia": "Teste de Resistência: nenhum; "
+  },
+  {
+    "nome": "Arma Vampírica",
+    "nivel": "Nível: arcana 4 (necromancia);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: toque;",
+    "alvo": "Alvo: 1 arma;",
+    "duracao": "Duração: 1 minuto;",
+    "resistencia": "Teste de Resistência: nenhum; "
+  },
+  {
+    "nome": "Armadilha de Corda",
+    "nivel": "Nível: divina 3 (transmutação);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: toque;",
+    "alvo": "Alvo: 1 corda (ou objeto similar);",
+    "duracao": "Duração: permanente até ser descarregada;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Armadilha de Fogo",
+    "nivel": "Nível: arcana 4, divina 2 (fogo);",
+    "Temp_Exec": "Tempo de Execução: 10 minutos;",
+    "alcance": "Alcance: toque;",
+    "alvo": "Alvo: 1 objeto;",
+    "duracao": "Duração: permanente até ser descarregada;",
+    "resistencia": "Teste de Resistência: nenhum ou Reflexos reduz à metade;"
+  },
+  {
+    "nome": "Armadilha Ilusória",
+    "nivel": "Nível: arcana 2 (ilusão);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: toque;",
+    "alvo": "Alvo: 1 objeto;",
+    "duracao": "Duração: permanente (D);",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Armadura Arcana",
+    "nivel": "Nível: arcana 1 (Abjuração);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: toque;",
+    "alvo": "Alvo: 1 criatura;",
+    "duracao": "Duração: 1 hora;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Armadura Arcana Maior",
+    "nivel": "Nível: arcana 3 (Abjuração);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: toque;",
+    "alvo": "Alvo: 1 criatura;",
+    "duracao": "Duração: 1 hora;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Armadura Arcana Suprema",
+    "nivel": "Nível: arcana 5 (Abjuração);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: toque;",
+    "alvo": "Alvo: 1 criatura;",
+    "duracao": "Duração: 1 hora;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Armadura de Trevas",
+    "nivel": "Nível: divina 5 (escuridão);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: pessoal;",
+    "alvo": "",
+    "duracao": "Duração: 1 dia;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Armadura Gloriosa",
+    "nivel": "Nível: divina 2 (bem, encantamento);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: toque;",
+    "alvo": "Alvo: 1 armadura mágica;",
+    "duracao": "Duração: 1 minuto;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Arrombar",
+    "nivel": "Nível: arcana 2 (transmutação);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: 9m;",
+    "alvo": "Alvo: 1 porta ou objeto similar;",
+    "duracao": "Duração: instantânea;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Assassino Fantasmagórico",
+    "nivel": "Nível: arcana 4 (ilusão, medo);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: 30m;",
+    "alvo": "Alvo: 1 criatura;",
+    "duracao": "Duração: instantânea;",
+    "resistencia": "Teste de Resistência: Vontade anula, Fortitude parcial (veja texto);"
+  },
+  {
+    "nome": "Astúcia da Raposa",
+    "nivel": "Nível: arcana 2 (transmutação);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: toque;",
+    "alvo": "Alvo: 1 criatura;",
+    "duracao": "Duração: 1 minuto;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Astúcia da Raposa em Massa",
+    "nivel": "Nível: arcana 6, divina 6 (transmutação);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: 9m;",
+    "alvo": "Alvo: até 5 criaturas;",
+    "duracao": "",
+    "resistencia": ""
+  },
+  {
+    "nome": "Aspecto do Dragão",
+    "nivel": "Nível: arcana 5 (transmutação);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: pessoal;",
+    "alvo": "Alvo: você;",
+    "duracao": "Duração: 1 dia;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Aspecto da Nagah ",
+    "nivel": "Nível:arcana 7 (transmutação);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: pessoal;",
+    "alvo": "Alvo: você;",
+    "duracao": "Duração: 1 dia;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Aspecto das Sombras",
+    "nivel": "Nível: arcana 6 (escuridão, ilusão);",
+    "Temp_Exec": "Tempo de Execução: Ação Padrão;",
+    "alcance": "Alcance: pessoal;",
+    "alvo": "Alvo: Você;",
+    "duracao": "Duração: 1 dia;",
+    "resistencia": "Teste de Resistência: Nenhum;"
+  },
+  {
+    "nome": "Aspecto do Vampiro ",
+    "nivel": "Nível: arcana 4, divina 4 (necromancia);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: pessoal;",
+    "alvo": "Alvo: você;",
+    "duracao": "Duração: 1 dia;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Atacar a Sorte ",
+    "nivel": "Nível:arcana 2, divina 2 (adivinhação);",
+    "Temp_Exec": "Tempo de Execução:ação padrão;",
+    "alcance": "Alcance:15m;",
+    "alvo": "Alvo:1 criatura;",
+    "duracao": "Duração:1 dia;",
+    "resistencia": "Teste de Resistência: Vontade anula;"
+  },
+  {
+    "nome": "Ataque Certeiro",
+    "nivel": "Nível: arcana 1 (adivinhação);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: pessoal;",
+    "alvo": "Alvo: você;",
+    "duracao": "Duração: veja texto;",
+    "resistencia": ""
+  },
+  {
+    "nome": "Ataque Certeiro Maior",
+    "nivel": "Nível: arcana 4 (adivinhação);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: pessoal;",
+    "alvo": "Alvo: você;",
+    "duracao": "Duração: veja texto;",
+    "resistencia": ""
+  },
+  {
+    "nome": "Ataque Visual",
+    "nivel": "Nível: arcana 6 (necromancia);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: 9m;",
+    "alvo": "Alvo: 1 criatura por rodada;",
+    "duracao": "Duração: 5 rodadas;",
+    "resistencia": "Teste de Resistência: Fortitude anula;"
+  },
+  {
+    "nome": "Aterrorizar",
+    "nivel": "Nível: arcana 2 (medo);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: 9m;",
+    "alvo": "Alvo: 1 criatura;",
+    "duracao": "Duração: 1d4 rodadas ou 1 rodada;",
+    "resistencia": "Teste de Resistência: Vontade Parcial;"
+  },
+  {
+    "nome": "Augúrio",
+    "nivel": "Nível: divina 2 (adivinhação);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: pessoal;",
+    "alvo": "Alvo: você;",
+    "duracao": "Duração: instantânea;",
+    "resistencia": ""
+  },
+  {
+    "nome": "Aumentar Pessoa",
+    "nivel": "Nível: arcana 1 (transmutação);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: 9m;",
+    "alvo": "Alvo: 1 humanóide;",
+    "duracao": "Duração: 10 minutos;",
+    "resistencia": "Teste de Resistência: nenhum;"
+  },
+  {
+    "nome": "Aumentar Pessoa em Massa",
+    "nivel": "Nível: arcana 4 (transmutação);",
+    "Temp_Exec": "",
+    "alcance": "",
+    "alvo": "Alvos: até 5 humanoides;",
+    "duracao": "",
+    "resistencia": ""
+  },
+  {
+    "nome": "Aura de Morte",
+    "nivel": "Nível: arcana 4 (necromancia);",
+    "Temp_Exec": "Tempo de Execução:ação padrão;",
+    "alcance": "Alcance:toque;",
+    "alvo": "Alvo ou Área:  emanação com 6m de raio; ",
+    "duracao": "Duração:1 minuto;",
+    "resistencia": "Teste de Resistência:nenhum ou Vontade (veja o texto);"
+  },
+  {
+    "nome": "Aura Mágica",
+    "nivel": "Nível: arcana 1 (ilusão);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: toque;",
+    "alvo": "Alvo: 1 objeto;",
+    "duracao": "Duração: 1 dia;",
+    "resistencia": "Teste de Resistência: nenhum ou Vontade (veja o texto);"
+  },
+  {
+    "nome": "Aura Profana",
+    "nivel": "Nível: divina 8 (mal);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: 9m;",
+    "alvo": "Alvo: até 5 criaturas;",
+    "duracao": "Duração: 1 minuto;",
+    "resistencia": "Teste de Resistência: veja texto;"
+  },
+  {
+    "nome": "Aura Sagrada",
+    "nivel": "Nível: divina 8 (bem);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: 9m;",
+    "alvo": "Alvo: até 5 criaturas;",
+    "duracao": "Duração: 1 minuto;",
+    "resistencia": "Teste de Resistência: veja texto;"
+  },
+  {
+    "nome": "Auxílio Divino",
+    "nivel": "Nível: divina 1 (transmutação);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: pessoal;",
+    "alvo": "Alvo: você;",
+    "duracao": "Duração: 1 minuto;",
+    "resistencia": ""
+  },
+  {
+    "nome": "Azar Atípico",
+    "nivel": "Nível: arcana 2, divina 2 (caos);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: 9m;",
+    "alvo": "Alvo: 1 criatura;",
+    "duracao": "Duração: instantânea;",
+    "resistencia": "Teste de Resistência: Vontade Anula;"
+  },
+  {
+    "nome": "Aziago",
+    "nivel": "Nível: arcana 3, divina 3 (caos);",
+    "Temp_Exec": "Tempo de Execução: ação padrão;",
+    "alcance": "Alcance: 9m;",
+    "alvo": "Alvo: 1 criatura;",
+    "duracao": "Duração: 1 minuto;",
+    "resistencia": "Teste de Resistência: Vontade anula;"
+  },
+  {
+    "nome": "Aziago Maior",
+    "nivel": "Nível: arcana 6, divina 6 (caos);",
+    "Temp_Exec": "",
+    "alcance": "",
+    "alvo": "",
+    "duracao": "",
+    "resistencia": ""
+  },
+  {
+    "nome": "\n\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t",
+    "nivel": "",
+    "Temp_Exec": "",
+    "alcance": "",
+    "alvo": "",
+    "duracao": "",
+    "resistencia": ""
+  }
+]
