@@ -25,7 +25,7 @@ let TALENTO:any = []
 let MAGIA:any = []
 
 const urlT = ['https://tsrd.fandom.com/pt-br/wiki/Talentos_de_Combate','https://tsrd.fandom.com/pt-br/wiki/Talentos_de_Magia','https://tsrd.fandom.com/pt-br/wiki/Talentos_de_Per%C3%ADcia']
-const urlM = ['https://tsrd.fandom.com/pt-br/wiki/Magias_A']
+const urlM = ['https://tsrd.fandom.com/pt-br/wiki/Magias_A','https://tsrd.fandom.com/pt-br/wiki/Magias_B','https://tsrd.fandom.com/pt-br/wiki/Magias_C','https://tsrd.fandom.com/pt-br/wiki/Magias_D','https://tsrd.fandom.com/pt-br/wiki/Magias_E','https://tsrd.fandom.com/pt-br/wiki/Magias_F','https://tsrd.fandom.com/pt-br/wiki/Magias_G','https://tsrd.fandom.com/pt-br/wiki/Magias_H','https://tsrd.fandom.com/pt-br/wiki/Magias_I','https://tsrd.fandom.com/pt-br/wiki/Magias_J','https://tsrd.fandom.com/pt-br/wiki/Magias_L','https://tsrd.fandom.com/pt-br/wiki/Magias_M','https://tsrd.fandom.com/pt-br/wiki/Magias_N','https://tsrd.fandom.com/pt-br/wiki/Magias_O','https://tsrd.fandom.com/pt-br/wiki/Magias_P','https://tsrd.fandom.com/pt-br/wiki/Magias_Q','https://tsrd.fandom.com/pt-br/wiki/Magias_R','https://tsrd.fandom.com/pt-br/wiki/Magias_S','https://tsrd.fandom.com/pt-br/wiki/Magias_T','https://tsrd.fandom.com/pt-br/wiki/Magias_V','https://tsrd.fandom.com/pt-br/wiki/Magias_Z']
 
 
 async function scrapeTalento(url){
@@ -64,9 +64,9 @@ async function scrapeMagia(url) {
     const res = await fetch(url)
     const html = await res.text()
     const $ = cheerio.load(html)
-    const quantH = $('div').not('').filter('#mw-content-text').find('h2')
+    const quantH = $('div').filter('#mw-content-text').find('h2')
     
-    for(let i = 0; i < quantH.length; i++){
+    for(let i = 0; i < (quantH.length - 1); i++){
         const $h  = $('h2').not('#mw-toc-heading').eq(i).text()
         const $n  = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Nível)').text()
         const $t  = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Tempo de Execução)').text()
@@ -91,4 +91,14 @@ async function scrapeMagia(url) {
     await writeFile('magias.json',JSON.stringify(MAGIA, null, 2))
 }
 
- urlM.forEach(scrapeMagia)
+async function organizeMagia() {
+    const rawData = await readFile('magias.json','utf-8')
+    let midData = rawData.toLocaleLowerCase()
+    const data = await JSON.parse(midData)
+    const magias = data.filter(mag => mag.nivel.includes('divina') && mag.alcance.includes('pessoal')).map(mag  => mag.nome).sort()
+    console.log(magias)
+    
+}
+
+//urlM.forEach(scrapeMagia)
+organizeMagia()
