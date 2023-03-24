@@ -1,14 +1,5 @@
 [
   {
-    "nome": "Índice",
-    "nivel": "",
-    "Temp_Exec": "",
-    "alcance": "",
-    "alvo": "",
-    "duracao": "",
-    "resistencia": ""
-  },
-  {
     "nome": "Abençoar Água",
     "nivel": "Nível: divina 1 (cura);",
     "Temp_Exec": "Tempo de Execução: 1 minuto;",
