@@ -19,6 +19,7 @@ class magia {
     alvo: String
     duracao: String
     resistencia: String
+    desc: String
 }
 
 let TALENTO:any = []
@@ -28,37 +29,37 @@ const urlT = ['https://tsrd.fandom.com/pt-br/wiki/Talentos_de_Combate','https://
 const urlM = ['https://tsrd.fandom.com/pt-br/wiki/Magias_A','https://tsrd.fandom.com/pt-br/wiki/Magias_B','https://tsrd.fandom.com/pt-br/wiki/Magias_C','https://tsrd.fandom.com/pt-br/wiki/Magias_D','https://tsrd.fandom.com/pt-br/wiki/Magias_E','https://tsrd.fandom.com/pt-br/wiki/Magias_F','https://tsrd.fandom.com/pt-br/wiki/Magias_G','https://tsrd.fandom.com/pt-br/wiki/Magias_H','https://tsrd.fandom.com/pt-br/wiki/Magias_I','https://tsrd.fandom.com/pt-br/wiki/Magias_J','https://tsrd.fandom.com/pt-br/wiki/Magias_L','https://tsrd.fandom.com/pt-br/wiki/Magias_M','https://tsrd.fandom.com/pt-br/wiki/Magias_N','https://tsrd.fandom.com/pt-br/wiki/Magias_O','https://tsrd.fandom.com/pt-br/wiki/Magias_P','https://tsrd.fandom.com/pt-br/wiki/Magias_Q','https://tsrd.fandom.com/pt-br/wiki/Magias_R','https://tsrd.fandom.com/pt-br/wiki/Magias_S','https://tsrd.fandom.com/pt-br/wiki/Magias_T','https://tsrd.fandom.com/pt-br/wiki/Magias_V','https://tsrd.fandom.com/pt-br/wiki/Magias_Z']
 
 
-async function scrapeTalento(url){
-    const res = await fetch(url)
-    const html = await res.text()
-    const $ = cheerio.load(html)
-    const quantH = $('div').find('div > h3')
+// async function scrapeTalento(url){
+//     const res = await fetch(url)
+//     const html = await res.text()
+//     const $ = cheerio.load(html)
+//     const quantH = $('div').find('div > h3')
        
-    for(let i = 0; i < quantH.length; i++){
-        const $h = $('div > h3').eq(i).text()
-        const $r = $('div > h3').eq(i).nextUntil('h3').has('b:contains(Pré-requisito),b:contains(Pré-requisíto)').text()
-        const $b = $('div > h3').eq(i).nextUntil('h3').has('b:contains(Benefício)').text()
-        const $e = $('div > h3').eq(i).nextUntil('h3').has('b:contains(Especial)').text()
-        const $d = $('div > h3').eq(i).nextUntil('h3').has('p > i').text()
-        const $c = $('div > h3').eq(i).nextUntil('h3').has('b:contains(Custo)').text()
-        const $t = $('div > h3').eq(i).nextUntil('h3').has('tr > td').text()
+//     for(let i = 0; i < quantH.length; i++){
+//         const $h = $('div > h3').eq(i).text()
+//         const $r = $('div > h3').eq(i).nextUntil('h3').has('b:contains(Pré-requisito),b:contains(Pré-requisíto)').text()
+//         const $b = $('div > h3').eq(i).nextUntil('h3').has('b:contains(Benefício)').text()
+//         const $e = $('div > h3').eq(i).nextUntil('h3').has('b:contains(Especial)').text()
+//         const $d = $('div > h3').eq(i).nextUntil('h3').has('p > i').text()
+//         const $c = $('div > h3').eq(i).nextUntil('h3').has('b:contains(Custo)').text()
+//         const $t = $('div > h3').eq(i).nextUntil('h3').has('tr > td').text()
         
-        const tal = new talento
+//         const tal = new talento
         
-        tal.nome = $h        
-        tal.descrição = $d
-        tal.requisito = $r        
-        tal.beneficio = $b        
-        tal.especial = $e
-        tal.custo = $c
-        tal.tabela = $t     
+//         tal.nome = $h        
+//         tal.descrição = $d
+//         tal.requisito = $r        
+//         tal.beneficio = $b        
+//         tal.especial = $e
+//         tal.custo = $c
+//         tal.tabela = $t     
         
-        TALENTO.push(tal)
+//         TALENTO.push(tal)
         
-    }
+//     }
     
-   await writeFile('talentos.json',JSON.stringify(TALENTO, null, 2))
-}    
+//    await writeFile('talentos.json',JSON.stringify(TALENTO, null, 2))
+// }    
 
 async function scrapeMagia(url) {
     const res = await fetch(url)
@@ -74,6 +75,7 @@ async function scrapeMagia(url) {
         const $av = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Área),li:contains(Alvo)').text()
         const $d  = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Duração)').text()
         const $r  = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Teste de Resistência)').text()
+        const $dc  = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('td').text()
         
         const mag = new magia
         
@@ -83,7 +85,8 @@ async function scrapeMagia(url) {
         mag.alcance = $ac        
         mag.alvo = $av
         mag.duracao = $d
-        mag.resistencia = $r    
+        mag.resistencia = $r
+        mag.desc = $dc    
         
         MAGIA.push(mag)
         
@@ -93,12 +96,12 @@ async function scrapeMagia(url) {
 
 async function organizeMagia() {
     const rawData = await readFile('magias.json','utf-8')
-    let midData = rawData.toLocaleLowerCase()
+    const midData = rawData.toLocaleLowerCase()
     const data = await JSON.parse(midData)
-    const magias = data.filter(mag => mag.nivel.includes('divina') && mag.alcance.includes('pessoal')).map(mag  => mag.nome).sort()
+    const magias = data.filter(mag => mag.nivel.includes('arcana 4') ).map(mag  => mag.nome ).sort()
     console.log(magias)
     
 }
 
-//urlM.forEach(scrapeMagia)
+// urlM.forEach(scrapeMagia)
 organizeMagia()
