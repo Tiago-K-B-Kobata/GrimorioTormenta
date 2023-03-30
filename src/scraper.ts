@@ -26,8 +26,8 @@ let TALENTO:any = []
 let MAGIA:any = []
 
 const urlT = ['https://tsrd.fandom.com/pt-br/wiki/Talentos_de_Combate','https://tsrd.fandom.com/pt-br/wiki/Talentos_de_Magia','https://tsrd.fandom.com/pt-br/wiki/Talentos_de_Per%C3%ADcia']
-const urlM = ['https://tsrd.fandom.com/pt-br/wiki/Magias_A','https://tsrd.fandom.com/pt-br/wiki/Magias_B','https://tsrd.fandom.com/pt-br/wiki/Magias_C','https://tsrd.fandom.com/pt-br/wiki/Magias_D','https://tsrd.fandom.com/pt-br/wiki/Magias_E','https://tsrd.fandom.com/pt-br/wiki/Magias_F','https://tsrd.fandom.com/pt-br/wiki/Magias_G','https://tsrd.fandom.com/pt-br/wiki/Magias_H','https://tsrd.fandom.com/pt-br/wiki/Magias_I','https://tsrd.fandom.com/pt-br/wiki/Magias_J','https://tsrd.fandom.com/pt-br/wiki/Magias_L','https://tsrd.fandom.com/pt-br/wiki/Magias_M','https://tsrd.fandom.com/pt-br/wiki/Magias_N','https://tsrd.fandom.com/pt-br/wiki/Magias_O','https://tsrd.fandom.com/pt-br/wiki/Magias_P','https://tsrd.fandom.com/pt-br/wiki/Magias_Q','https://tsrd.fandom.com/pt-br/wiki/Magias_R','https://tsrd.fandom.com/pt-br/wiki/Magias_S','https://tsrd.fandom.com/pt-br/wiki/Magias_T','https://tsrd.fandom.com/pt-br/wiki/Magias_V','https://tsrd.fandom.com/pt-br/wiki/Magias_Z']
-
+// const urlM = ['https://tsrd.fandom.com/pt-br/wiki/Magias_A','https://tsrd.fandom.com/pt-br/wiki/Magias_B','https://tsrd.fandom.com/pt-br/wiki/Magias_C','https://tsrd.fandom.com/pt-br/wiki/Magias_D','https://tsrd.fandom.com/pt-br/wiki/Magias_E','https://tsrd.fandom.com/pt-br/wiki/Magias_F','https://tsrd.fandom.com/pt-br/wiki/Magias_G','https://tsrd.fandom.com/pt-br/wiki/Magias_H','https://tsrd.fandom.com/pt-br/wiki/Magias_I','https://tsrd.fandom.com/pt-br/wiki/Magias_J','https://tsrd.fandom.com/pt-br/wiki/Magias_L','https://tsrd.fandom.com/pt-br/wiki/Magias_M','https://tsrd.fandom.com/pt-br/wiki/Magias_N','https://tsrd.fandom.com/pt-br/wiki/Magias_O','https://tsrd.fandom.com/pt-br/wiki/Magias_P','https://tsrd.fandom.com/pt-br/wiki/Magias_Q','https://tsrd.fandom.com/pt-br/wiki/Magias_R','https://tsrd.fandom.com/pt-br/wiki/Magias_S','https://tsrd.fandom.com/pt-br/wiki/Magias_T','https://tsrd.fandom.com/pt-br/wiki/Magias_V','https://tsrd.fandom.com/pt-br/wiki/Magias_Z']
+const urlM = 'https://tsrd.fandom.com/pt-br/wiki/Magias_S'
 
 // async function scrapeTalento(url){
 //     const res = await fetch(url)
@@ -75,7 +75,7 @@ async function scrapeMagia(url) {
         const $av = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Área),li:contains(Alvo)').text()
         const $d  = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Duração)').text()
         const $r  = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Teste de Resistência)').text()
-        const $dc  = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('td').text()
+        const $dc  = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('td').text() || $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').next('p').text()
         
         const mag = new magia
         
@@ -98,10 +98,11 @@ async function organizeMagia() {
     const rawData = await readFile('magias.json','utf-8')
     const midData = rawData.toLocaleLowerCase()
     const data = await JSON.parse(midData)
-    const magias = data.filter(mag => mag.nivel.includes('arcana 4') ).map(mag  => mag.nome ).sort()
+    const magias = data.filter(mag => mag.nome.includes('sombras') ).map(mag  => mag.desc ).sort()
     console.log(magias)
     
 }
 
 // urlM.forEach(scrapeMagia)
-organizeMagia()
+scrapeMagia(urlM)
+// organizeMagia()
