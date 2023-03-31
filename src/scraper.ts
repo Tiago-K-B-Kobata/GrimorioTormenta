@@ -26,7 +26,8 @@ let TALENTO:any = []
 let MAGIA:any = []
 
 // const urlT = ['https://tsrd.fandom.com/pt-br/wiki/Talentos_de_Combate','https://tsrd.fandom.com/pt-br/wiki/Talentos_de_Magia','https://tsrd.fandom.com/pt-br/wiki/Talentos_de_Per%C3%ADcia']
-const urlM = ['https://tsrd.fandom.com/pt-br/wiki/Magias_A','https://tsrd.fandom.com/pt-br/wiki/Magias_B','https://tsrd.fandom.com/pt-br/wiki/Magias_C','https://tsrd.fandom.com/pt-br/wiki/Magias_D','https://tsrd.fandom.com/pt-br/wiki/Magias_E','https://tsrd.fandom.com/pt-br/wiki/Magias_F','https://tsrd.fandom.com/pt-br/wiki/Magias_G','https://tsrd.fandom.com/pt-br/wiki/Magias_H','https://tsrd.fandom.com/pt-br/wiki/Magias_I','https://tsrd.fandom.com/pt-br/wiki/Magias_J','https://tsrd.fandom.com/pt-br/wiki/Magias_L','https://tsrd.fandom.com/pt-br/wiki/Magias_M','https://tsrd.fandom.com/pt-br/wiki/Magias_N','https://tsrd.fandom.com/pt-br/wiki/Magias_O','https://tsrd.fandom.com/pt-br/wiki/Magias_P','https://tsrd.fandom.com/pt-br/wiki/Magias_Q','https://tsrd.fandom.com/pt-br/wiki/Magias_R','https://tsrd.fandom.com/pt-br/wiki/Magias_S','https://tsrd.fandom.com/pt-br/wiki/Magias_T','https://tsrd.fandom.com/pt-br/wiki/Magias_V','https://tsrd.fandom.com/pt-br/wiki/Magias_Z']
+// const urlM = ['https://tsrd.fandom.com/pt-br/wiki/Magias_A','https://tsrd.fandom.com/pt-br/wiki/Magias_B','https://tsrd.fandom.com/pt-br/wiki/Magias_C','https://tsrd.fandom.com/pt-br/wiki/Magias_D','https://tsrd.fandom.com/pt-br/wiki/Magias_E','https://tsrd.fandom.com/pt-br/wiki/Magias_F','https://tsrd.fandom.com/pt-br/wiki/Magias_G','https://tsrd.fandom.com/pt-br/wiki/Magias_H','https://tsrd.fandom.com/pt-br/wiki/Magias_I','https://tsrd.fandom.com/pt-br/wiki/Magias_J','https://tsrd.fandom.com/pt-br/wiki/Magias_L','https://tsrd.fandom.com/pt-br/wiki/Magias_M','https://tsrd.fandom.com/pt-br/wiki/Magias_N','https://tsrd.fandom.com/pt-br/wiki/Magias_O','https://tsrd.fandom.com/pt-br/wiki/Magias_P','https://tsrd.fandom.com/pt-br/wiki/Magias_Q','https://tsrd.fandom.com/pt-br/wiki/Magias_R','https://tsrd.fandom.com/pt-br/wiki/Magias_S','https://tsrd.fandom.com/pt-br/wiki/Magias_T','https://tsrd.fandom.com/pt-br/wiki/Magias_V','https://tsrd.fandom.com/pt-br/wiki/Magias_Z']
+const urlM = 'https://tsrd.fandom.com/pt-br/wiki/Magias_V'
 
 // async function scrapeTalento(url){
 //     const res = await fetch(url)
@@ -68,12 +69,12 @@ async function scrapeMagia(url) {
     
     for(let i = 0; i < (quantH.length - 1); i++){
         const $h  = $('h2').not('#mw-toc-heading').eq(i).text()
-        const $n  = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Nível)').text()
-        const $t  = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Tempo de Execução)').text()
-        const $ac = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Alcance)').text()
-        const $av = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Área),li:contains(Alvo)').text()
-        const $d  = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Duração)').text()
-        const $r  = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Teste de Resistência)').text()
+        const $n  = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Nível)').text() || $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').has('p > b:contains(Nível)').text()
+        const $t  = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Tempo de Execução)').text() || $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').has('p > b:contains(Tempo de Execução)').text()
+        const $ac = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Alcance)').text() || $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').has('p > b:contains(Alcance)').text()
+        const $av = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Área),li:contains(Alvo)').text() || $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').has('p > b:contains(Área), p > b:contains(Alvo)').text()
+        const $d  = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Duração)').text() || $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').has('p > b:contains(Duração)').text()
+        const $r  = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Teste de Resistência)').text() || $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').has('p > b:contains(Teste de Resistência)').text()
         const $dc  = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('td').text() || $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').next('p').text()
         
         const mag = new magia
@@ -103,4 +104,5 @@ async function organizeMagia() {
 }
 
 // urlM.forEach(scrapeMagia)
-organizeMagia()
+scrapeMagia(urlM)
+// organizeMagia()
