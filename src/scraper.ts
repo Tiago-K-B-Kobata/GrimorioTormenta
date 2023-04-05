@@ -1,26 +1,6 @@
 import * as cheerio from 'cheerio'
 import { writeFile, readFile } from 'fs/promises'
-
-class talento {
-    nome: String
-    descrição: String
-    requisito: String
-    beneficio: String
-    especial: String
-    custo: String
-    tabela: String
-}
-
-class magia {
-    nome: String
-    nivel: String
-    Temp_Exec: String
-    alcance: String
-    alvo: String
-    duracao: String
-    resistencia: String
-    desc: String
-}
+import { magia } from './Types'
 
 let TALENTO:any = []
 let MAGIA:any = []
@@ -69,13 +49,13 @@ async function scrapeMagia(url) {
     
     for(let i = 0; i < (quantH.length - 1); i++){
         const $h  = $('h2').not('#mw-toc-heading').eq(i).text()
-        const $n  = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Nível)').text() || $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').has('p > b:contains(Nível)').text()
-        const $t  = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Tempo de Execução)').text() || $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').has('p > b:contains(Tempo de Execução)').text()
-        const $ac = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Alcance)').text() || $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').has('p > b:contains(Alcance)').text()
+        const $n  = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Nível)').text()                  || $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').has('p > b:contains(Nível)').text()
+        const $t  = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Tempo de Execução)').text()      || $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').has('p > b:contains(Tempo de Execução)').text()
+        const $ac = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Alcance)').text()                || $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').has('p > b:contains(Alcance)').text()
         const $av = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Área),li:contains(Alvo)').text() || $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').has('p > b:contains(Área), p > b:contains(Alvo)').text()
-        const $d  = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Duração)').text() || $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').has('p > b:contains(Duração)').text()
-        const $r  = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Teste de Resistência)').text() || $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').has('p > b:contains(Teste de Resistência)').text()
-        const $dc  = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('td').text() || $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').next('p').text()
+        const $d  = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Duração)').text()                || $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').has('p > b:contains(Duração)').text()
+        const $r  = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('li:contains(Teste de Resistência)').text()   || $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').has('p > b:contains(Teste de Resistência)').text()
+        const $dc = $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').find('td').text()                                  || $('h2').not('#mw-toc-heading').eq(i).nextUntil('h2').next('p').text()
         
         const mag = new magia
         
